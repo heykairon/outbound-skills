@@ -1,0 +1,40 @@
+{
+  "skill_name": "outbound-context",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Set up my outbound. We're Acme, we sell payroll software.",
+      "expected_output": "Should look for an existing outbound-context.md first. Should not invent the value proposition from one line. Should ask for material (website, deck, customers) or ask ONE question, not a numbered list. Should not write the file before the user confirms a draft.",
+      "assertions": [
+        "Looks for an existing context file first",
+        "Does not invent customers, proof or numbers",
+        "Asks one question per turn, not a list",
+        "Does not write the file before confirmation"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Here's our site copy: 'We help 5-50 person logistics companies in Mexico cut fuel costs 12% with route optimization. Clients: TransMex, Rutas del Norte.' Our sales deck says we target enterprise fleets of 500+ trucks. Build my outbound context.",
+      "expected_output": "Should draft the value proposition and ICP from the copy. Should flag the contradiction between 5-50 person companies and 500+ truck enterprise fleets and ask the user to resolve it. Should not pick one silently.",
+      "assertions": [
+        "Drafts sections from the given material",
+        "Flags the size contradiction between site and deck",
+        "Asks the user to resolve it instead of choosing",
+        "Uses the real customer names, invents none"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Write the voice section. Here are my messages: 'thanks!', 'ok sounds good', 'hey Ana, saw your post on hiring SDRs, we did the same last year, happy to share what worked'.",
+      "expected_output": "Should drop the one-liners. Should say that one real message is not enough evidence (needs about 10 across 5 conversations) and leave the voice section marked as not enough samples, or ask for more.",
+      "assertions": [
+        "Ignores one-liners like 'thanks' and 'ok'",
+        "Says the sample is too small for a voice section",
+        "Does not write a voice profile from one message"
+      ],
+      "files": []
+    }
+  ]
+}

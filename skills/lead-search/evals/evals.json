@@ -1,0 +1,40 @@
+{
+  "skill_name": "lead-search",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Find me heads of payments at fintechs in LATAM on Sales Navigator.",
+      "expected_output": "Should check for outbound-context.md first. Should use the job title filter with seniority plus function words (payments, billing, collections, pagos), not keywords for the title. Should expand LATAM into one location per country. Should put fintech in keywords or use LinkedIn industry names, not 'fintech' as an industry. Should propose a small probe of 20-40 results before filling a list.",
+      "assertions": [
+        "Checks for outbound-context.md",
+        "Uses title or seniority filters, not keywords, for the role",
+        "Expands LATAM into individual countries",
+        "Does not use 'fintech' as an industry name",
+        "Proposes a small probe before filling the list"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "my sales nav search for marketing directors keeps returning agencies and recruiters. what do I do?",
+      "expected_output": "Should recommend exclusions (title words like recruiter, agency, talent; industry Staffing and Recruiting) before adding positive filters. Should say this is a search problem, not an ICP problem.",
+      "assertions": [
+        "Recommends exclusions first",
+        "Names title and/or industry exclusions",
+        "Identifies it as a search that is too wide, not an ICP problem"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I want to email 15 people at each of my 40 target accounts to maximize coverage.",
+      "expected_output": "Should push back: one or two people per company, the ones whose job the problem affects and who can act. Should explain the spam-filter and colleagues-comparing reasons.",
+      "assertions": [
+        "Recommends one or two people per company",
+        "Explains why many contacts per company hurts",
+        "Suggests picking the people who own the problem"
+      ],
+      "files": []
+    }
+  ]
+}

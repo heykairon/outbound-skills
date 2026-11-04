@@ -52,16 +52,16 @@ offer-and-     warm-network  linkedin-posts  linkedin-messages
 
 | Skill | Status | What it does |
 |-------|--------|--------------|
-| connection-requests | soon | Warm-up before the invite, the note, weekly volume, reading the acceptance rate |
-| outbound-context | soon | Writes the file with your offer, ICP and voice that every skill reads |
+| [connection-requests](skills/connection-requests/) | ✅ | Warm-up before the invite, the note, weekly volume, reading the acceptance rate |
+| [outbound-context](skills/outbound-context/) | ✅ | Writes the file with your offer, ICP and voice that every skill reads |
 | gtm-strategy | soon | What to do first, given your stage and your goal |
 | icp | soon | Find and test your ICP on the customers you already have |
 | offer-and-lead-magnet | soon | An offer strangers say yes to |
-| lead-search | soon | Sales Navigator filters and lists worth sending to |
+| [lead-search](skills/lead-search/) | ✅ | Sales Navigator filters and lists worth sending to |
 | signal-leads | soon | Leads with a dated reason to write: posts, hires, competitors |
 | warm-network | soon | Your 1st-degree network, your tribes, warm intros |
 | linkedin-profile | soon | Photo, banner, headline, about |
-| linkedin-posts | soon | Pillars, hooks, posts nobody mistakes for AI |
+| [linkedin-posts](skills/linkedin-posts/) | ✅ | Pillars, hooks, posts nobody mistakes for AI |
 | linkedin-comments | soon | Comments that sound like you and warm up the invite |
 | linkedin-messages | soon | The first message, in five parts |
 | follow-ups | soon | How many, and how to write them |
