@@ -1,0 +1,19 @@
+{
+  "name": "outbound-skills",
+  "owner": {
+    "name": "Kairon",
+    "url": "https://heykairon.com"
+  },
+  "metadata": {
+    "description": "Outbound skills for AI agents: LinkedIn-first B2B prospecting, built on measured campaign data",
+    "version": "0.1.0",
+    "repository": "https://github.com/heykairon/outbound-skills"
+  },
+  "plugins": [
+    {
+      "name": "outbound-skills",
+      "description": "Outbound skills for founders and sales teams: ICP, lead search, signals, LinkedIn profile and posts, connection requests, first messages, follow-ups and funnel diagnosis",
+      "source": "./"
+    }
+  ]
+}

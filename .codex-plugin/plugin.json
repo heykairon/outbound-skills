@@ -1,0 +1,10 @@
+{
+  "name": "outbound-skills",
+  "description": "Outbound skills for AI agents: LinkedIn-first B2B prospecting, built on measured campaign data",
+  "version": "0.1.0",
+  "author": { "name": "Kairon" },
+  "homepage": "https://heykairon.com",
+  "repository": "https://github.com/heykairon/outbound-skills",
+  "license": "MIT",
+  "skills": "./skills/"
+}
