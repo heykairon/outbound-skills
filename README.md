@@ -31,6 +31,10 @@ npx skills add heykairon/outbound-skills --skill connection-requests
 
 **By hand:** copy `skills/<name>/` into `.agents/skills/` (or `.claude/skills/`) in your project.
 
+## Start here
+
+After you install, run `/outbound-context` (or ask your agent to "use the outbound-context skill"). It writes one file with your value proposition, your ICPs and how you write. Every other skill reads it, so none of them asks you the same thing twice. If you skip it, the first skill that needs it will start it for you.
+
 ## How the skills fit together
 
 ```

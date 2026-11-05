@@ -14,7 +14,7 @@ The rates in this skill come from real campaigns run through [Kairon](https://he
 ## Before Writing
 
 **Check for outbound context first:**
-If `.agents/outbound-context.md` exists (or `.claude/outbound-context.md`), read it before asking questions. Use what it says about the offer, the ICP and the sender's voice. Ask only for what is missing.
+Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`) before asking questions. Use what it says about the ICP and the sender's voice. If the file doesn't exist and you are about to write notes, use the **outbound-context** skill first. Then ask only for what is still missing.
 
 Understand the situation (ask if not given):
 

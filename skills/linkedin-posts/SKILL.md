@@ -14,7 +14,7 @@ Content is the one lead source with no ceiling. LinkedIn limits invitations and 
 ## Before Writing
 
 **Check for outbound context first:**
-If `.agents/outbound-context.md` exists (or `.claude/outbound-context.md`), read it. The value proposition shapes the angle, the ICP says who it is for, and the voice section says how the user writes.
+Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`). The value proposition shapes the angle, the ICP says who it is for, and the voice section says how the user writes. If the file doesn't exist, use the **outbound-context** skill first. A post written without it sounds like nobody.
 
 Then gather material:
 - **The user's last posts**, to match their voice and avoid repeating them.

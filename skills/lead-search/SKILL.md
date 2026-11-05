@@ -14,7 +14,7 @@ The list decides about 90% of the outcome. A great message to the wrong people f
 ## Before Starting
 
 **Check for outbound context first:**
-If `.agents/outbound-context.md` exists (or `.claude/outbound-context.md`), read it. The ICP, the countries and the best customers are there. Ask only for what is missing.
+Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`). The ICP, the countries and the best customers are there. If the file doesn't exist, use the **outbound-context** skill first: it takes a few minutes and every later search reuses it. Then ask only for what is still missing.
 
 If there is no ICP at all, stop and build one first (see **icp**). Searching without one means judging results against a hunch.
 
