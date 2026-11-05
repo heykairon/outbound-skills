@@ -2,7 +2,7 @@
 name: outbound-context
 description: Create or update the outbound context file (.agents/outbound-context.md) that every other outbound skill reads first. It holds who the user is, which stays true from one campaign to the next (the value proposition, the ICPs with the best customers behind them, and the sender's voice). Use when the user says "set up my outbound," "onboard me," "outbound context," "here's my company," "update my ICP," "new positioning," "our value proposition," "how I write," or starts any outbound task with no context file yet. Draft from what you already know, ask only what you cannot look up, one question at a time, and never invent a fact about the company. What the user is testing (an offer, a region, a new buyer, a goal with a date) belongs in initiatives, not here.
 metadata:
-  version: 0.2.1
+  version: 0.2.2
 ---
 
 # Outbound Context
@@ -23,7 +23,7 @@ Draft every section you can from what you hold (website, deck, case studies, pas
 
 Where sources contradict each other (the site says small companies, the featured case is a 3,000-person chain), show the gap and let the user decide.
 
-Ask only what you cannot look up, and ask for one thing per turn, never two joined by "and". What usually has to be asked: which customers were the **best** ones and why, and where they sell if nothing says so.
+Ask only what you cannot look up, and ask for one thing per turn, never two joined by "and". A question inside the draft counts too: mark that gap as open instead. What usually has to be asked: which customers were the **best** ones and why, and where they sell if nothing says so.
 
 ---
 
