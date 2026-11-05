@@ -17,32 +17,19 @@ Look for an existing file first: `.agents/outbound-context.md`, then `.claude/ou
 
 ## Draft First, Ask Second
 
-This is the rule the skill exists for.
+Draft every section you can from what you hold (website, deck, case studies, past messages), then show it. If you hold nothing, ask for material: the website, a deck, a few customer names.
 
-You may already hold a lot: the company website, a deck, case studies, past messages, the conversation so far. **Use it.** Draft every section you can, then show the draft for confirmation. Don't interview someone from zero about a company you already know.
+**Never invent a fact about the company.** Not a buyer, a result, a signal or a differentiator, not even marked as an assumption. An invented value proposition reads plausible, is wrong, and then feeds every message every other skill writes. Leave the gap open instead.
 
-If you hold nothing, say so and ask for material: the website, a deck, a few customer names. Don't guess.
+Where sources contradict each other (the site says small companies, the featured case is a 3,000-person chain), show the gap and let the user decide.
 
-**Ask only what you cannot look up, one question per turn.** Not a numbered list. One question, the answer, then the next. A wall of questions reads as an intake form and gets one vague answer to all of it.
-
-What usually has to be asked:
-
-1. Which customers were the **best** ones, and why.
-2. Where they sell (countries), if nothing you hold says so.
-
-**Never invent a fact about the company.** An invented value proposition reads plausible, is wrong, and then feeds every message every other skill writes. That is the worst outcome this skill can produce.
-
----
-
-## Cross-Check Before You Save
-
-Compare what the user tells you with what they publish: website, LinkedIn profile, deck. If they contradict each other ("we sell to enterprises" but every case study is a 10-person startup), show the gap and let the user decide. Everything downstream is only as sharp as this.
+Ask only what you cannot look up, and ask for one thing per turn, never two joined by "and". What usually has to be asked: which customers were the **best** ones and why, and where they sell if nothing says so.
 
 ---
 
 ## The File
 
-Write it in the user's language. Keep it working material, not website copy: written to be *used* by whatever drafts next.
+Keep it working material, not website copy: written to be *used* by whatever drafts next.
 
 ```markdown
 # Outbound Context
