@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: weekly-review-low-volume
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Says 3 replies are too few to judge the reply or interested rate
+  - Does not recommend rewriting the messages or the offer
+  - Says the last review's move (narrow the list to Córdoba city, send at least 100) was not done
+  - Gives the next move a named owner
+  - Compares against the initiative's own expectation, not an industry average
+  - Keeps the 2026-10-29 review as it was, and adds the new review below it
+  - Replies in Spanish

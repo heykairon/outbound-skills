@@ -1,0 +1,13 @@
+schema_version: "1.1"
+name: new-test-another-country
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Reads .agents/outbound-context.md and ties the initiative to the existing wholesale distributors ICP
+  - Names the country (Chile) as the one thing that changes from what already works
+  - Works back from 5 meetings to a number of invitations, step by step
+  - Says the rates it uses are an assumption, since the user has no rates of their own in this market
+  - Checks the number of invitations against what one LinkedIn seat can send before the end of the year
+  - Does not save .agents/initiatives.md before the user confirms the draft
+  - Asks at most one question in the reply
+  - Replies in Spanish

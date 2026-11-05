@@ -58,7 +58,7 @@ offer-and-     warm-network  linkedin-posts  linkedin-messages
 |-------|--------|--------------|
 | [connection-requests](skills/connection-requests/) | ✅ | Warm-up before the invite, the note, weekly volume, reading the acceptance rate |
 | [outbound-context](skills/outbound-context/) | ✅ | Writes the file with your value proposition, ICPs and voice that every skill reads |
-| initiatives | soon | What you are testing: an ICP plus an offer, an end date, what you expect, and what already failed |
+| [initiatives](skills/initiatives/) | ✅ | What you are testing: an ICP plus an offer, an end date, what you expect, and what already failed |
 | icp | soon | Find and test your ICP on the customers you already have |
 | offer-and-lead-magnet | soon | An offer strangers say yes to |
 | [lead-search](skills/lead-search/) | ✅ | Sales Navigator filters and lists worth sending to |

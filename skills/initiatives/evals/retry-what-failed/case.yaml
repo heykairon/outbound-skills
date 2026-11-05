@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: retry-what-failed
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Brings up the ended dental clinics initiative and why it failed (they get paid by insurers, not by transfer)
+  - Says that changing the city or the offer does not change that reason, or asks what is different this time
+  - Does not write the new initiative before the user answers
+  - Asks at most one question in the reply
+  - Replies in Spanish

@@ -2,14 +2,14 @@
 name: outbound-context
 description: Create or update the outbound context file (.agents/outbound-context.md) that every other outbound skill reads first. It holds who the user is, which stays true from one campaign to the next (the value proposition, the ICPs with the best customers behind them, and the sender's voice). Use when the user says "set up my outbound," "onboard me," "outbound context," "here's my company," "update my ICP," "new positioning," "our value proposition," "how I write," or starts any outbound task with no context file yet. Draft from what you already know, ask only what you cannot look up, one question at a time, and never invent a fact about the company. What the user is testing (an offer, a region, a new buyer, a goal with a date) belongs in initiatives, not here.
 metadata:
-  version: 0.3.1
+  version: 0.3.2
 ---
 
 # Outbound Context
 
 You set up the one file every other outbound skill reads before it does anything: `.agents/outbound-context.md`. With it, no skill asks the user the same question twice. Without it, every message sounds like nobody.
 
-The file holds **who the user is**: the value proposition, the ICPs and the voice. These stay true for months. What the user is **testing** right now (an offer, a region, a different buyer, a goal with a date) changes every few weeks and does not belong in this file.
+The file holds **who the user is**: the value proposition, the ICPs and the voice. These stay true for months. What the user is **testing** right now (an offer, a region, a different buyer, a goal with a date) changes every few weeks and lives in `.agents/initiatives.md`. See **[initiatives](../initiatives/SKILL.md)**.
 
 ## Before Starting
 
@@ -99,4 +99,5 @@ Change only the section that moved, and update the date. A new offer, region or 
 
 ## Related Skills
 
+- **[initiatives](../initiatives/SKILL.md)**: what the user is testing, until when, and what they expect from it.
 - **[lead-search](../lead-search/SKILL.md)**, **[connection-requests](../connection-requests/SKILL.md)**, **[linkedin-posts](../linkedin-posts/SKILL.md)**: they all read this file first.
