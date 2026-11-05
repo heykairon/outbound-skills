@@ -1,8 +1,8 @@
 ---
 name: lead-search
-description: Find and build a B2B lead list worth sending to, on LinkedIn Sales Navigator, classic LinkedIn search and the open web (job posts, directories, event exhibitor lists), then check it against the ICP before filling it. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "Sales Navigator search," "Sales Nav filters," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Work the closest people first (warm network, tribes, signals, competitors' audiences, then cold), probe 20 to 40 results before filling a list, reach one or two people per company, and fix the search, not the ICP, when results are the wrong kind of company. For dated reasons to write, see signal-leads. For the warm network, see warm-network. For the ICP itself, see icp.
+description: Find and build a B2B lead list worth sending to, on LinkedIn Sales Navigator, classic LinkedIn search and the open web (job posts, directories, event exhibitor lists), then check it against the ICP before filling it. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "Sales Navigator search," "Sales Nav filters," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Work the closest people first (warm network, tribes, signals, competitors' audiences, then cold), probe 20 to 40 results before filling a list, reach one or two people per company, and fix the search, not the ICP, when results are the wrong kind of company. For the invitations that follow, see connection-requests.
 metadata:
-  version: 0.1.0
+  version: 0.1.2
 ---
 
 # Lead Search
@@ -14,9 +14,9 @@ The list decides about 90% of the outcome. A great message to the wrong people f
 ## Before Starting
 
 **Check for outbound context first:**
-Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`). The ICP, the countries and the best customers are there. If the file doesn't exist, use the **outbound-context** skill first: it takes a few minutes and every later search reuses it. Then ask only for what is still missing.
+Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`). The ICP, the countries and the best customers are there. If the file doesn't exist, use the **[outbound-context](../outbound-context/SKILL.md)** skill first: it takes a few minutes and every later search reuses it. Then ask only for what is still missing.
 
-If there is no ICP at all, stop and build one first (see **icp**). Searching without one means judging results against a hunch.
+If there is no ICP at all, stop and define one first with **[outbound-context](../outbound-context/SKILL.md)**. Searching without one means judging results against a hunch. Skip any ICP marked discarded. If the user asks for it again, show the reason it was discarded first.
 
 ---
 
@@ -26,9 +26,9 @@ Targeting has an order. Start close and move out only when a stage runs dry:
 
 | Stage | Who | Why it works |
 |-------|-----|--------------|
-| 1. Warm network | 1st-degree connections, ex-customers, CRM contacts, people who reacted to your posts | They know you. See **warm-network**. |
+| 1. Warm network | 1st-degree connections, ex-customers, CRM contacts, people who reacted to your posts | They know you. |
 | 2. Tribes | Same school, past employer, country abroad, community, LinkedIn group | The shared thing opens the conversation. |
-| 3. Signals | Hired someone, raised, posted about the problem, going to an event | Something just happened. See **signal-leads**. |
+| 3. Signals | Hired someone, raised, posted about the problem, going to an event | Something just happened. |
 | 4. Competitors' audience | Followers of a competitor, people who react to their posts | They already know they have the problem. Filter hard: their employees and vendors are mixed in. |
 | 5. Cold | ICP filters only | The hardest stage. Use it last. |
 
@@ -75,7 +75,7 @@ If two or three rounds don't produce a clean sample, say the search is wrong. Ne
 A low fit rate has two causes with opposite repairs:
 
 - **The search is too wide.** The misses are companies the user never wanted (consultancies, resellers, media that share your keywords). The ICP is doing its job. **Fix the search.**
-- **The ICP is too tight.** The misses are companies the user *did* want, rejected on a fact nobody publishes. **Fix the ICP** (see **icp**).
+- **The ICP is too tight.** The misses are companies the user *did* want, rejected on a fact nobody publishes. **Fix the ICP** (see **[outbound-context](../outbound-context/SKILL.md)**).
 
 Read the misses before changing anything. Ask: would the user have wanted this company at all?
 
@@ -120,7 +120,7 @@ Build with ICP filters and nothing cleverer. Then **split the list** by country,
 
 ## How Big
 
-Plan from what the senders can send. One LinkedIn seat sends about 150 invitations a week (see **connection-requests**). Aim for enough people to keep every seat sending for about two working weeks: roughly 250 per seat at 25 a day.
+Plan from what the senders can send. One LinkedIn seat sends about 150 invitations a week (see **[connection-requests](../connection-requests/SKILL.md)**). Aim for enough people to keep every seat sending for about two working weeks: roughly 250 per seat at 25 a day.
 
 **The floor is about 30.** Below that, the results can't tell luck from a working motion.
 
@@ -147,18 +147,7 @@ After the table, always add:
 
 ---
 
-## Doing It with a Tool
-
-**By hand:** Sales Navigator (or classic LinkedIn search) plus a spreadsheet.
-
-**With the Kairon MCP connected:** read Kairon's `list-building` and `sales-nav-search` playbooks with `skill_get` first. Kairon runs the search with the ICP's filters applied, stores results in a list, and qualifies each lead against the ICP. A Kairon search works even without your own Sales Navigator seat.
-
----
-
 ## Related Skills
 
-- **icp**: the filter every list is judged against.
-- **warm-network**: stages 1 and 2.
-- **signal-leads**: stage 3, dated reasons to write.
-- **connection-requests**: what to do with the list on LinkedIn.
-- **outbound-context**: where the ICP and best customers live.
+- **[connection-requests](../connection-requests/SKILL.md)**: what to do with the list on LinkedIn.
+- **[outbound-context](../outbound-context/SKILL.md)**: where the ICP and best customers live.
