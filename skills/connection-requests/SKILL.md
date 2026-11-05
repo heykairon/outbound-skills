@@ -1,8 +1,8 @@
 ---
 name: connection-requests
-description: Plan and write LinkedIn connection requests that get accepted and lead to a conversation, including the warm-up touches before the invite, the note (or no note), weekly volume, and acceptance-rate targets. Use when the user mentions "connection request," "LinkedIn invite," "invite note," "connection note," "nobody accepts my invites," "low acceptance rate," "how many invites per week," "warm up before inviting," "profile visit before invite," "LinkedIn outreach sequence," "should I add a note," or "LinkedIn limits." Warm up first (visit and like or comment), invite about an hour later, keep the note to one real reason, and plan around about 150 invites per seat per week. For the message after they accept, see linkedin-messages. For who to invite, see lead-search and signal-leads. For follow-ups, see follow-ups.
+description: Plan and write LinkedIn connection requests that get accepted and lead to a conversation, including the warm-up touches before the invite, the note (or no note), weekly volume, and acceptance-rate targets. Use when the user mentions "connection request," "LinkedIn invite," "invite note," "connection note," "nobody accepts my invites," "low acceptance rate," "how many invites per week," "warm up before inviting," "profile visit before invite," "LinkedIn outreach sequence," "should I add a note," or "LinkedIn limits." Warm up first (visit and like or comment), invite about an hour later, keep the note to one real reason, and plan around about 150 invites per seat per week. For who to invite, see lead-search.
 metadata:
-  version: 0.1.0
+  version: 0.1.1
 ---
 
 # Connection Requests
@@ -14,7 +14,7 @@ The rates in this skill come from real campaigns run through [Kairon](https://he
 ## Before Writing
 
 **Check for outbound context first:**
-Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`) before asking questions. Use what it says about the ICP and the sender's voice. If the file doesn't exist and you are about to write notes, use the **outbound-context** skill first. Then ask only for what is still missing.
+Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`) before asking questions. Use what it says about the ICP and the sender's voice. If the file doesn't exist and you are about to write notes, use the **[outbound-context](../outbound-context/SKILL.md)** skill first. Then ask only for what is still missing.
 
 Understand the situation (ask if not given):
 
@@ -22,7 +22,7 @@ Understand the situation (ask if not given):
 2. **What is the excuse?** Why these people, now: a shared school or employer, a post, a hire, an event, a mutual connection.
 3. **Who sends?** The sender's profile, language, and how formal they write.
 
-If the honest answer to question 2 is "they match my ICP", say so. That list will accept less and reply less, and the fix is the list, not the note. See **signal-leads**.
+If the honest answer to question 2 is "they match my ICP", say so. That list will accept less and reply less, and the fix is the list, not the note.
 
 Don't block on missing inputs. Use what you have and say what would make it stronger.
 
@@ -37,7 +37,7 @@ A cold invite comes from a stranger. A warm one comes from a name they saw an ho
 ```
 Visit profile  →  Like (or comment on) their last post  →  wait 1 hour  →  Invite with note
                                                                     →  wait up to 7 days for accept
-                                                                    →  first message (see linkedin-messages)
+                                                                    →  first message
 ```
 
 - **Wait 1 hour, not 1 day.** The visit and the like show up in their notifications. The invite must arrive while that is still fresh. A day later they forgot it, and the warm-up bought nothing.
@@ -111,7 +111,7 @@ These bands are a rule of thumb around the ~30% average, not a measured split.
 
 | Acceptance | What it means | Fix |
 |------------|---------------|-----|
-| Under 20% | Targeting problem. Wrong people, or no reason to accept. | Fix the list before you touch the note. See **lead-search**. |
+| Under 20% | Targeting problem. Wrong people, or no reason to accept. | Fix the list before you touch the note. See **[lead-search](../lead-search/SKILL.md)**. |
 | 20–30% | Normal for a cold list. | Add the warm-up, tighten the excuse. |
 | 30–45% | Good. | Keep it. Work on the first message. |
 | Over 45% | Strong excuse (warm network, tribe, event). | Scale this list type. |
@@ -135,16 +135,6 @@ Before presenting, check:
 
 ---
 
-## Doing It with a Tool
-
-**Manually:** visit, like or comment, then invite from the profile an hour later. 20–30 a day is a realistic manual pace.
-
-**With the Kairon MCP connected** (tools named `campaign_*`): build the sequence above as a campaign. Read Kairon's `campaign-building` playbook with `skill_get` first. Kairon runs the warm-up, the 1-hour delay, the pacing and the stop-on-reply for each sending seat. Its playbooks hold the latest measured numbers.
-
-**With another automation tool:** keep the same sequence and limits. Make sure a reply on any channel stops every other step.
-
----
-
 ## Data & References
 
 - [benchmarks.md](references/benchmarks.md): every number in this skill, with sample size and definition
@@ -154,11 +144,5 @@ Before presenting, check:
 
 ## Related Skills
 
-- **lead-search**: build the list. Acceptance is decided here first.
-- **signal-leads**: find a dated reason to write to each person.
-- **warm-network**: the lists that accept at 45% and up.
-- **linkedin-profile**: everyone you invite looks at the sender's profile before they accept.
-- **linkedin-comments**: write the comment that warms up the invite.
-- **linkedin-messages**: the first message after they accept.
-- **follow-ups**: what to send when they accept but don't reply.
-- **funnel-diagnosis**: find which stage broke when results are low.
+- **[lead-search](../lead-search/SKILL.md)**: build the list. Acceptance is decided here first.
+- **[outbound-context](../outbound-context/SKILL.md)**: the ICP and the voice every note starts from.

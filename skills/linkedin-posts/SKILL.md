@@ -1,8 +1,8 @@
 ---
 name: linkedin-posts
-description: Write LinkedIn posts that bring leads, not just likes, on one subject, rotating four pillars (tactical, aspirational, personal, insight), with a hook that earns the "see more" click and no AI tells. Use when the user mentions "LinkedIn post," "write a post," "content ideas," "what should I post," "hook," "personal branding," "thought leadership," "content calendar," "posting strategy," "my posts get no reach," "ghostwrite," or "post about [topic]." Never invent an anecdote or a statistic, stay on the one subject where the ICP's pain meets what the user sells, no em dashes, and measure leads per post rather than impressions. For the profile people land on, see linkedin-profile. For commenting on others' posts, see linkedin-comments.
+description: Write LinkedIn posts that bring leads, not just likes, on one subject, rotating four pillars (tactical, aspirational, personal, insight), with a hook that earns the "see more" click and no AI tells. Use when the user mentions "LinkedIn post," "write a post," "content ideas," "what should I post," "hook," "personal branding," "thought leadership," "content calendar," "posting strategy," "my posts get no reach," "ghostwrite," or "post about [topic]." Never invent an anecdote or a statistic, stay on the one subject where the ICP's pain meets what the user sells, no em dashes, and measure leads per post rather than impressions.
 metadata:
-  version: 0.1.0
+  version: 0.1.1
 ---
 
 # LinkedIn Posts
@@ -14,7 +14,7 @@ Content is the one lead source with no ceiling. LinkedIn limits invitations and 
 ## Before Writing
 
 **Check for outbound context first:**
-Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`). The value proposition shapes the angle, the ICP says who it is for, and the voice section says how the user writes. If the file doesn't exist, use the **outbound-context** skill first. A post written without it sounds like nobody.
+Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`). The value proposition shapes the angle, the ICP says who it is for, and the voice section says how the user writes. If the file doesn't exist, use the **[outbound-context](../outbound-context/SKILL.md)** skill first. A post written without it sounds like nobody.
 
 Then gather material:
 - **The user's last posts**, to match their voice and avoid repeating them.
@@ -120,21 +120,10 @@ Impressions and likes give you nothing to act on. After each post, count:
 
 Let leads per post decide what to write more of.
 
-**Then work the people who reacted.** Everyone who commented, reacted or visited came to you. Open a conversation, asking for feedback on the content rather than pitching. See **signal-leads**.
-
----
-
-## Doing It with a Tool
-
-**By hand:** write, check against the list above, post.
-
-**With the Kairon MCP connected:** read Kairon's `write-posts` playbook with `skill_get` first. Kairon reads the user's writing rules (`writing_check_list`), judges the draft against them, publishes the post, and turns the people who react into a list.
+**Then work the people who reacted.** Everyone who commented, reacted or visited came to you. Open a conversation, asking for feedback on the content rather than pitching.
 
 ---
 
 ## Related Skills
 
-- **linkedin-profile**: where readers land after the post. A good post into a thin profile loses the lead.
-- **linkedin-comments**: commenting on other people's posts.
-- **signal-leads**: turn the people who react into conversations.
-- **outbound-context**: the subject, the ICP and the voice.
+- **[outbound-context](../outbound-context/SKILL.md)**: the subject, the ICP and the voice.
