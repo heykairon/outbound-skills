@@ -35,13 +35,13 @@ npx skills add heykairon/outbound-skills --skill connection-requests
 
 ```
                          outbound-context
-            (offer, ICP, voice — every skill reads it first)
+        (value prop, ICPs, voice — every skill reads it first)
                                  │
    ┌──────────────┬──────────────┼───────────────┬────────────────┐
    ▼              ▼              ▼               ▼                ▼
 Strategy        Leads        Profile &        Outreach          Measure
                               content
-gtm-strategy   lead-search   linkedin-       connection-       funnel-
+initiatives    lead-search   linkedin-       connection-       funnel-
 icp            signal-leads   profile         requests          diagnosis
 offer-and-     warm-network  linkedin-posts  linkedin-messages
  lead-magnet                 linkedin-       follow-ups
@@ -53,8 +53,8 @@ offer-and-     warm-network  linkedin-posts  linkedin-messages
 | Skill | Status | What it does |
 |-------|--------|--------------|
 | [connection-requests](skills/connection-requests/) | ✅ | Warm-up before the invite, the note, weekly volume, reading the acceptance rate |
-| [outbound-context](skills/outbound-context/) | ✅ | Writes the file with your offer, ICP and voice that every skill reads |
-| gtm-strategy | soon | What to do first, given your stage and your goal |
+| [outbound-context](skills/outbound-context/) | ✅ | Writes the file with your value proposition, ICPs and voice that every skill reads |
+| initiatives | soon | What you are testing: an ICP plus an offer, an end date, what you expect, and what already failed |
 | icp | soon | Find and test your ICP on the customers you already have |
 | offer-and-lead-magnet | soon | An offer strangers say yes to |
 | [lead-search](skills/lead-search/) | ✅ | Sales Navigator filters and lists worth sending to |

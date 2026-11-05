@@ -1,13 +1,15 @@
 ---
 name: outbound-context
-description: Create or update the outbound context file (.agents/outbound-context.md) that every other outbound skill reads first, with the offer, the ICP, the best customers, the signals, the sender's voice and the sending capacity. Use when the user says "set up my outbound," "onboard me," "outbound context," "here's my company," "update my ICP," "update my offer," "new positioning," or starts any outbound task with no context file yet. Draft from what you already know, ask only what you cannot look up, one question at a time, and never invent a fact about the company. For defining the ICP in depth, see icp. For the offer, see offer-and-lead-magnet.
+description: Create or update the outbound context file (.agents/outbound-context.md) that every other outbound skill reads first. It holds who the user is, which stays true from one campaign to the next: the value proposition, the ICPs (with the best customers behind them) and the sender's voice. Use when the user says "set up my outbound," "onboard me," "outbound context," "here's my company," "update my ICP," "new positioning," "our value proposition," "how I write," or starts any outbound task with no context file yet. Draft from what you already know, ask only what you cannot look up, one question at a time, and never invent a fact about the company. What the user is testing (an offer, a region, a new buyer, a goal with a date) belongs in initiatives, not here.
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Outbound Context
 
 You set up the one file every other outbound skill reads before it does anything: `.agents/outbound-context.md`. With it, no skill asks the user the same question twice. Without it, every message sounds like nobody.
+
+The file holds **who the user is**: the value proposition, the ICPs and the voice. These stay true for months. What the user is **testing** right now (an offer, a region, a different buyer, a goal with a date) changes every few weeks and lives in `.agents/initiatives.md`. See **initiatives**.
 
 ## Before Starting
 
@@ -27,10 +29,6 @@ What usually has to be asked:
 
 1. Which customers were the **best** ones, and why.
 2. Where they sell (countries), if nothing you hold says so.
-3. Whether they have done outreach before, and what happened.
-4. What they offer a stranger (if anything).
-5. How many LinkedIn accounts and email inboxes can send.
-6. What the goal is, and by when.
 
 **Never invent a fact about the company.** An invented value proposition reads plausible, is wrong, and then feeds every message every other skill writes. That is the worst outcome this skill can produce.
 
@@ -57,60 +55,55 @@ _Last updated: YYYY-MM-DD_
 - **Before → after:** [what changes, with the proof we would cite]
 - **Why us, not the next vendor:** [the mechanism, not adjectives]
 
-## Offer to a stranger
-[The free, concrete thing we give before asking for anything. Dated if a date is honest.
-"None yet" is a valid answer: see offer-and-lead-magnet.]
+## ICPs
+One block per ICP. Most companies have one or two.
 
-## ICP
+### [Short name, e.g. "Mid-size logistics, Mexico"]
 - **Companies:** [industry, size, geography, business model]
 - **People:** [roles that feel the pain and can act on it]
 - **Disqualifiers:** [who is a clear no]
-- **Countries:** [where we sell]
-
-## Best customers
-[3–5 real customers and what made them great. This is the ICP's ground truth.]
-
-## Signals
-[Events that make a company a buyer this week: a hire, a raise, a post, a launch, a tool change.]
+- **Best customers:** [2–5 real customers of this ICP and what made them great]
 
 ## Voice
 - **Language and formality:** [e.g. Spanish, informal, first names, lowercase ok]
 - **How they open, how long they write:**
 - **Real examples:** [5–10 messages the sender actually wrote]
+- **What worked:** [the difference between their messages that got a conversation and the ones that didn't]
 - **Never say:** [words or claims they hate]
-
-## Capacity and goal
-- **Sending accounts:** [LinkedIn seats, email inboxes, WhatsApp numbers]
-- **Goal:** [e.g. 20 interested conversations by 2026-12-15]
-
-## Past outreach
-[What they tried, what worked, what didn't.]
 ```
+
+### An ICP rests on real customers
+
+The best customers are the ICP's ground truth. An ICP with no customer behind it is a guess: keep it, but mark it as "not proven yet". Testing it is an initiative.
 
 ### The voice section needs real evidence
 
-Read messages the sender actually wrote: their LinkedIn inbox, sent emails. Count only what **they** wrote. Leave out one-liners ("thanks", "ok") and any text that repeats almost word for word across conversations (that is a template, not their voice).
+Read messages the sender actually wrote: their LinkedIn inbox, sent emails. Count only what **they** wrote. Leave out:
+- **Acknowledgements:** a message that only says it got yours ("ok", "thanks", "genial", "dale"). A short message with its own content still counts: "no rush, I'll write again in March after you close the books" shows how they write.
+- **Templates:** any text that repeats almost word for word across conversations.
 
 **Enough means at least 10 of their own messages, across at least 5 conversations.** With less, don't write a voice section. Two or three messages copy their tics, not how they write. Leave it as "not enough samples yet" and let the writing skills ask.
+
+**Then learn from what worked.** Compare the messages that kept the conversation going with the ones that didn't, and write the difference as a rule under "What worked". If you only have the sender's side, say the rule is inferred from how each thread continued.
 
 ---
 
 ## Save, Then Read It Back
 
-Show the full draft. Let the user correct it. Only after a clear yes, write the file. Then read back what you wrote and say it in two or three lines: who we help, what we offer, who we go after.
+Show the full draft. Let the user correct it. Only after a clear yes, write the file. Then read back what you wrote and say it in two or three lines: who we help, why us, who we go after.
 
-If the user skips a section, leave it marked as open in the file and say in one sentence what it costs. For example: "No offer yet. Messages will ask for a call, and calls convert worse than a free, concrete thing."
+If the user skips a section, leave it marked as open in the file and say in one sentence what it costs. For example: "No voice samples yet. Every message will sound generic until we have ten of yours."
 
 ---
 
 ## Keeping It Fresh
 
 Update the file when:
-- the ICP or the offer changes;
-- a campaign teaches something ("CFOs reply, controllers don't");
-- a new sending account is added.
+- the positioning changes;
+- an ICP is proven or dropped (an initiative usually decides this);
+- the sender changes, or writes in a new way.
 
-Change only the section that moved, and update the date.
+Change only the section that moved, and update the date. A new offer, region or buyer to try is not an update here: it is a new initiative.
 
 ---
 
@@ -122,7 +115,6 @@ Change only the section that moved, and update the date.
 
 ## Related Skills
 
-- **icp**: define and test the ICP section in depth.
-- **offer-and-lead-magnet**: when the "Offer to a stranger" section is empty.
-- **gtm-strategy**: turn the goal and capacity into a plan.
+- **initiatives**: what the user is testing, until when, and what they expect from it.
+- **icp**: define and test one ICP in depth.
 - **lead-search**, **connection-requests**, **linkedin-messages**, **linkedin-posts**: they all read this file first.
