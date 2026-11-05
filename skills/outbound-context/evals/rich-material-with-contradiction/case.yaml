@@ -1,0 +1,13 @@
+schema_version: "1.1"
+name: rich-material-with-contradiction
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Drafts the value proposition and ICP from the web text without asking for them first
+  - Points out that the 3,000-employee supermarket case does not fit the 20-200 employee distributor ICP, and asks the user to decide
+  - Uses only the real customers (Distribuidora Andina, Mayorista Del Sur, La Estrella) and invents no customer, number or proof
+  - Treats the two identical 'Hola ... Soy Tomás' messages as a template, not as the sender's voice
+  - Leaves out one-liners (genial, ok, gracias!) when describing the voice
+  - Asks at most one question in the reply
+  - Does not save the context file before the user confirms the draft
+  - Replies in Spanish

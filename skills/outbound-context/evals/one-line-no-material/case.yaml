@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: one-line-no-material
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Looks for an existing outbound context file first
+  - Does not invent customers, results, numbers or a differentiator
+  - Asks for material (website, case studies, past messages) or asks one question
+  - Asks at most one question in the reply
+  - Does not save the context file before the user confirms a draft

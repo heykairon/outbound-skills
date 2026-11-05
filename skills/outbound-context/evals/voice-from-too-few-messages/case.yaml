@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: voice-from-too-few-messages
+expected_outcome: |
+  - Leaves out 'thanks!' and 'ok sounds good' as evidence of voice
+  - Says one real message is not enough to describe a voice
+  - Does not write a voice profile (tone rules, style traits) from the one message
+  - Asks for more of the sender's own messages
