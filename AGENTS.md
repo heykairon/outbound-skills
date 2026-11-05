@@ -17,6 +17,7 @@ skills/<name>/
 
 - `name` matches the folder name: lowercase, hyphens, 1–64 characters.
 - `description` (max 1024 characters) says what it does, then lists the real phrases that should trigger it, then names the neighbour skills.
+- The frontmatter must parse as YAML. A `: ` inside the description breaks it (GitHub shows an error, and some installers reject the skill), so use parentheses or a full stop instead.
 - `metadata.version` bumps on every shipped change.
 - `SKILL.md` stays under about 250 lines. Detail goes in `references/`, and every reference file is linked from `SKILL.md`.
 - Every skill reads `.agents/outbound-context.md` first and asks only for what is missing. If the file is missing and the job needs it, the skill says to use **outbound-context** first.
