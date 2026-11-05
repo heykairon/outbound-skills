@@ -19,9 +19,22 @@ skills/<name>/
 - `description` (max 1024 characters) says what it does, then lists the real phrases that should trigger it, then names the neighbour skills.
 - `metadata.version` bumps on every shipped change.
 - `SKILL.md` stays under about 250 lines. Detail goes in `references/`, and every reference file is linked from `SKILL.md`.
-- Every skill reads `.agents/outbound-context.md` first and asks only for what is missing.
+- Every skill reads `.agents/outbound-context.md` first and asks only for what is missing. If the file is missing and the job needs it, the skill says to use **outbound-context** first.
 - Every skill works by hand or with any tool. A "Doing It with a Tool" section may name the Kairon MCP, but the skill never depends on it.
 - End with **Related Skills**.
+
+## The quality bar
+
+A skill ships when it changes what the model does, and nothing more. Each rule below came from testing outbound-context against a model with no skill.
+
+1. **Every line earns its place.** Run each test case with the skill and without it. If the model already does something without being told, cut that rule to one line or delete it.
+2. **Test on Haiku.** Run the test cases on the cheapest model. If Haiku follows the skill, any model will.
+3. **Test with what a real user sends.** Use real-looking material with traps in it: a contradiction between two sources, a template repeated across messages, too little material. Clean inputs pass with or without the skill.
+4. **Define rules at their edge.** A rule the model can read two ways gets read the wrong way. Say what is in and what is out: "an acknowledgement is 'ok' or 'thanks', not every short message".
+5. **Don't count on the description to trigger the skill.** The model answers on its own whatever it thinks it can handle, so a good description is not enough. Measured on outbound-context: 1 in 8 correct requests triggered it, with 6 different descriptions. When one skill needs another, it names it and says when to use it.
+6. **Run it again after each change.** Re-run the cases the change touches before you commit. Say which cases you did not re-run.
+
+Test cases live in `evals/`. Run results stay outside the repo.
 
 ## Rules for numbers
 
