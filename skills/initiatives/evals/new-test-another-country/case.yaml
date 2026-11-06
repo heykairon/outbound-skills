@@ -10,4 +10,5 @@ expected_outcome: |
   - Checks the number of invitations against what one LinkedIn seat can send before the end of the year
   - Does not save .agents/initiatives.md before the user confirms the draft
   - Asks at most one question in the reply
+  - Names a source for the leads, starting with the closest one that may still have people (warm network or tribes before cold), or asks which one exists
   - Replies in Spanish

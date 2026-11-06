@@ -2,7 +2,7 @@
 name: lead-search
 description: Find and build a B2B lead list worth sending to, on LinkedIn Sales Navigator, classic LinkedIn search and the open web (job posts, directories, event exhibitor lists), then check it against the ICP before filling it. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "Sales Navigator search," "Sales Nav filters," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Work the closest people first (warm network, tribes, signals, competitors' audiences, then cold), probe 20 to 40 results before filling a list, reach one or two people per company, and fix the search, not the ICP, when results are the wrong kind of company. For the invitations that follow, see connection-requests.
 metadata:
-  version: 0.1.2
+  version: 0.2.0
 ---
 
 # Lead Search
@@ -22,17 +22,17 @@ If there is no ICP at all, stop and define one first with **[outbound-context](.
 
 ## Work the Closest People First
 
-Targeting has an order. Start close and move out only when a stage runs dry:
+Targeting has an order. Start with the closest source and move out only when it runs dry:
 
-| Stage | Who | Why it works |
+| Source | Who | Why it works |
 |-------|-----|--------------|
 | 1. Warm network | 1st-degree connections, ex-customers, CRM contacts, people who reacted to your posts | They know you. |
 | 2. Tribes | Same school, past employer, country abroad, community, LinkedIn group | The shared thing opens the conversation. |
 | 3. Signals | Hired someone, raised, posted about the problem, going to an event | Something just happened. |
 | 4. Competitors' audience | Followers of a competitor, people who react to their posts | They already know they have the problem. Filter hard: their employees and vendors are mixed in. |
-| 5. Cold | ICP filters only | The hardest stage. Use it last. |
+| 5. Cold | ICP filters only | The hardest source. Use it last. |
 
-Max out a stage before starting the next. No stage closes behind you: if you remember a tribe while working signals, work it in parallel.
+Max out a source before starting the next. No source closes behind you: if you remember a tribe while working signals, work it in parallel.
 
 ---
 
@@ -83,7 +83,7 @@ Read the misses before changing anything. Ask: would the user have wanted this c
 
 ## Sales Navigator: The Rules That Matter
 
-Sales Navigator is the default for stages 3 to 5. Full detail and worked examples in [sales-navigator.md](references/sales-navigator.md). The traps that cost the most:
+Sales Navigator is the default for sources 3 to 5. Full detail and worked examples in [sales-navigator.md](references/sales-navigator.md). The traps that cost the most:
 
 - **Titles go in the job title filter, not keywords.** Keywords match the whole profile, so they find people who did the job ten years ago.
 - **For "leaders of X", combine seniority with function words** ("head", "director", "VP", "manager" + "payments" OR "billing"). A hand-written list of titles misses the variants people actually use.
@@ -112,7 +112,7 @@ Use public business information only. Don't bypass logins or CAPTCHAs, and don't
 
 ---
 
-## When There Is No Signal at All (Stage 5)
+## When There Is No Signal at All (Source 5)
 
 Build with ICP filters and nothing cleverer. Then **split the list** by country, industry or role, so you learn which segment responds. And because the list is a guess, the message should ask whether they have the pain rather than assume it.
 

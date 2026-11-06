@@ -1,8 +1,8 @@
 ---
 name: initiatives
-description: Create, track and review the user's go-to-market initiatives in .agents/initiatives.md. An initiative is a bet with an end date (one ICP plus one offer, changing one thing such as region, industry, size, buyer or offer) and what it should bring by then, worked back from real rates. Use when the user says "I want to test," "let's try selling to," "new initiative," "what should we try next," "set a goal," "weekly review," "checkpoint," "how is the push going," "did it work," "what have we tried," or starts outreach toward a goal with a date. Propose the goal with its arithmetic, judge volume before rates, compare against the user's own numbers, end every review with a next move that has an owner, and never propose again what already failed without saying what is different. For who the user is (value proposition, ICPs, voice), see outbound-context.
+description: Create, track and review the user's go-to-market initiatives in .agents/initiatives.md. An initiative is a bet with an end date (one ICP, one offer and one source of leads, changing one thing such as region, industry, size, buyer, offer or source) and what it should bring by then, worked back from real rates. Use when the user says "I want to test," "let's try selling to," "new initiative," "what should we try next," "set a goal," "weekly review," "checkpoint," "how is the push going," "did it work," "what have we tried," or starts outreach toward a goal with a date. Propose the goal with its arithmetic, judge volume before rates, compare against the user's own numbers, end every review with a next move that has an owner, and never propose again what already failed without saying what is different. For who the user is (value proposition, ICPs, voice), see outbound-context.
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Initiatives
@@ -23,16 +23,21 @@ Ask for one thing per turn. Draft from what you hold, then ask.
 
 ## What an Initiative Is
 
-**One ICP plus one offer.** Change one thing from what already works: the region, the industry, the company size, the buyer, or the offer. Change two at once and the result cannot tell you which one mattered.
+**One ICP, one offer, one source.** The ICP is who you sell to. The offer is the reason to say yes. The source is where the people on the list come from, and what gives you a reason to write to them. Change one thing from what already works: the region, the industry, the company size, the buyer, the offer or the source. Change two at once and the result cannot tell you which one mattered.
 
 **The offer is the reason to say yes.** "I'm in your city next week, coffee?" A report on their industry. A seat at an event. A session on a set date. What makes sense to test depends on the business, so propose, and let the user pick. In our campaigns, a specific session on a specific date drew 17–22% interested replies. A report with no date drew 7–9% ([benchmarks](../connection-requests/references/benchmarks.md)).
 
-### The ones that always run
+### Start with the closest source
 
-A test sits on top of three initiatives most businesses need all the time. If one is missing, suggest it in one line, with the reason:
-- **Going back to past conversations.** People who replied once and went quiet already know the sender. It costs nothing.
-- **Inbound from posts,** once the profile is ready and the user has posted for about a month. People who react are the warmest list there is.
-- **A lead source that refills itself,** so the senders never stop while someone builds the next list.
+The same ICP answers very differently depending on the source, closest first:
+
+1. **Warm network.** They know the sender.
+2. **Tribes.** They share something with the sender: a school, a past employer, a country.
+3. **Signals.** Something just happened to them: a hire, a new branch, a post about the problem.
+4. **Competitors' audience.** They already know they have the problem.
+5. **Cold.** Only the ICP filters. The hardest source.
+
+Propose the closest source that still has people in it. Move to the next one when it runs dry, and keep the earlier ones going. Never default to cold. If you don't know whether the sender has a network or a tribe in that market, that is your one question: the source changes every rate in the arithmetic. How to build each list is in **[lead-search](../lead-search/SKILL.md)**.
 
 ---
 
@@ -55,7 +60,7 @@ Work back from the goal to invitations. Use the user's own rates if they have se
 
 ## [Short name, e.g. "Distributors, Chile"]
 - **Status:** active | ended
-- **The bet:** [ICP from outbound-context] + [the offer]. [Why we think it could work, and why now.]
+- **The bet:** [ICP from outbound-context] + [the offer] + [the source]. [Why we think it could work, and why now.]
 - **What changes:** [the one thing that differs from what already works]
 - **Until:** YYYY-MM-DD
 - **What we expect:** [About 600 invitations by the date. At our 30% accepted and 18% replying, about 32 replies and 8 calls. The rates are an assumption until the first review.]
