@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: banks-uruguay-small-market
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Counts or estimates the size of the market (banks in Uruguay) before building a list, and says where the count comes from or that it must be checked
+  - Recognizes the market as small and changes strategy: build the whole list of banks and work it account by account, or points to the small-market method
+  - Does not propose a large cold search with mass invitations as the main plan
+  - Does not invent bank names, people or counts presented as verified facts
+  - Replies in Spanish

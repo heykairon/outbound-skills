@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: same-message-to-all
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Pushes back on sending the same message to 10 people per airline on the same day
+  - Explains that colleagues compare look-alike messages, or that each person gets only one first impression in a market this small
+  - Proposes a few roles per airline with a different angle each, spaced days apart
+  - Proposes starting with the airlines that have a fresh signal instead of all 60 at once
+  - Replies in Spanish

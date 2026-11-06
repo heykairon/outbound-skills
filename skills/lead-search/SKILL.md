@@ -1,8 +1,8 @@
 ---
 name: lead-search
-description: Find and build a B2B lead list worth sending to, on LinkedIn Sales Navigator, classic LinkedIn search and the open web (job posts, directories, event exhibitor lists), then check it against the ICP before filling it. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "Sales Navigator search," "Sales Nav filters," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Work the closest people first (warm network, tribes, signals, competitors' audiences, then cold), probe 20 to 40 results before filling a list, reach one or two people per company, and fix the search, not the ICP, when results are the wrong kind of company. For the invitations that follow, see connection-requests.
+description: Find and build a B2B lead list worth sending to, on LinkedIn Sales Navigator, classic LinkedIn search and the open web (job posts, directories, event exhibitor lists), then check it against the ICP before filling it. Starts by measuring the market, because a small market needs a different strategy. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "Sales Navigator search," "Sales Nav filters," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Work the closest people first (warm network, tribes, signals, competitors' audiences, then cold), probe 20 to 40 results before filling a list, reach one or two people per company in a large market, and fix the search, not the ICP, when results are the wrong kind of company. For a market of a few hundred companies, see small-market. For the invitations that follow, see connection-requests.
 metadata:
-  version: 0.2.1
+  version: 0.3.0
 ---
 
 # Lead Search
@@ -17,6 +17,19 @@ The list decides about 90% of the outcome. A great message to the wrong people f
 Read `.agents/icp.md`: the ICP, its best customers and why they buy are there. Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`) for the rest. If the context file doesn't exist, use the **[outbound-context](../outbound-context/SKILL.md)** skill first: it takes a few minutes and every later search reuses it. Then ask only for what is still missing.
 
 If there is no ICP at all, stop and define one first with **[icp](../icp/SKILL.md)**. Searching without one means judging results against a hunch. Skip any ICP marked discarded. If the user asks for it again, show the reason it was discarded first.
+
+---
+
+## Measure the Market First
+
+The size of the market decides the strategy, so count it before you search for anyone.
+
+**Count in the unit that matters for the business.** Count companies when the company buys. Count people when the fit lives in the person: founders who live in Buenos Aires, whatever company they run, are counted as people. Use the most complete source there is: an association's member list, a trade show's exhibitor list, a registry, or a search with the ICP's filters. Write the real count in the ICP's market line in `.agents/icp.md` (see **[icp](../icp/SKILL.md)**). If the count is already there, use it.
+
+**Then the number decides:**
+- **A small market.** A few hundred companies, big deals, months to close. Each person gets one first impression, and nobody new replaces them. Build the whole list first, save it, and work it account by account: see **[small-market](../small-market/SKILL.md)**.
+- **A large market.** Enough people to replace the ones who don't answer. You don't need the whole list. Run different searches and test them: the rest of this skill.
+- **Both.** If only the biggest accounts look like a small market, work those with **[small-market](../small-market/SKILL.md)** and the rest with this skill.
 
 ---
 
@@ -53,7 +66,7 @@ For a researched list, write each cell as a full statement a stranger could chec
 
 Unless the list comes from a relationship (warm network, tribe), build the **companies** list first, then find the people inside it.
 
-**Reach one or two people per company, not ten.** Many messages into one company in a short time looks like spam to filters, and colleagues who compare near-identical messages write you off. Pick the one or two whose job your problem affects and who can act on it.
+**In a large market, reach one or two people per company, not ten.** Many messages into one company in a short time looks like spam to filters, and colleagues who compare near-identical messages write you off. Pick the one or two whose job your problem affects and who can act on it.
 
 ---
 
@@ -62,7 +75,7 @@ Unless the list comes from a relationship (warm network, tribe), build the **com
 **Never fill a list from a search you have not read.** The loop, every time:
 
 1. **Run the search small:** 20–40 results. Don't save them yet.
-2. **Read every result yourself** against the ICP: title, company, location. Open the doubtful ones.
+2. **Judge every result yourself** against the ICP in `.agents/icp.md`: title, company, location. Each one is in or out, and say which criterion or disqualifier decided it. Open the doubtful ones.
 3. **Count the fit.** "14 of 30 fit. The misses are recruiters and agencies."
 4. **Name the fix** for the misses: an exclusion, a tighter title, a different source.
 5. **Run small again** with the fix.
@@ -151,4 +164,5 @@ After the table, always add:
 
 - **[connection-requests](../connection-requests/SKILL.md)**: what to do with the list on LinkedIn.
 - **[icp](../icp/SKILL.md)**: who the list is judged against, and the trigger to search for.
+- **[small-market](../small-market/SKILL.md)**: when the whole market is a few hundred companies.
 - **[outbound-context](../outbound-context/SKILL.md)**: the voice, and where the other files are.

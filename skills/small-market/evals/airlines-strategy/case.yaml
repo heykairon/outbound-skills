@@ -1,0 +1,14 @@
+schema_version: "1.1"
+name: airlines-strategy
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Treats the market as small (about 60 airlines) and proposes building and saving the whole list of airlines before contacting anyone
+  - Proposes reaching several people per airline (3 or more) in different roles, each with its own angle
+  - Prioritizes airlines by fit and by a dated signal (such as a rebrand, a new aircraft type or a new route), not by contacting all of them at once
+  - Says to write a first message only after a signal, while staying visible to the rest of the list
+  - Says an airline that does not answer is tried again later with a new reason, not dropped or sent the same sequence again
+  - Proposes measuring coverage or the state of each account, not only reply rates
+  - Sets an expectation of months before first meetings or results
+  - Does not invent airline names with facts, signals or numbers that are not in the files
+  - Replies in Spanish

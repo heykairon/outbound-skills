@@ -46,9 +46,9 @@ After you install, run `/outbound-context` (or ask your agent to "use the outbou
 Strategy        Leads        Profile &        Outreach          Measure
                               content
 initiatives    lead-search   linkedin-       connection-       funnel-
-icp            signal-leads   profile         requests          diagnosis
-lead-magnet    warm-network  linkedin-posts  linkedin-messages
-value-prop                   linkedin-       follow-ups
+icp            small-market   profile         requests          diagnosis
+lead-magnet    signal-leads  linkedin-posts  linkedin-messages
+value-prop     warm-network  linkedin-       follow-ups
                               comments
 ```
 
@@ -62,7 +62,8 @@ value-prop                   linkedin-       follow-ups
 | [initiatives](skills/initiatives/) | ✅ | What you are testing: an ICP plus an offer, an end date, what you expect, and what already failed |
 | [icp](skills/icp/) | ✅ | Find your ICP in your best customers and test the market it sits in |
 | [lead-magnet](skills/lead-magnet/) | ✅ | Something free, made for each person, that leads to what you sell |
-| [lead-search](skills/lead-search/) | ✅ | Sales Navigator filters and lists worth sending to |
+| [lead-search](skills/lead-search/) | ✅ | Measure your market, then build lists worth sending to |
+| [small-market](skills/small-market/) | ✅ | A market of a few hundred companies, worked account by account |
 | signal-leads | soon | Leads with a dated reason to write: posts, hires, competitors |
 | warm-network | soon | Your 1st-degree network, your tribes, warm intros |
 | linkedin-profile | soon | Photo, banner, headline, about |
