@@ -49,7 +49,8 @@ initiatives    lead-search   linkedin-       connection-       funnel-
 icp            small-market   profile         requests          diagnosis
 lead-magnet    signal-leads  linkedin-posts  linkedin-messages
 value-prop     warm-network  linkedin-       follow-ups
-                              comments
+               sales-         comments
+               navigator
 ```
 
 ## Skills
@@ -64,6 +65,7 @@ value-prop     warm-network  linkedin-       follow-ups
 | [lead-magnet](skills/lead-magnet/) | ✅ | Something free, made for each person, that leads to what you sell |
 | [lead-search](skills/lead-search/) | ✅ | Measure your market, then build lists worth sending to |
 | [small-market](skills/small-market/) | ✅ | A market of a few hundred companies, worked account by account |
+| [sales-navigator](skills/sales-navigator/) | ✅ | Turn your ICP into searches that find only those people |
 | signal-leads | soon | Leads with a dated reason to write: posts, hires, competitors |
 | warm-network | soon | Your 1st-degree network, your tribes, warm intros |
 | linkedin-profile | soon | Photo, banner, headline, about |

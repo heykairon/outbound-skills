@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: suspicious-count
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Says 48,000 is far too many for this narrow ask and does not approve saving them all
+  - Explains that a count this large likely means nobody matched the full combination and a filter was dropped or misread
+  - Tells the user to check what each filter resolved to (location, industry, title, headcount) and to open the first results
+  - Proposes a concrete fix to the search, such as seniority plus function words in the current title filter, or an exclusion
+  - Replies in Spanish

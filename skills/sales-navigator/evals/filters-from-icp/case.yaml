@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: filters-from-icp
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Uses the best customers listed in icp.md to test the search: says to check that the search finds them before looking at strangers
+  - For the finance leaders, combines seniority with function words in the current title (finance, cobranzas, tesorería or similar), and adds CFO on its own
+  - Proposes exclusions for wrong types, such as recruiters, assistants, interns or the user's competitors
+  - Expands the target region into one location per country instead of a region name like LATAM
+  - Uses headcount, not revenue in a keyword or an invented filter, for company size
+  - Replies in Spanish

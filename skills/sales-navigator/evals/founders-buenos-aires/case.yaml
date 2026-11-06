@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: founders-buenos-aires
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Filters the person's location (where the founder lives), not only the company's headquarters, or warns that the companies may list a headquarters in another country
+  - Does not rely on "CABA" or the plain "Buenos Aires" location for the city: proposes postal codes or warns that those names resolve to the province or to another place
+  - Includes the English titles people write, such as Founder, Co-founder or CEO, not only Spanish titles like Fundador
+  - Approximates "startup" with headcount, and does not use "startup" or "software startup" as an industry name
+  - Says to read or check the first results before trusting or saving the search
+  - Replies in Spanish

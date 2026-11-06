@@ -1,8 +1,8 @@
 ---
 name: lead-search
-description: Find and build a B2B lead list worth sending to, on LinkedIn Sales Navigator, classic LinkedIn search and the open web (job posts, directories, event exhibitor lists), then check it against the ICP before filling it. Starts by measuring the market, because a small market needs a different strategy. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "Sales Navigator search," "Sales Nav filters," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Work the closest people first (warm network, tribes, signals, competitors' audiences, then cold), probe 20 to 40 results before filling a list, reach one or two people per company in a large market, and fix the search, not the ICP, when results are the wrong kind of company. For a market of a few hundred companies, see small-market. For the invitations that follow, see connection-requests.
+description: Find and build a B2B lead list worth sending to, on LinkedIn Sales Navigator, classic LinkedIn search and the open web (job posts, directories, event exhibitor lists), then check it against the ICP before filling it. Starts by measuring the market, because a small market needs a different strategy. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Work the closest people first (warm network, tribes, signals, competitors' audiences, then cold), probe 20 to 40 results before filling a list, reach one or two people per company in a large market, and fix the search, not the ICP, when results are the wrong kind of company. For a market of a few hundred companies, see small-market. For how to write a Sales Navigator search, see sales-navigator. For the invitations that follow, see connection-requests.
 metadata:
-  version: 0.3.0
+  version: 0.4.0
 ---
 
 # Lead Search
@@ -94,19 +94,9 @@ Read the misses before changing anything. Ask: would the user have wanted this c
 
 ---
 
-## Sales Navigator: The Rules That Matter
+## Writing the Search
 
-Sales Navigator is the default for sources 3 to 5. Full detail and worked examples in [sales-navigator.md](references/sales-navigator.md). The traps that cost the most:
-
-- **Titles go in the job title filter, not keywords.** Keywords match the whole profile, so they find people who did the job ten years ago.
-- **For "leaders of X", combine seniority with function words** ("head", "director", "VP", "manager" + "payments" OR "billing"). A hand-written list of titles misses the variants people actually use.
-- **Exclude before you add.** A recurring wrong type (recruiters, students, agencies) is fixed with an exclusion, not another positive filter.
-- **Same filter, several values = OR. Different filters = AND.** Each filter you add narrows.
-- **Regions don't resolve.** "LATAM" or "Europe" fail. Add one location per country.
-- **"Startup" is not a filter.** Use headcount (1–10, 11–50, 51–200).
-- **Industry uses LinkedIn's names** ("Financial Services", not "fintech"). A business model ("SaaS", "fintech") goes in keywords.
-- **Keywords are boolean.** Quote each term, uppercase OR, and wrap the group in parentheses: `("fintech" OR "payments" OR "neobank")`. Bare words are AND-ed and return zero.
-- **A combination that matches nobody does not return zero.** Sales Navigator drops a filter and answers a wider question. A suspiciously large result for a narrow ask means "nobody matched". Read the results before trusting the count.
+Sales Navigator is the default for sources 3 to 5. How to turn the ICP into filters, and how to read what comes back, is in **[sales-navigator](../sales-navigator/SKILL.md)**.
 
 ---
 
@@ -165,4 +155,5 @@ After the table, always add:
 - **[connection-requests](../connection-requests/SKILL.md)**: what to do with the list on LinkedIn.
 - **[icp](../icp/SKILL.md)**: who the list is judged against, and the trigger to search for.
 - **[small-market](../small-market/SKILL.md)**: when the whole market is a few hundred companies.
+- **[sales-navigator](../sales-navigator/SKILL.md)**: how to write the search.
 - **[outbound-context](../outbound-context/SKILL.md)**: the voice, and where the other files are.
