@@ -2,7 +2,7 @@
 name: large-market
 description: Build lead lists in a large market (more people than you could ever write to, so the ones who don't answer are replaced by new ones). Use when the user says "which source should I use," "start with a cold search," "load all the results," "fill the list," "the search is full of the wrong companies," "should I change the ICP," "how many leads do I need," "split the list," "who do I contact at each company," "job posts as leads," or "exhibitor list." Work the closest source first (warm network, tribes, signals, competitors' audiences, then cold), search from the side a filter can see (people or companies), reach one or two people per company, probe 20 to 40 results before filling, fix the search when the misses are companies nobody wanted, and split a cold list by segment. For counting the market and judging each result, see lead-search.
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Large Market
@@ -44,18 +44,7 @@ Search from the side where the fit is easiest to filter:
 
 ---
 
-## 3. Two Kinds of List
-
-Ask which one the campaign needs, before you build. It changes what you store.
-
-- **Deeply researched.** Each lead is researched one by one, and the research is stored in columns ("Hiring signal", "Recent launch"). The message quotes it. Small list, high effort per lead. Use it when one lead is worth an hour.
-- **Tightly targeted.** Everyone on the list shares ONE situation: same tribe, same signal, same event. The message can be simple because the list is already specific.
-
-Both work. What fails is the middle: a wide list of people who share only a job title, with a message that pretends to be personal.
-
----
-
-## 4. Probe Small, Then Fill
+## 3. Probe Small, Then Fill
 
 **Never fill a list from a search you have not read.** The loop, every time:
 
@@ -79,13 +68,13 @@ Read the misses before changing anything. Ask: would the user have wanted this c
 
 ---
 
-## 5. A Cold List: Split It
+## 4. A Cold List: Split It
 
 With no signal at all, build with the ICP filters and nothing cleverer. Then **split the list** by country, industry or role, so you learn which segment responds. And because the list is a guess, the message asks whether they have the pain rather than assume it.
 
 ---
 
-## 6. Beyond LinkedIn: The Open Web
+## 5. Beyond LinkedIn: The Open Web
 
 Some of the best lists are not on LinkedIn:
 
@@ -98,7 +87,7 @@ Some of the best lists are not on LinkedIn:
 
 ---
 
-## 7. How Big
+## 6. How Big
 
 It depends on how sure you are of the market:
 
