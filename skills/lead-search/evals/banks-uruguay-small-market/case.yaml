@@ -8,3 +8,4 @@ expected_outcome: |
   - Does not propose a large cold search with mass invitations as the main plan
   - Does not invent bank names, people or counts presented as verified facts
   - Replies in Spanish
+  - Checks which initiative the list serves: reads .agents/initiatives.md, and since it is missing, tells the user and proposes creating the initiative first
