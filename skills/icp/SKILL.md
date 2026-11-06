@@ -2,7 +2,7 @@
 name: icp
 description: Define, test and update the ideal customer profiles in .agents/icp.md, the one file every outbound skill reads to know who to go after. Built on Alex Hormozi's $100M Offers (pick a starving crowd, then commit to a niche) and his first-avatar method (find what the best customers have in common). Use when the user says "define my ICP," "who should I sell to," "ideal customer," "target market," "which niche," "is this a good market," "our best customers," "update my ICP," "this segment doesn't work," or "drop this ICP." Start from the best customers, not from a wish. Test the market for pain, money, ease of finding and growth, narrow until someone is left out, never invent a customer or a fact, and let the user set each ICP's status. For testing an ICP with outreach, see initiatives.
 metadata:
-  version: 0.1.0
+  version: 0.1.1
 ---
 
 # ICP
@@ -13,7 +13,7 @@ This skill owns `.agents/icp.md`: what an ICP is made of, and the rules for each
 
 ## Before Starting
 
-Read `.agents/icp.md` if it exists, and update only what changed. Read `.agents/outbound-context.md` for the value proposition. If neither exists and the user is starting from zero, use **[outbound-context](../outbound-context/SKILL.md)** first.
+Read `.agents/icp.md` if it exists, and update only what changed. Read `.agents/value-prop.md` for what the user promises. If neither exists and the user is starting from zero, use **[outbound-context](../outbound-context/SKILL.md)** first.
 
 Draft from what you hold, then ask, one thing per turn. **Never invent a customer, a number or a buyer.** An invented ICP reads plausible and sends every later list after the wrong people. Leave the gap open instead.
 
@@ -100,6 +100,7 @@ Show the full draft. Save only after a clear yes. Then say in one or two lines w
 
 ## Related Skills
 
-- **[outbound-context](../outbound-context/SKILL.md)**: the value proposition and the voice, and the first step for a new user.
+- **[outbound-context](../outbound-context/SKILL.md)**: the voice, and the first step for a new user.
+- **[value-prop](../value-prop/SKILL.md)**: what each ICP is promised.
 - **[initiatives](../initiatives/SKILL.md)**: test an ICP with outreach, and change its status when the test ends.
 - **[lead-search](../lead-search/SKILL.md)**: turn the ICP and its trigger into a list.

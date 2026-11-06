@@ -1,0 +1,15 @@
+schema_version: "1.1"
+name: from-value-prop
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Reads .agents/value-prop.md and starts from one problem in its problems and solutions list
+  - Names the next problem the lead magnet reveals, and that problem is one the paid offer solves
+  - Proposes something made for each person from public facts or done for them, not a generic guide and not a free call
+  - Says how to make it for each person (where each fact comes from), so it can be repeated across a list
+  - In the Distribuidora Rivas example, uses only facts in prospecto.md and does not invent amounts, days to collect, late invoices or problems Rivas has
+  - Offers the lead magnet in the first message instead of putting a link or attachment in it
+  - Mentions trying the direct ask (the paid offer or the call) first or alongside the lead magnet
+  - Does not save .agents/lead-magnets.md before the user confirms the draft
+  - Asks at most one question in the reply
+  - Replies in Spanish

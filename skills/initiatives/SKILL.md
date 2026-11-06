@@ -2,7 +2,7 @@
 name: initiatives
 description: Create, track and review the user's go-to-market initiatives in .agents/initiatives.md. An initiative is a bet with an end date (one ICP, one offer and one source of leads, changing one thing such as region, industry, size, buyer, offer or source) and what it should bring by then, worked back from real rates. Use when the user says "I want to test," "let's try selling to," "new initiative," "what should we try next," "set a goal," "weekly review," "checkpoint," "how is the push going," "did it work," "what have we tried," or starts outreach toward a goal with a date. Propose the goal with its arithmetic, judge volume before rates, compare against the user's own numbers, end every review with a next move that has an owner, and never propose again what already failed without saying what is different. For who the user is (value proposition, ICPs, voice), see outbound-context.
 metadata:
-  version: 0.2.3
+  version: 0.2.4
 ---
 
 # Initiatives
@@ -25,7 +25,7 @@ Ask for one thing per turn. Draft from what you hold, then ask.
 
 **One ICP, one offer, one source.** The ICP is who you sell to. The offer is the reason to say yes. The source is where the people on the list come from, and what gives you a reason to write to them. Change one thing from what already works: the region, the industry, the company size, the buyer, the offer or the source. Change two at once and the result cannot tell you which one mattered.
 
-**The offer is the reason to say yes.** "I'm in your city next week, coffee?" A report on their industry. A seat at an event. A session on a set date. What makes sense to test depends on the business, so propose, and let the user pick. In our campaigns, a specific session on a specific date drew 17–22% interested replies. A report with no date drew 7–9% ([benchmarks](../connection-requests/references/benchmarks.md)).
+**The offer is the reason to say yes.** "I'm in your city next week, coffee?" A report on their industry. A seat at an event. A session on a set date. What makes sense to test depends on the business, so propose, and let the user pick. Something free that solves one problem is a lead magnet: design it with **[lead-magnet](../lead-magnet/SKILL.md)**, and name it here. In our campaigns, a specific session on a specific date drew 17–22% interested replies. A report with no date drew 7–9% ([benchmarks](../connection-requests/references/benchmarks.md)).
 
 ### Start with the closest source
 
@@ -60,7 +60,7 @@ Work back from the goal to invitations. Use the user's own rates if they have se
 
 ## [Short name, e.g. "Distributors, Chile"]
 - **Status:** active | ended
-- **The bet:** [ICP from icp.md] + [the offer] + [the source]. [Why we think it could work, and why now.]
+- **The bet:** [ICP from icp.md] + [the offer, or a lead magnet from lead-magnets.md] + [the source]. [Why we think it could work, and why now.]
 - **What changes:** [the one thing that differs from what already works]
 - **Until:** YYYY-MM-DD
 - **What we expect:** [About 450 invitations by the date. At our rates, about 38 replies, 10 interested and 5 meetings. The rates are an assumption until the first review.]
@@ -103,6 +103,7 @@ Then ask the user what it means for the ICP. Whether it is validated or discarde
 
 - **[icp](../icp/SKILL.md)**: the ICPs every initiative goes after, and where each ICP's status lives.
 - **[value-prop](../value-prop/SKILL.md)**: what the user promises, and the solutions an offer is built from.
+- **[lead-magnet](../lead-magnet/SKILL.md)**: what the user gives away, when the offer is a free piece of the work.
 - **[outbound-context](../outbound-context/SKILL.md)**: the voice.
 - **[lead-search](../lead-search/SKILL.md)**: build the list for the initiative's ICP.
 - **[connection-requests](../connection-requests/SKILL.md)**: the invitations, and the measured rates the expectation uses.

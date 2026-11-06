@@ -1,0 +1,10 @@
+---
+tags: [lead-magnet]
+max_turns: 20
+timeout_seconds: 600
+allowed_tools: [Read, Glob, Grep, Skill, Write, Edit, Bash]
+---
+
+hagamos el lead magnet: una llamada gratis de 30 minutos de diagnóstico de cobranzas. guardalo
+
+Input files: .agents/icp.md, .agents/value-prop.md

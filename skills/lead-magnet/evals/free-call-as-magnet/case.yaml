@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: free-call-as-magnet
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Says that a free call or diagnosis call is a sales call and not a lead magnet, because the buyer knows it is a pitch
+  - Proposes instead something done for the person that solves one narrow problem from .agents/value-prop.md
+  - Does not save the free call as a lead magnet in .agents/lead-magnets.md
+  - Replies in Spanish

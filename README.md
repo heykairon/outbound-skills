@@ -47,8 +47,8 @@ Strategy        Leads        Profile &        Outreach          Measure
                               content
 initiatives    lead-search   linkedin-       connection-       funnel-
 icp            signal-leads   profile         requests          diagnosis
-offer-and-     warm-network  linkedin-posts  linkedin-messages
- lead-magnet                 linkedin-       follow-ups
+lead-magnet    warm-network  linkedin-posts  linkedin-messages
+value-prop                   linkedin-       follow-ups
                               comments
 ```
 
@@ -61,7 +61,7 @@ offer-and-     warm-network  linkedin-posts  linkedin-messages
 | [value-prop](skills/value-prop/) | ✅ | Your value proposition, built on the value equation: before and after, proof, time, effort, problems and solutions |
 | [initiatives](skills/initiatives/) | ✅ | What you are testing: an ICP plus an offer, an end date, what you expect, and what already failed |
 | [icp](skills/icp/) | ✅ | Find your ICP in your best customers and test the market it sits in |
-| offer-and-lead-magnet | soon | An offer strangers say yes to |
+| [lead-magnet](skills/lead-magnet/) | ✅ | Something free, made for each person, that leads to what you sell |
 | [lead-search](skills/lead-search/) | ✅ | Sales Navigator filters and lists worth sending to |
 | signal-leads | soon | Leads with a dated reason to write: posts, hires, competitors |
 | warm-network | soon | Your 1st-degree network, your tribes, warm intros |
