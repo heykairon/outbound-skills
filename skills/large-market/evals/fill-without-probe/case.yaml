@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: fill-without-probe
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Does not load all 4,200 results: proposes running a small sample of 20 to 40 first and reading it before filling the list
+  - Says to judge each result of the sample against the ICP (in or out, with the criterion that decided it), including its disqualifiers such as HR consultancies and recruiters
+  - Says that while the ICP is being validated, about 200 to 300 people are enough, or otherwise ties the list size to the initiative and what the seat can send
+  - Raises that the initiative has no source defined, or that a closer source (warm network or tribe) should come before a cold search
+  - Replies in Spanish

@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: wrong-side
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Says not to change the ICP: the misses are companies the ICP already rules out, so the search is too wide
+  - Proposes concrete exclusions in the search, such as the Staffing and Recruiting industry or recruiter, headhunter and consultant titles
+  - Proposes running another small sample after the fix before filling the list
+  - Does not widen the ICP to include consultancies, agencies or headhunters
+  - Replies in Spanish

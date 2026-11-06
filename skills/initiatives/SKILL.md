@@ -2,7 +2,7 @@
 name: initiatives
 description: Create, track and review the user's go-to-market initiatives in .agents/initiatives.md. An initiative is a bet with an end date (one ICP, one offer and one source of leads, changing one thing such as region, industry, size, buyer, offer or source) and what it should bring by then, worked back from real rates. Use when the user says "I want to test," "let's try selling to," "new initiative," "what should we try next," "set a goal," "weekly review," "checkpoint," "how is the push going," "did it work," "what have we tried," or starts outreach toward a goal with a date. Propose the goal with its arithmetic, judge volume before rates, compare against the user's own numbers, end every review with a next move that has an owner, and never propose again what already failed without saying what is different. For who the user is (value proposition, ICPs, voice), see outbound-context.
 metadata:
-  version: 0.3.0
+  version: 0.4.0
 ---
 
 # Initiatives
@@ -31,15 +31,7 @@ Ask for one thing per turn. Draft from what you hold, then ask.
 
 ### Start with the closest source
 
-The same ICP answers very differently depending on the source, closest first:
-
-1. **Warm network.** They know the sender.
-2. **Tribes.** They share something with the sender: a school, a past employer, a country.
-3. **Signals.** Something just happened to them: a hire, a new branch, a post about the problem.
-4. **Competitors' audience.** They already know they have the problem.
-5. **Cold.** Only the ICP filters. The hardest source.
-
-Propose the closest source that still has people in it. Move to the next one when it runs dry, and keep the earlier ones going. Never default to cold. If you don't know whether the sender has a network or a tribe in that market, that is your one question: the source changes every rate in the arithmetic. How to build each list is in **[lead-search](../lead-search/SKILL.md)**.
+The same ICP answers very differently depending on the source: warm network, then tribes, then signals, then competitors' audiences, and cold last. Propose the closest source that still has people in it, and never default to cold. If you don't know whether the sender has a network or a tribe in that market, that is your one question: the source changes every rate in the arithmetic. Why this order, and how to work each source, is in **[large-market](../large-market/SKILL.md)**.
 
 ---
 
