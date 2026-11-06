@@ -36,4 +36,4 @@ No value prop, no ask beyond connecting.
 
 ## No note
 
-Use it when there is no real excuse and the list cannot be improved now. Warm up first. The visit and the like or comment do the work a note would.
+Use it when there is no real excuse and the list cannot be improved now.

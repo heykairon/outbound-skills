@@ -2,7 +2,7 @@
 name: initiatives
 description: Create, track and review the user's go-to-market initiatives in .agents/initiatives.md. An initiative is a bet with an end date (one ICP, one offer and one source of leads, changing one thing such as region, industry, size, buyer, offer or source) and what it should bring by then, worked back from real rates. Use when the user says "I want to test," "let's try selling to," "new initiative," "what should we try next," "set a goal," "weekly review," "checkpoint," "how is the push going," "did it work," "what have we tried," or starts outreach toward a goal with a date. Propose the goal with its arithmetic, judge volume before rates, compare against the user's own numbers, end every review with a next move that has an owner, and never propose again what already failed without saying what is different. For who the user is (value proposition, ICPs, voice), see outbound-context.
 metadata:
-  version: 0.2.0
+  version: 0.2.1
 ---
 
 # Initiatives
@@ -45,9 +45,9 @@ Propose the closest source that still has people in it. Move to the next one whe
 
 **Propose the goal. Don't ask for it.** Draft it in the unit the user needs (calls, customers, sign-ups for an event, not always replies), with the arithmetic, and ask them to confirm or move it.
 
-Work back from the goal to invitations. Use the user's own rates if they have sent before. If not, use our measured rates and **say they are an assumption**: about 30% of invitations accepted, 18% of accepted reply, half of replies interested, and about 150 invitations per LinkedIn seat per week ([benchmarks](../connection-requests/references/benchmarks.md)).
+Work back from the goal to invitations. Use the user's own rates if they have sent before. If not, use our measured rates and **say they are an assumption**: about 33% of invitations accepted, 26% of accepted reply, 26% of replies interested, about half of interested book a meeting (an assumption, not a measurement), and about 150 invitations per LinkedIn seat per week ([benchmarks](../connection-requests/references/benchmarks.md)).
 
-> 8 discovery calls by December 15. If half the interested replies book a call (a guess: correct it at the first review), that is 16 interested replies. At half of replies interested, 32 replies. At 18% of accepted replying, about 180 accepted. At 30% accepted, about 600 invitations. One seat sends about 150 a week, so one seat needs four weeks.
+> 5 meetings by December 15. If half the interested book (an assumption), that is 10 interested replies. At 26% of replies interested, about 38 replies. At 26% of accepted replying, about 150 accepted. At 33% accepted, about 450 invitations. One seat sends about 150 a week, so one seat needs three weeks.
 
 **If it does not fit before the date, say so.** Then name the choice: move the goal, add a sender, or pick a warmer audience. Never write a round number because it sounds like a goal.
 
@@ -63,7 +63,7 @@ Work back from the goal to invitations. Use the user's own rates if they have se
 - **The bet:** [ICP from outbound-context] + [the offer] + [the source]. [Why we think it could work, and why now.]
 - **What changes:** [the one thing that differs from what already works]
 - **Until:** YYYY-MM-DD
-- **What we expect:** [About 600 invitations by the date. At our 30% accepted and 18% replying, about 32 replies and 8 calls. The rates are an assumption until the first review.]
+- **What we expect:** [About 450 invitations by the date. At our rates, about 38 replies, 10 interested and 5 meetings. The rates are an assumption until the first review.]
 - **Campaigns:** [one line each, what it does]
 
 ### Reviews

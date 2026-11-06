@@ -56,7 +56,7 @@ offer-and-     warm-network  linkedin-posts  linkedin-messages
 
 | Skill | Status | What it does |
 |-------|--------|--------------|
-| [connection-requests](skills/connection-requests/) | ✅ | Warm-up before the invite, the note, weekly volume, reading the acceptance rate |
+| [connection-requests](skills/connection-requests/) | ✅ | The note, weekly volume, reading the acceptance rate |
 | [outbound-context](skills/outbound-context/) | ✅ | Writes the file with your value proposition, ICPs and voice that every skill reads |
 | [initiatives](skills/initiatives/) | ✅ | What you are testing: an ICP plus an offer, an end date, what you expect, and what already failed |
 | icp | soon | Find and test your ICP on the customers you already have |
