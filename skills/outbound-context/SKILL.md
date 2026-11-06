@@ -1,15 +1,15 @@
 ---
 name: outbound-context
-description: Create or update the outbound context file (.agents/outbound-context.md) that every other outbound skill reads first. It holds who the user is, which stays true from one campaign to the next (the value proposition and the sender's voice), and points to the ICPs, which live in their own file. Use when the user says "set up my outbound," "onboard me," "outbound context," "here's my company," "new positioning," "our value proposition," "how I write," or starts any outbound task with no context file yet. Draft from what you already know, ask only what you cannot look up, one question at a time, and never invent a fact about the company. Who the user sells to belongs in icp. What the user is testing (an offer, a region, a new buyer, a goal with a date) belongs in initiatives.
+description: Create or update the outbound context file (.agents/outbound-context.md) that every other outbound skill reads first. It holds the sender's voice, which stays true from one campaign to the next, and points to the ICPs and the value proposition, which live in their own files. Use when the user says "set up my outbound," "onboard me," "outbound context," "here's my company," "how I write," or starts any outbound task with no context file yet. Draft from what you already know, ask only what you cannot look up, one question at a time, and never invent a fact about the company. Who the user sells to belongs in icp, and what they promise belongs in value-prop. What the user is testing (an offer, a region, a new buyer, a goal with a date) belongs in initiatives.
 metadata:
-  version: 0.4.0
+  version: 0.5.0
 ---
 
 # Outbound Context
 
 You set up the one file every other outbound skill reads before it does anything: `.agents/outbound-context.md`. With it, no skill asks the user the same question twice. Without it, every message sounds like nobody.
 
-The file holds **who the user is**: the value proposition and the voice. These stay true for months. **Who the user sells to** lives in `.agents/icp.md`, and the **[icp](../icp/SKILL.md)** skill defines it. When the user has no ICP yet, use that skill for that part. What the user is **testing** right now (an offer, a region, a different buyer, a goal with a date) changes every few weeks and lives in `.agents/initiatives.md`. See **[initiatives](../initiatives/SKILL.md)**.
+The file holds **the voice**, and points to the rest. **Who the user sells to** lives in `.agents/icp.md`, defined by **[icp](../icp/SKILL.md)**. **What they promise** lives in `.agents/value-prop.md`, defined by **[value-prop](../value-prop/SKILL.md)**. For a new user, set up all three in that order: the ICP, the value proposition, the voice. Use each skill for its own part. What the user is **testing** right now (an offer, a region, a different buyer, a goal with a date) changes every few weeks and lives in `.agents/initiatives.md`. See **[initiatives](../initiatives/SKILL.md)**.
 
 ## Before Starting
 
@@ -36,14 +36,11 @@ Keep it working material, not website copy: written to be *used* by whatever dra
 
 _Last updated: YYYY-MM-DD_
 
-## Value proposition
-- **Who we help:** [narrow enough that someone is excluded]
-- **The problem, in their words:** [and what it costs them]
-- **Before → after:** [what changes, with the proof we would cite]
-- **Why us, not the next vendor:** [the mechanism, not adjectives]
-
 ## ICPs
 See `.agents/icp.md`.
+
+## Value proposition
+See `.agents/value-prop.md`.
 
 ## Voice
 - **Language and formality:** [e.g. Spanish, informal, first names, lowercase ok]
@@ -67,7 +64,7 @@ Read messages the sender actually wrote: their LinkedIn inbox, sent emails. Coun
 
 ## Save, Then Read It Back
 
-Show the full draft. Let the user correct it. Only after a clear yes, write the file. Then read back what you wrote and say it in two or three lines: who we help, and why us.
+Show the full draft. Let the user correct it. Only after a clear yes, write the file. Then read back what you wrote and say it in one or two lines: how the sender writes.
 
 If the user skips a section, leave it marked as open in the file and say in one sentence what it costs. For example: "No voice samples yet. Every message will sound generic until we have ten of yours."
 
@@ -76,7 +73,6 @@ If the user skips a section, leave it marked as open in the file and say in one 
 ## Keeping It Fresh
 
 Update the file when:
-- the positioning changes;
 - the sender changes, or writes in a new way.
 
 Change only the section that moved, and update the date. A new offer, region or buyer to try is not an update here: it is a new initiative.
@@ -86,5 +82,6 @@ Change only the section that moved, and update the date. A new offer, region or 
 ## Related Skills
 
 - **[icp](../icp/SKILL.md)**: who the user sells to, in `.agents/icp.md`.
+- **[value-prop](../value-prop/SKILL.md)**: what the user promises, in `.agents/value-prop.md`.
 - **[initiatives](../initiatives/SKILL.md)**: what the user is testing, until when, and what they expect from it.
 - **[lead-search](../lead-search/SKILL.md)**, **[connection-requests](../connection-requests/SKILL.md)**, **[linkedin-posts](../linkedin-posts/SKILL.md)**: they all read this file first.

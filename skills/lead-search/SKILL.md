@@ -151,4 +151,4 @@ After the table, always add:
 
 - **[connection-requests](../connection-requests/SKILL.md)**: what to do with the list on LinkedIn.
 - **[icp](../icp/SKILL.md)**: who the list is judged against, and the trigger to search for.
-- **[outbound-context](../outbound-context/SKILL.md)**: the value proposition and the voice.
+- **[outbound-context](../outbound-context/SKILL.md)**: the voice, and where the other files are.

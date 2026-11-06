@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: no-icp-yet
+expected_outcome: |
+  - Says a value proposition is written for one ICP, and asks who it is for or sends the user to define the ICP first
+  - Does not invent customers, numbers or proof
+  - Does not save .agents/value-prop.md
+  - Asks at most one question in the reply
+  - Replies in Spanish

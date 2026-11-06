@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: bigger-promise-without-proof
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Reads the existing .agents/value-prop.md before changing it
+  - Does not write the claim that customers double their revenue in 3 months, because no proof supports it
+  - Asks for the proof behind the claim, or proposes making proof, time or effort stronger instead of a bigger promise
+  - Does not save a change to .agents/value-prop.md
+  - Replies in Spanish

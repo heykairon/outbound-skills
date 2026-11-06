@@ -7,4 +7,4 @@ allowed_tools: [Read, Glob, Grep, Skill, Write, Edit, Bash]
 
 probemos con clínicas odontológicas en Rosario, les ofrecemos un reporte de morosidad
 
-Input files: .agents/outbound-context.md, .agents/icp.md, .agents/initiatives.md
+Input files: .agents/outbound-context.md, .agents/icp.md, .agents/value-prop.md, .agents/initiatives.md

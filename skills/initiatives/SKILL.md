@@ -2,7 +2,7 @@
 name: initiatives
 description: Create, track and review the user's go-to-market initiatives in .agents/initiatives.md. An initiative is a bet with an end date (one ICP, one offer and one source of leads, changing one thing such as region, industry, size, buyer, offer or source) and what it should bring by then, worked back from real rates. Use when the user says "I want to test," "let's try selling to," "new initiative," "what should we try next," "set a goal," "weekly review," "checkpoint," "how is the push going," "did it work," "what have we tried," or starts outreach toward a goal with a date. Propose the goal with its arithmetic, judge volume before rates, compare against the user's own numbers, end every review with a next move that has an owner, and never propose again what already failed without saying what is different. For who the user is (value proposition, ICPs, voice), see outbound-context.
 metadata:
-  version: 0.2.2
+  version: 0.2.3
 ---
 
 # Initiatives
@@ -11,7 +11,7 @@ An initiative is a bet: this ICP will want this offer, and by this date we will 
 
 ## Before Starting
 
-Read `.agents/icp.md`. Every initiative goes after one of its ICPs. If the initiative goes after people no ICP describes, use **[icp](../icp/SKILL.md)** to add one first, with the status the user gives it. Read `.agents/outbound-context.md` for the offer and the voice. If it doesn't exist, use **[outbound-context](../outbound-context/SKILL.md)** first.
+Read `.agents/icp.md`. Every initiative goes after one of its ICPs. If the initiative goes after people no ICP describes, use **[icp](../icp/SKILL.md)** to add one first, with the status the user gives it. Read `.agents/value-prop.md` for what the user promises: the offer is built from its solutions. Read `.agents/outbound-context.md` for the voice. If it doesn't exist, use **[outbound-context](../outbound-context/SKILL.md)** first.
 
 Then read `.agents/initiatives.md`, if it exists. Look for two things:
 - **An open initiative with the same bet.** Update it. Don't start a second one.
@@ -102,7 +102,8 @@ Then ask the user what it means for the ICP. Whether it is validated or discarde
 ## Related Skills
 
 - **[icp](../icp/SKILL.md)**: the ICPs every initiative goes after, and where each ICP's status lives.
-- **[outbound-context](../outbound-context/SKILL.md)**: the value proposition and the voice.
+- **[value-prop](../value-prop/SKILL.md)**: what the user promises, and the solutions an offer is built from.
+- **[outbound-context](../outbound-context/SKILL.md)**: the voice.
 - **[lead-search](../lead-search/SKILL.md)**: build the list for the initiative's ICP.
 - **[connection-requests](../connection-requests/SKILL.md)**: the invitations, and the measured rates the expectation uses.
 - **[linkedin-posts](../linkedin-posts/SKILL.md)**: content that serves the active initiatives.
