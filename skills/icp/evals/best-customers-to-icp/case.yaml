@@ -1,0 +1,15 @@
+schema_version: "1.1"
+name: best-customers-to-icp
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Ranks customers by what they paid, how long they stayed and how easy they were, before drafting
+  - Leaves Supermercados La Estrella out of the ICP even though it paid the most, because it stayed 4 months and cancelled
+  - Drafts an ICP of wholesale distributors with 3 to 5 shared criteria (industry, size, region or situation), not a long list of traits
+  - Lists disqualifiers drawn from the weak customers (for example retail shops, clinics paid by insurers, tiny firms)
+  - Uses the triggers in the notes (switch to Tango, referral, a post about rejected checks) as why they buy
+  - Does not write a number for how many such companies exist without running a search; leaves the count open
+  - Does not invent customers, numbers or facts that are not in clientes.csv
+  - Does not save .agents/icp.md before the user confirms the draft
+  - Asks at most one question in the reply
+  - Replies in Spanish

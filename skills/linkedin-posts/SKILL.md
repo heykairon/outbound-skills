@@ -2,7 +2,7 @@
 name: linkedin-posts
 description: Write LinkedIn posts that bring leads, not just likes, on one subject, rotating four pillars (tactical, aspirational, personal, insight), with a hook that earns the "see more" click and no AI tells. Use when the user mentions "LinkedIn post," "write a post," "content ideas," "what should I post," "hook," "personal branding," "thought leadership," "content calendar," "posting strategy," "my posts get no reach," "ghostwrite," or "post about [topic]." Never invent an anecdote or a statistic, stay on the one subject where the ICP's pain meets what the user sells, no em dashes, and measure leads per post rather than impressions.
 metadata:
-  version: 0.1.1
+  version: 0.1.2
 ---
 
 # LinkedIn Posts
@@ -14,7 +14,7 @@ Content is the one lead source with no ceiling. LinkedIn limits invitations and 
 ## Before Writing
 
 **Check for outbound context first:**
-Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`). The value proposition shapes the angle, the ICP says who it is for, and the voice section says how the user writes. If the file doesn't exist, use the **[outbound-context](../outbound-context/SKILL.md)** skill first. A post written without it sounds like nobody.
+Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`) and `.agents/icp.md`. The value proposition shapes the angle, the ICP says who it is for, and the voice section says how the user writes. If the file doesn't exist, use the **[outbound-context](../outbound-context/SKILL.md)** skill first. A post written without it sounds like nobody.
 
 Then gather material:
 - **The user's last posts**, to match their voice and avoid repeating them.
@@ -126,4 +126,5 @@ Let leads per post decide what to write more of.
 
 ## Related Skills
 
-- **[outbound-context](../outbound-context/SKILL.md)**: the subject, the ICP and the voice.
+- **[outbound-context](../outbound-context/SKILL.md)**: the subject and the voice.
+- **[icp](../icp/SKILL.md)**: who the posts are for.

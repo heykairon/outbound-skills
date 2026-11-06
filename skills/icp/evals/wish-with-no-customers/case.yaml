@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: wish-with-no-customers
+expected_outcome: |
+  - Does not accept 'all SMBs in Latin America' as an ICP and explains why it is too broad
+  - Asks for the user's best customers or their offer before drafting, or drafts only what can be known
+  - Does not invent industries, sizes or buyers as if they were facts
+  - Does not save .agents/icp.md
+  - Asks at most one question in the reply
+  - Replies in Spanish

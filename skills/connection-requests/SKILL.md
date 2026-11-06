@@ -2,7 +2,7 @@
 name: connection-requests
 description: Plan and write LinkedIn connection requests that get accepted and lead to a conversation, including the note (or no note), weekly volume, and acceptance-rate targets. Use when the user mentions "connection request," "LinkedIn invite," "invite note," "connection note," "nobody accepts my invites," "low acceptance rate," "how many invites per week," "LinkedIn outreach sequence," "should I add a note," or "LinkedIn limits." Keep the note to one real reason, and plan around about 150 invites per seat per week. For who to invite, see lead-search.
 metadata:
-  version: 0.2.0
+  version: 0.2.1
 ---
 
 # Connection Requests
@@ -14,7 +14,7 @@ The rates in this skill come from real campaigns run through [Kairon](https://he
 ## Before Writing
 
 **Check for outbound context first:**
-Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`) before asking questions. Use what it says about the ICP and the sender's voice. If the file doesn't exist and you are about to write notes, use the **[outbound-context](../outbound-context/SKILL.md)** skill first. Then ask only for what is still missing.
+Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`) and `.agents/icp.md` before asking questions. Use what they say about the ICP and the sender's voice. If the file doesn't exist and you are about to write notes, use the **[outbound-context](../outbound-context/SKILL.md)** skill first. Then ask only for what is still missing.
 
 Understand the situation (ask if not given):
 
@@ -122,4 +122,5 @@ Before presenting, check:
 ## Related Skills
 
 - **[lead-search](../lead-search/SKILL.md)**: build the list. Acceptance is decided here first.
-- **[outbound-context](../outbound-context/SKILL.md)**: the ICP and the voice every note starts from.
+- **[icp](../icp/SKILL.md)**: who the notes are for.
+- **[outbound-context](../outbound-context/SKILL.md)**: the voice every note starts from.

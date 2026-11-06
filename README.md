@@ -33,13 +33,13 @@ npx skills add heykairon/outbound-skills --skill connection-requests
 
 ## Start here
 
-After you install, run `/outbound-context` (or ask your agent to "use the outbound-context skill"). It writes one file with your value proposition, your ICPs and how you write. Every other skill reads it, so none of them asks you the same thing twice. If you skip it, the first skill that needs it will start it for you.
+After you install, run `/outbound-context` (or ask your agent to "use the outbound-context skill"). It writes one file with your value proposition and how you write, and starts your ICPs. Every other skill reads it, so none of them asks you the same thing twice. If you skip it, the first skill that needs it will start it for you.
 
 ## How the skills fit together
 
 ```
                          outbound-context
-        (value prop, ICPs, voice — every skill reads it first)
+        (value prop and voice; ICPs in icp — every skill reads it first)
                                  │
    ┌──────────────┬──────────────┼───────────────┬────────────────┐
    ▼              ▼              ▼               ▼                ▼
@@ -57,9 +57,9 @@ offer-and-     warm-network  linkedin-posts  linkedin-messages
 | Skill | Status | What it does |
 |-------|--------|--------------|
 | [connection-requests](skills/connection-requests/) | ✅ | The note, weekly volume, reading the acceptance rate |
-| [outbound-context](skills/outbound-context/) | ✅ | Writes the file with your value proposition, ICPs and voice that every skill reads |
+| [outbound-context](skills/outbound-context/) | ✅ | Writes the file with your value proposition and voice that every skill reads |
 | [initiatives](skills/initiatives/) | ✅ | What you are testing: an ICP plus an offer, an end date, what you expect, and what already failed |
-| icp | soon | Find and test your ICP on the customers you already have |
+| [icp](skills/icp/) | ✅ | Find your ICP in your best customers and test the market it sits in |
 | offer-and-lead-magnet | soon | An offer strangers say yes to |
 | [lead-search](skills/lead-search/) | ✅ | Sales Navigator filters and lists worth sending to |
 | signal-leads | soon | Leads with a dated reason to write: posts, hires, competitors |

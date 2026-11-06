@@ -2,7 +2,7 @@
 name: initiatives
 description: Create, track and review the user's go-to-market initiatives in .agents/initiatives.md. An initiative is a bet with an end date (one ICP, one offer and one source of leads, changing one thing such as region, industry, size, buyer, offer or source) and what it should bring by then, worked back from real rates. Use when the user says "I want to test," "let's try selling to," "new initiative," "what should we try next," "set a goal," "weekly review," "checkpoint," "how is the push going," "did it work," "what have we tried," or starts outreach toward a goal with a date. Propose the goal with its arithmetic, judge volume before rates, compare against the user's own numbers, end every review with a next move that has an owner, and never propose again what already failed without saying what is different. For who the user is (value proposition, ICPs, voice), see outbound-context.
 metadata:
-  version: 0.2.1
+  version: 0.2.2
 ---
 
 # Initiatives
@@ -11,7 +11,7 @@ An initiative is a bet: this ICP will want this offer, and by this date we will 
 
 ## Before Starting
 
-Read `.agents/outbound-context.md`. Every initiative goes after one of its ICPs. If the file doesn't exist, use **[outbound-context](../outbound-context/SKILL.md)** first. If the initiative goes after people no ICP describes, add that ICP there, with the status the user gives it.
+Read `.agents/icp.md`. Every initiative goes after one of its ICPs. If the initiative goes after people no ICP describes, use **[icp](../icp/SKILL.md)** to add one first, with the status the user gives it. Read `.agents/outbound-context.md` for the offer and the voice. If it doesn't exist, use **[outbound-context](../outbound-context/SKILL.md)** first.
 
 Then read `.agents/initiatives.md`, if it exists. Look for two things:
 - **An open initiative with the same bet.** Update it. Don't start a second one.
@@ -60,7 +60,7 @@ Work back from the goal to invitations. Use the user's own rates if they have se
 
 ## [Short name, e.g. "Distributors, Chile"]
 - **Status:** active | ended
-- **The bet:** [ICP from outbound-context] + [the offer] + [the source]. [Why we think it could work, and why now.]
+- **The bet:** [ICP from icp.md] + [the offer] + [the source]. [Why we think it could work, and why now.]
 - **What changes:** [the one thing that differs from what already works]
 - **Until:** YYYY-MM-DD
 - **What we expect:** [About 450 invitations by the date. At our rates, about 38 replies, 10 interested and 5 meetings. The rates are an assumption until the first review.]
@@ -95,13 +95,14 @@ Add each review under the last one. Never rewrite an old review: a change of min
 
 At the end date, or earlier if the user calls it, write the **Result**: worked, didn't work, or can't tell. "Can't tell" is the honest result when too little was sent. It does not mean the ICP failed.
 
-Then ask the user what it means for the ICP. Whether it is validated or discarded is their call. Record their answer and reason in the ICP's status in `.agents/outbound-context.md`.
+Then ask the user what it means for the ICP. Whether it is validated or discarded is their call. Record their answer and reason in the ICP's status in `.agents/icp.md` (see **[icp](../icp/SKILL.md)**).
 
 ---
 
 ## Related Skills
 
-- **[outbound-context](../outbound-context/SKILL.md)**: the ICPs every initiative goes after, and where each ICP's status lives.
+- **[icp](../icp/SKILL.md)**: the ICPs every initiative goes after, and where each ICP's status lives.
+- **[outbound-context](../outbound-context/SKILL.md)**: the value proposition and the voice.
 - **[lead-search](../lead-search/SKILL.md)**: build the list for the initiative's ICP.
 - **[connection-requests](../connection-requests/SKILL.md)**: the invitations, and the measured rates the expectation uses.
 - **[linkedin-posts](../linkedin-posts/SKILL.md)**: content that serves the active initiatives.

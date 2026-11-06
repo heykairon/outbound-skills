@@ -2,7 +2,7 @@
 name: lead-search
 description: Find and build a B2B lead list worth sending to, on LinkedIn Sales Navigator, classic LinkedIn search and the open web (job posts, directories, event exhibitor lists), then check it against the ICP before filling it. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "Sales Navigator search," "Sales Nav filters," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Work the closest people first (warm network, tribes, signals, competitors' audiences, then cold), probe 20 to 40 results before filling a list, reach one or two people per company, and fix the search, not the ICP, when results are the wrong kind of company. For the invitations that follow, see connection-requests.
 metadata:
-  version: 0.2.0
+  version: 0.2.1
 ---
 
 # Lead Search
@@ -14,9 +14,9 @@ The list decides about 90% of the outcome. A great message to the wrong people f
 ## Before Starting
 
 **Check for outbound context first:**
-Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`). The ICP, the countries and the best customers are there. If the file doesn't exist, use the **[outbound-context](../outbound-context/SKILL.md)** skill first: it takes a few minutes and every later search reuses it. Then ask only for what is still missing.
+Read `.agents/icp.md`: the ICP, its best customers and why they buy are there. Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`) for the rest. If the context file doesn't exist, use the **[outbound-context](../outbound-context/SKILL.md)** skill first: it takes a few minutes and every later search reuses it. Then ask only for what is still missing.
 
-If there is no ICP at all, stop and define one first with **[outbound-context](../outbound-context/SKILL.md)**. Searching without one means judging results against a hunch. Skip any ICP marked discarded. If the user asks for it again, show the reason it was discarded first.
+If there is no ICP at all, stop and define one first with **[icp](../icp/SKILL.md)**. Searching without one means judging results against a hunch. Skip any ICP marked discarded. If the user asks for it again, show the reason it was discarded first.
 
 ---
 
@@ -75,7 +75,7 @@ If two or three rounds don't produce a clean sample, say the search is wrong. Ne
 A low fit rate has two causes with opposite repairs:
 
 - **The search is too wide.** The misses are companies the user never wanted (consultancies, resellers, media that share your keywords). The ICP is doing its job. **Fix the search.**
-- **The ICP is too tight.** The misses are companies the user *did* want, rejected on a fact nobody publishes. **Fix the ICP** (see **[outbound-context](../outbound-context/SKILL.md)**).
+- **The ICP is too tight.** The misses are companies the user *did* want, rejected on a fact nobody publishes. **Fix the ICP** (see **[icp](../icp/SKILL.md)**).
 
 Read the misses before changing anything. Ask: would the user have wanted this company at all?
 
@@ -150,4 +150,5 @@ After the table, always add:
 ## Related Skills
 
 - **[connection-requests](../connection-requests/SKILL.md)**: what to do with the list on LinkedIn.
-- **[outbound-context](../outbound-context/SKILL.md)**: where the ICP and best customers live.
+- **[icp](../icp/SKILL.md)**: who the list is judged against, and the trigger to search for.
+- **[outbound-context](../outbound-context/SKILL.md)**: the value proposition and the voice.
