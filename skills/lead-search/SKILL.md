@@ -2,7 +2,7 @@
 name: lead-search
 description: Find and build a B2B lead list worth sending to, on LinkedIn and the open web, then check it against the ICP before filling it. Starts from an active initiative, then measures the market, because a small market needs a different strategy. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Work the closest people first (warm network, tribes, signals, competitors' audiences, then cold), probe 20 to 40 results before filling a list, reach one or two people per company in a large market, and fix the search, not the ICP, when results are the wrong kind of company. For a market of a few hundred companies, see small-market. For how to write a Sales Navigator search, see sales-navigator. For the invitations that follow, see connection-requests.
 metadata:
-  version: 0.4.2
+  version: 0.4.6
 ---
 
 # Lead Search
@@ -13,12 +13,12 @@ The list decides about 90% of the outcome. A great message to the wrong people f
 
 ## Before Starting
 
-**Every list serves one initiative. Check this first.** Read `.agents/initiatives.md` and find the active initiative this list is for. Its bet says the ICP, the offer and the source, so the search starts from there. Its expectation says how many people it needs. If the file is missing or no active initiative fits, don't search yet. Your first reply says that no initiative covers this list, and proposes one with **[initiatives](../initiatives/SKILL.md)**: the ICP, the offer, the source, an end date and what it should bring. Search after the user agrees. A list with no initiative has no end date and nothing to judge it against.
+Two steps, in this order, before any search:
 
-**Then check the outbound context.**
-Read `.agents/icp.md`: the ICP, its best customers and why they buy are there. Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`) for the rest. If the context file doesn't exist, use the **[outbound-context](../outbound-context/SKILL.md)** skill first: it takes a few minutes and every later search reuses it. Then ask only for what is still missing.
+1. **Read the outbound context.** Read `.agents/icp.md`: the ICP, its best customers and why they buy are there. Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`) for the rest. If the context file doesn't exist, use the **[outbound-context](../outbound-context/SKILL.md)** skill first: it takes a few minutes and every later search reuses it. If there is no ICP at all, define one first with **[icp](../icp/SKILL.md)**: searching without one means judging results against a hunch. Skip any ICP marked discarded. If the user asks for it again, show the reason it was discarded first.
+2. **Find the initiative. Every list serves one.** Read `.agents/initiatives.md` and find the active initiative this list is for. Its bet says the ICP, the offer and the source, so the search starts from there. Its expectation says how many people it needs. If the file is missing or no active initiative fits, don't search yet. Your first reply says that no initiative covers this list, and proposes one with **[initiatives](../initiatives/SKILL.md)**: the ICP, the offer, the source, an end date and what it should bring. Search after the user agrees. A list with no initiative has no end date and nothing to judge it against.
 
-If there is no ICP at all, stop and define one first with **[icp](../icp/SKILL.md)**. Searching without one means judging results against a hunch. Skip any ICP marked discarded. If the user asks for it again, show the reason it was discarded first.
+Then ask only for what is still missing.
 
 ---
 
@@ -64,9 +64,12 @@ For a researched list, write each cell as a full statement a stranger could chec
 
 ---
 
-## Companies First, Then People
+## Companies or People First: It Depends
 
-Unless the list comes from a relationship (warm network, tribe), build the **companies** list first, then find the people inside it.
+Search from the side where the fit is easiest to filter.
+
+- **People first** when the role is the fit, and a title filter finds it: CHROs in LATAM, founders in Buenos Aires. Search the role directly, and judge each person's company after.
+- **Companies first** when the fit is in the company and no title filter can see it: an industry, a size, a tech they use, a signal like a funding round. Build the company list, then find the people inside it.
 
 **In a large market, reach one or two people per company, not ten.** Many messages into one company in a short time looks like spam to filters, and colleagues who compare near-identical messages write you off. Pick the one or two whose job your problem affects and who can act on it.
 
@@ -96,12 +99,6 @@ Read the misses before changing anything. Ask: would the user have wanted this c
 
 ---
 
-## Writing the Search
-
-Sales Navigator is the default for sources 3 to 5. How to turn the ICP into filters, and how to read what comes back, is in **[sales-navigator](../sales-navigator/SKILL.md)**.
-
----
-
 ## Beyond LinkedIn: The Open Web
 
 Some of the best lists are not on LinkedIn:
@@ -113,8 +110,6 @@ Some of the best lists are not on LinkedIn:
 - **Public technical traces.** GitHub issues, changelogs, forum threads where practitioners describe the problem in their own words.
 - **Local press and funding news.** A raise, a new market, a new plant.
 
-Use public business information only. Don't bypass logins or CAPTCHAs, and don't buy lists with no known source.
-
 ---
 
 ## When There Is No Signal at All (Source 5)
@@ -125,15 +120,10 @@ Build with ICP filters and nothing cleverer. Then **split the list** by country,
 
 ## How Big
 
-Plan from what the senders can send. One LinkedIn seat sends about 150 invitations a week (see **[connection-requests](../connection-requests/SKILL.md)**). Aim for enough people to keep every seat sending for about two working weeks: roughly 250 per seat at 25 a day.
+It depends on how sure you are of the market:
 
-**The floor is about 30.** Below that, the results can't tell luck from a working motion.
-
----
-
-## Build the First 50 by Hand
-
-For a new market, research the first 50 accounts one by one: their site, job posts, founder's posts, reviews, news. It feels slow. It teaches you which traits actually predict a fit and which signal you were sure about is noise. Automating before you know that is scaling a hunch.
+- **Validating a market** (the ICP is still being tested): about 200 to 300 people are enough to see if it works.
+- **Sure of the market:** as big as you can. The limit is what the senders can send: one LinkedIn seat sends about 150 invitations a week (see **[connection-requests](../connection-requests/SKILL.md)**).
 
 ---
 
