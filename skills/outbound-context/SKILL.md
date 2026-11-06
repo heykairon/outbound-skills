@@ -2,7 +2,7 @@
 name: outbound-context
 description: Create or update the outbound context file (.agents/outbound-context.md) that every other outbound skill reads first. It holds the sender's voice, which stays true from one campaign to the next, and points to the ICPs and the value proposition, which live in their own files. Use when the user says "set up my outbound," "onboard me," "outbound context," "here's my company," "how I write," or starts any outbound task with no context file yet. Draft from what you already know, ask only what you cannot look up, one question at a time, and never invent a fact about the company. Who the user sells to belongs in icp, and what they promise belongs in value-prop. What the user is testing (an offer, a region, a new buyer, a goal with a date) belongs in initiatives.
 metadata:
-  version: 0.5.0
+  version: 0.6.0
 ---
 
 # Outbound Context
@@ -84,4 +84,4 @@ Change only the section that moved, and update the date. A new offer, region or 
 - **[icp](../icp/SKILL.md)**: who the user sells to, in `.agents/icp.md`.
 - **[value-prop](../value-prop/SKILL.md)**: what the user promises, in `.agents/value-prop.md`.
 - **[initiatives](../initiatives/SKILL.md)**: what the user is testing, until when, and what they expect from it.
-- **[lead-search](../lead-search/SKILL.md)**, **[connection-requests](../connection-requests/SKILL.md)**, **[linkedin-posts](../linkedin-posts/SKILL.md)**: they all read this file first.
+- **[lead-search](../lead-search/SKILL.md)**, **[linkedin-posts](../linkedin-posts/SKILL.md)**: they all read this file first.

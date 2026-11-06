@@ -2,7 +2,7 @@
 name: icp
 description: Define, test and update the ideal customer profiles in .agents/icp.md, the one file every outbound skill reads to know who to go after. Built on Alex Hormozi's $100M Offers (pick a starving crowd, then commit to a niche) and his first-avatar method (find what the best customers have in common). Use when the user says "define my ICP," "who should I sell to," "ideal customer," "target market," "which niche," "is this a good market," "our best customers," "update my ICP," "this segment doesn't work," or "drop this ICP." Start from the best customers, not from a wish. Test the market for pain, money, ease of finding and growth, narrow until someone is left out, never invent a customer or a fact, and let the user set each ICP's status. For testing an ICP with outreach, see initiatives.
 metadata:
-  version: 0.1.1
+  version: 0.2.0
 ---
 
 # ICP
@@ -13,7 +13,9 @@ This skill owns `.agents/icp.md`: what an ICP is made of, and the rules for each
 
 ## Before Starting
 
-Read `.agents/icp.md` if it exists, and update only what changed. Read `.agents/value-prop.md` for what the user promises. If neither exists and the user is starting from zero, use **[outbound-context](../outbound-context/SKILL.md)** first.
+**Requires [outbound-context](../outbound-context/SKILL.md).** Read that skill's Before Starting first, and read the files it names. If the file that skill owns does not exist yet, do that skill first. This skill does not repeat any of it.
+
+Read `.agents/icp.md` if it exists, and update only what changed.
 
 Draft from what you hold, then ask, one thing per turn. **Never invent a customer, a number or a buyer.** An invented ICP reads plausible and sends every later list after the wrong people. Leave the gap open instead.
 

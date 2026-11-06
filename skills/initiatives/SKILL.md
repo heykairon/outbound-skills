@@ -2,7 +2,7 @@
 name: initiatives
 description: Create, track and review the user's go-to-market initiatives in .agents/initiatives.md. An initiative is a bet with an end date (one ICP, one offer and one source of leads, changing one thing such as region, industry, size, buyer, offer or source) and what it should bring by then, worked back from real rates. Use when the user says "I want to test," "let's try selling to," "new initiative," "what should we try next," "set a goal," "weekly review," "checkpoint," "how is the push going," "did it work," "what have we tried," or starts outreach toward a goal with a date. Propose the goal with its arithmetic, judge volume before rates, compare against the user's own numbers, end every review with a next move that has an owner, and never propose again what already failed without saying what is different. For who the user is (value proposition, ICPs, voice), see outbound-context.
 metadata:
-  version: 0.2.4
+  version: 0.3.0
 ---
 
 # Initiatives
@@ -11,7 +11,9 @@ An initiative is a bet: this ICP will want this offer, and by this date we will 
 
 ## Before Starting
 
-Read `.agents/icp.md`. Every initiative goes after one of its ICPs. If the initiative goes after people no ICP describes, use **[icp](../icp/SKILL.md)** to add one first, with the status the user gives it. Read `.agents/value-prop.md` for what the user promises: the offer is built from its solutions. Read `.agents/outbound-context.md` for the voice. If it doesn't exist, use **[outbound-context](../outbound-context/SKILL.md)** first.
+**Requires [value-prop](../value-prop/SKILL.md).** Read that skill's Before Starting first, and read the files it names. If the file that skill owns does not exist yet, do that skill first. This skill does not repeat any of it.
+
+Every initiative goes after one ICP. If it goes after people no ICP describes, add that ICP first, with the status the user gives it. The offer is built from the solutions in the value proposition.
 
 Then read `.agents/initiatives.md`, if it exists. Look for two things:
 - **An open initiative with the same bet.** Update it. Don't start a second one.
@@ -25,7 +27,7 @@ Ask for one thing per turn. Draft from what you hold, then ask.
 
 **One ICP, one offer, one source.** The ICP is who you sell to. The offer is the reason to say yes. The source is where the people on the list come from, and what gives you a reason to write to them. Change one thing from what already works: the region, the industry, the company size, the buyer, the offer or the source. Change two at once and the result cannot tell you which one mattered.
 
-**The offer is the reason to say yes.** "I'm in your city next week, coffee?" A report on their industry. A seat at an event. A session on a set date. What makes sense to test depends on the business, so propose, and let the user pick. Something free that solves one problem is a lead magnet: design it with **[lead-magnet](../lead-magnet/SKILL.md)**, and name it here. In our campaigns, a specific session on a specific date drew 17–22% interested replies. A report with no date drew 7–9% ([benchmarks](../connection-requests/references/benchmarks.md)).
+**The offer is the reason to say yes.** "I'm in your city next week, coffee?" A report on their industry. A seat at an event. A session on a set date. What makes sense to test depends on the business, so propose, and let the user pick. Something free that solves one problem is a lead magnet: design it with **[lead-magnet](../lead-magnet/SKILL.md)**, and name it here. In our campaigns, a specific session on a specific date drew 17–22% interested replies. A report with no date drew 7–9% ([benchmarks](references/benchmarks.md)).
 
 ### Start with the closest source
 
@@ -45,7 +47,7 @@ Propose the closest source that still has people in it. Move to the next one whe
 
 **Propose the goal. Don't ask for it.** Draft it in the unit the user needs (calls, customers, sign-ups for an event, not always replies), with the arithmetic, and ask them to confirm or move it.
 
-Work back from the goal to invitations. Use the user's own rates if they have sent before. If not, use our measured rates and **say they are an assumption**: about 33% of invitations accepted, 26% of accepted reply, 26% of replies interested, about half of interested book a meeting (an assumption, not a measurement), and about 150 invitations per LinkedIn seat per week ([benchmarks](../connection-requests/references/benchmarks.md)).
+Work back from the goal to invitations. Use the user's own rates if they have sent before. If not, use our measured rates and **say they are an assumption**: about 33% of invitations accepted, 26% of accepted reply, 26% of replies interested, about half of interested book a meeting (an assumption, not a measurement), and about 150 invitations per LinkedIn seat per week ([benchmarks](references/benchmarks.md)).
 
 > 5 meetings by December 15. If half the interested book (an assumption), that is 10 interested replies. At 26% of replies interested, about 38 replies. At 26% of accepted replying, about 150 accepted. At 33% accepted, about 450 invitations. One seat sends about 150 a week, so one seat needs three weeks.
 
@@ -106,5 +108,4 @@ Then ask the user what it means for the ICP. Whether it is validated or discarde
 - **[lead-magnet](../lead-magnet/SKILL.md)**: what the user gives away, when the offer is a free piece of the work.
 - **[outbound-context](../outbound-context/SKILL.md)**: the voice.
 - **[lead-search](../lead-search/SKILL.md)**: build the list for the initiative's ICP.
-- **[connection-requests](../connection-requests/SKILL.md)**: the invitations, and the measured rates the expectation uses.
 - **[linkedin-posts](../linkedin-posts/SKILL.md)**: content that serves the active initiatives.

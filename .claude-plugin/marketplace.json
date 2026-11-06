@@ -12,7 +12,7 @@
   "plugins": [
     {
       "name": "outbound-skills",
-      "description": "Outbound skills for founders and sales teams: ICP, lead search, signals, LinkedIn profile and posts, connection requests, first messages, follow-ups and funnel diagnosis",
+      "description": "Outbound skills for founders and sales teams: ICP, lead search, signals, LinkedIn profile and posts, first messages, follow-ups and funnel diagnosis",
       "source": "./"
     }
   ]

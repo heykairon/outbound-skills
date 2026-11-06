@@ -2,7 +2,7 @@
 name: value-prop
 description: Write and sharpen the value proposition in .agents/value-prop.md, the one file every outbound skill reads for what the user promises and why a buyer would believe it. Built on Alex Hormozi's value equation from $100M Offers (raise the dream outcome and the likelihood of getting it, cut the time and the effort it takes). Use when the user says "value proposition," "value prop," "what do we promise," "positioning," "why us," "our pitch," "before and after," "nobody gets what we do," "our message sounds generic," or "what problems do our customers have." Write one per ICP, in the customer's words. Work the before and after, list every problem with its solution, push on proof, time and effort rather than on a bigger promise, and never invent proof. For who it is for, see icp.
 metadata:
-  version: 0.1.1
+  version: 0.2.0
 ---
 
 # Value Proposition
@@ -19,7 +19,9 @@ A value proposition says all four in the buyer's words, with proof. This skill o
 
 ## Before Starting
 
-Read `.agents/icp.md`. A value proposition is written for one ICP: two ICPs get two. If there is no ICP yet, use **[icp](../icp/SKILL.md)** first. Read `.agents/value-prop.md` if it exists, and update only what changed.
+**Requires [icp](../icp/SKILL.md).** Read that skill's Before Starting first, and read the files it names. If the file that skill owns does not exist yet, do that skill first. This skill does not repeat any of it.
+
+A value proposition is written for one ICP: two ICPs get two. Read `.agents/value-prop.md` if it exists, and update only what changed.
 
 Draft from what the user already has: the website, a deck, case studies, notes from sales calls, the customers' own replies. Then ask, one thing per turn. **Never invent proof.** Not a customer, a number or a result, not even as an example. An invented proof reads plausible and ends up in every message. Leave the gap open instead.
 

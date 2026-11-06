@@ -2,18 +2,18 @@
 name: small-market
 description: Work a small market account by account (a few hundred companies, big deals, months to close), the way account-based teams do. Use when the user says "ABM," "account-based," "target accounts," "named accounts," "our market is only a few hundred companies," "every company in the industry," "enterprise accounts," "key accounts," "tier 1 accounts," or "we sell to big companies with long sales cycles." Build and save the whole market first, map 3 to 5 buyers per account, tier accounts by fit and dated signals, stay visible to all of them, write only after a signal, and never burn an account. Measure coverage and account state, not reply rates. For a large market, see lead-search.
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Small Market
 
 In a small market you can name every company you could ever sell to. Each person gets one first impression, and when a message fails, no new lead replaces them. So the volume cannot come from a bigger list. It comes from knowing each account, being known by it, and writing when there is a reason.
 
-Buyers also choose before they talk. In 6sense's survey of 2,509 B2B buyers (2025), 94% had ranked the vendors before the first contact, and the favorite won 77% of the time. Being seen for months matters more than any single message.
-
 ## Before Starting
 
-Read `.agents/icp.md`, `.agents/value-prop.md` and `.agents/outbound-context.md`. If the market has not been counted yet, count it first with **[lead-search](../lead-search/SKILL.md)**: this method is only for a market of a few hundred companies, or for the biggest accounts of a larger one.
+**Requires [lead-search](../lead-search/SKILL.md).** Read that skill's Before Starting first, and read the files it names. If the file that skill owns does not exist yet, do that skill first. This skill does not repeat any of it.
+
+This method is only for a market of a few hundred companies, or for the biggest accounts of a larger one. The count from lead-search decides.
 
 Say the timeline before you start: first meetings around month three, and results you can judge around month twelve (a rule of thumb). Whoever approves the work should see it on day one, so nobody judges the method in week five.
 
@@ -86,8 +86,6 @@ For each account:
 4. **Never two look-alike messages in one company in the same week.** Colleagues compare them. One sender per person. If several people send, split the company's buyers between them.
 5. **Make the first ask small and dated.** A seat at a dinner or a roundtable with peers, a visit to their city, or a piece of work made for that account (see **[lead-magnet](../lead-magnet/SKILL.md)**). Never a calendar link.
 
-The invitation itself is in **[connection-requests](../connection-requests/SKILL.md)**.
-
 ---
 
 ## 6. Never Burn an Account
@@ -122,5 +120,4 @@ Show the first 10 rows before you fill the rest. Every fact carries its source. 
 - **[lead-search](../lead-search/SKILL.md)**: count the market first, and search for the companies and the people.
 - **[icp](../icp/SKILL.md)**: the best customers that fit is scored against.
 - **[lead-magnet](../lead-magnet/SKILL.md)**: a piece of work made for one account.
-- **[connection-requests](../connection-requests/SKILL.md)**: the invitation to each buyer.
 - **[linkedin-posts](../linkedin-posts/SKILL.md)**: the weekly post about a target account.

@@ -1,8 +1,8 @@
 ---
 name: lead-search
-description: Find and build a B2B lead list worth sending to, on LinkedIn and the open web, then check it against the ICP before filling it. Starts from an active initiative, then measures the market, because a small market needs a different strategy. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Work the closest people first (warm network, tribes, signals, competitors' audiences, then cold), probe 20 to 40 results before filling a list, reach one or two people per company in a large market, and fix the search, not the ICP, when results are the wrong kind of company. For a market of a few hundred companies, see small-market. For how to write a Sales Navigator search, see sales-navigator. For the invitations that follow, see connection-requests.
+description: Find and build a B2B lead list worth sending to, on LinkedIn and the open web, then check it against the ICP before filling it. Starts from an active initiative, then measures the market, because a small market needs a different strategy. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Work the closest people first (warm network, tribes, signals, competitors' audiences, then cold), probe 20 to 40 results before filling a list, reach one or two people per company in a large market, and fix the search, not the ICP, when results are the wrong kind of company. For a market of a few hundred companies, see small-market. For how to write a Sales Navigator search, see sales-navigator.
 metadata:
-  version: 0.4.6
+  version: 0.5.0
 ---
 
 # Lead Search
@@ -13,10 +13,9 @@ The list decides about 90% of the outcome. A great message to the wrong people f
 
 ## Before Starting
 
-Two steps, in this order, before any search:
+**Requires [initiatives](../initiatives/SKILL.md).** Read that skill's Before Starting first, and read the files it names. If the file that skill owns does not exist yet, do that skill first. This skill does not repeat any of it.
 
-1. **Read the outbound context.** Read `.agents/icp.md`: the ICP, its best customers and why they buy are there. Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`) for the rest. If the context file doesn't exist, use the **[outbound-context](../outbound-context/SKILL.md)** skill first: it takes a few minutes and every later search reuses it. If there is no ICP at all, define one first with **[icp](../icp/SKILL.md)**: searching without one means judging results against a hunch. Skip any ICP marked discarded. If the user asks for it again, show the reason it was discarded first.
-2. **Find the initiative. Every list serves one.** Read `.agents/initiatives.md` and find the active initiative this list is for. Its bet says the ICP, the offer and the source, so the search starts from there. Its expectation says how many people it needs. If the file is missing or no active initiative fits, don't search yet. Your first reply says that no initiative covers this list, and proposes one with **[initiatives](../initiatives/SKILL.md)**: the ICP, the offer, the source, an end date and what it should bring. Search after the user agrees. A list with no initiative has no end date and nothing to judge it against.
+**Every list serves one initiative.** Find the active initiative this list is for. Its bet says the ICP, the offer and the source, so the search starts from there. Its expectation says how many people it needs. If no active initiative fits, don't search yet. Your first reply says that no initiative covers this list, and proposes one: the ICP, the offer, the source, an end date and what it should bring. Search after the user agrees. A list with no initiative has no end date and nothing to judge it against.
 
 Then ask only for what is still missing.
 
@@ -123,7 +122,7 @@ Build with ICP filters and nothing cleverer. Then **split the list** by country,
 It depends on how sure you are of the market:
 
 - **Validating a market** (the ICP is still being tested): about 200 to 300 people are enough to see if it works.
-- **Sure of the market:** as big as you can. The limit is what the senders can send: one LinkedIn seat sends about 150 invitations a week (see **[connection-requests](../connection-requests/SKILL.md)**).
+- **Sure of the market:** as big as you can. The limit is what the senders can send: one LinkedIn seat sends about 150 invitations a week.
 
 ---
 
@@ -144,7 +143,6 @@ After the table, always add:
 
 ## Related Skills
 
-- **[connection-requests](../connection-requests/SKILL.md)**: what to do with the list on LinkedIn.
 - **[icp](../icp/SKILL.md)**: who the list is judged against, and the trigger to search for.
 - **[initiatives](../initiatives/SKILL.md)**: the bet each list serves.
 - **[small-market](../small-market/SKILL.md)**: when the whole market is a few hundred companies.

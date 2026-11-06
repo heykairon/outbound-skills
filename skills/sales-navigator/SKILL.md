@@ -2,7 +2,7 @@
 name: sales-navigator
 description: Turn an ICP into LinkedIn Sales Navigator searches that find those people and nobody else, and read the results before trusting them. Use when the user mentions "Sales Navigator," "Sales Nav," "Sales Nav filters," "LinkedIn search," "boolean search," "my search returns the wrong people," "too many results," "zero results," "recruiters keep showing up," "search by postal code," "search my connections," or "find people who follow a profile." Test the search on the user's own customers first, put each filter on the side where the fit lives (the person or the company), search titles as people write them, combine seniority with function words for leaders, exclude before you add, check what every filter resolved to, and treat a suspiciously large count as nobody matching. Run one search at a time. For which source to search and how to judge the results, see lead-search.
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Sales Navigator
@@ -11,7 +11,9 @@ Your goal is a search that returns the people in `.agents/icp.md` and nobody els
 
 ## Before Starting
 
-Read `.agents/icp.md`. If there is no ICP, define one first with **[icp](../icp/SKILL.md)**. Which source to search, and how to judge each result against the ICP, is in **[lead-search](../lead-search/SKILL.md)**. This skill is only how to write the search.
+**Requires [lead-search](../lead-search/SKILL.md).** Read that skill's Before Starting first, and read the files it names. If the file that skill owns does not exist yet, do that skill first. This skill does not repeat any of it.
+
+Which source to search, and how to judge each result against the ICP, is in lead-search. This skill is only how to write the search.
 
 ---
 
@@ -162,4 +164,3 @@ Keywords: ("fintech" OR "payments" OR "neobank")
 
 - **[lead-search](../lead-search/SKILL.md)**: which source to search, the probe of 20 to 40 results, and how to judge each one.
 - **[icp](../icp/SKILL.md)**: who the search is for, and the customers to test it on.
-- **[connection-requests](../connection-requests/SKILL.md)**: what to do with the list.

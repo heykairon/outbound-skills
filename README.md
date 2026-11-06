@@ -19,7 +19,7 @@ npx skills add heykairon/outbound-skills
 One skill only:
 
 ```bash
-npx skills add heykairon/outbound-skills --skill connection-requests
+npx skills add heykairon/outbound-skills --skill lead-search
 ```
 
 **Claude Code plugin:**
@@ -45,10 +45,10 @@ After you install, run `/outbound-context` (or ask your agent to "use the outbou
    ▼              ▼              ▼               ▼                ▼
 Strategy        Leads        Profile &        Outreach          Measure
                               content
-initiatives    lead-search   linkedin-       connection-       funnel-
-icp            small-market   profile         requests          diagnosis
-lead-magnet    signal-leads  linkedin-posts  linkedin-messages
-value-prop     warm-network  linkedin-       follow-ups
+initiatives    lead-search   linkedin-       linkedin-         funnel-
+icp            small-market   profile         messages          diagnosis
+lead-magnet    signal-leads  linkedin-posts  follow-ups
+value-prop     warm-network  linkedin-
                sales-         comments
                navigator
 ```
@@ -57,7 +57,6 @@ value-prop     warm-network  linkedin-       follow-ups
 
 | Skill | Status | What it does |
 |-------|--------|--------------|
-| [connection-requests](skills/connection-requests/) | ✅ | The note, weekly volume, reading the acceptance rate |
 | [outbound-context](skills/outbound-context/) | ✅ | Your voice, and the start of every setup: every skill reads it |
 | [value-prop](skills/value-prop/) | ✅ | Your value proposition, built on the value equation: before and after, proof, time, effort, problems and solutions |
 | [initiatives](skills/initiatives/) | ✅ | What you are testing: an ICP plus an offer, an end date, what you expect, and what already failed |

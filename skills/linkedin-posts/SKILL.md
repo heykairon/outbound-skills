@@ -2,7 +2,7 @@
 name: linkedin-posts
 description: Write LinkedIn posts that bring leads, not just likes, on one subject, rotating four pillars (tactical, aspirational, personal, insight), with a hook that earns the "see more" click and no AI tells. Use when the user mentions "LinkedIn post," "write a post," "content ideas," "what should I post," "hook," "personal branding," "thought leadership," "content calendar," "posting strategy," "my posts get no reach," "ghostwrite," or "post about [topic]." Never invent an anecdote or a statistic, stay on the one subject where the ICP's pain meets what the user sells, no em dashes, and measure leads per post rather than impressions.
 metadata:
-  version: 0.1.3
+  version: 0.2.0
 ---
 
 # LinkedIn Posts
@@ -13,8 +13,9 @@ Content is the one lead source with no ceiling. LinkedIn limits invitations and 
 
 ## Before Writing
 
-**Check for outbound context first:**
-Read `.agents/outbound-context.md` (or `.claude/outbound-context.md`), `.agents/icp.md` and `.agents/value-prop.md`. The value proposition shapes the angle, its list of problems gives the hooks, the ICP says who it is for, and the voice section says how the user writes. If the file doesn't exist, use the **[outbound-context](../outbound-context/SKILL.md)** skill first. A post written without it sounds like nobody.
+**Requires [value-prop](../value-prop/SKILL.md).** Read that skill's Before Starting first, and read the files it names. If the file that skill owns does not exist yet, do that skill first. This skill does not repeat any of it.
+
+The value proposition shapes the angle, its list of problems gives the hooks, the ICP says who it is for, and the voice says how the user writes. A post written without them sounds like nobody.
 
 Then gather material:
 - **The user's last posts**, to match their voice and avoid repeating them.

@@ -20,7 +20,7 @@ skills/<name>/
 - The frontmatter must parse as YAML. A `: ` inside the description breaks it (GitHub shows an error, and some installers reject the skill), so use parentheses or a full stop instead.
 - `metadata.version` bumps on every shipped change.
 - `SKILL.md` stays under about 250 lines. Detail goes in `references/`, and every reference file is linked from `SKILL.md`.
-- Every skill reads `.agents/outbound-context.md` first, plus the files it points to (`.agents/icp.md` for the ICPs, `.agents/value-prop.md` for the value proposition), and asks only for what is missing. If a file is missing and the job needs it, the skill says which skill writes it.
+- Skills form a dependency graph with no cycles, rooted at outbound-context. Every other skill opens its `## Before Starting` with one line, `**Requires [name](../name/SKILL.md).**`, naming the skill to read first. The agent follows the chain back to the root. A skill never repeats what an earlier skill in its chain already reads or asks: it names only its own files and steps. `scripts/check_refs.py` checks all three.
 - One source of truth per thing. A skill defines the parts of only its own file. Other skills read that file and link to its skill. They never repeat its template or its rules.
 - Every skill works by hand or with any tool, and never names a vendor's tools.
 - Link another skill as `**[name](../name/SKILL.md)**`. Name only skills that exist. A skill that is not written yet is not mentioned.

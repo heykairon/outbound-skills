@@ -2,7 +2,7 @@
 name: lead-magnet
 description: Design lead magnets and keep them in .agents/lead-magnets.md, the one file other skills read for what the user gives away to start a conversation. Built on Alex Hormozi's $100M Leads (a complete solution to a narrow problem that reveals the next problem, the one the paid offer solves). Use when the user says "lead magnet," "what can I give away," "free offer," "something to offer in the first message," "freebie," "free audit," "free report," "nobody wants a call," "give value first," or "what do I offer strangers." Try the paid offer first. Pick one narrow problem from the value proposition, make it done for the person from public facts, worth paying for and free of effort, with a clear next step and a true reason to take it now. Never invent a fact about the person. For the problems it starts from, see value-prop.
 metadata:
-  version: 0.1.1
+  version: 0.2.0
 ---
 
 # Lead Magnet
@@ -13,7 +13,9 @@ This skill owns `.agents/lead-magnets.md`: what a lead magnet is made of, and it
 
 ## Before Starting
 
-Read `.agents/icp.md` and `.agents/value-prop.md`. A lead magnet is for one ICP, and it starts from that ICP's problems and solutions. If either is missing, use **[icp](../icp/SKILL.md)** or **[value-prop](../value-prop/SKILL.md)** first. Read `.agents/lead-magnets.md` if it exists, and update only what changed.
+**Requires [value-prop](../value-prop/SKILL.md).** Read that skill's Before Starting first, and read the files it names. If the file that skill owns does not exist yet, do that skill first. This skill does not repeat any of it.
+
+A lead magnet is for one ICP, and it starts from that ICP's problems and solutions. Read `.agents/lead-magnets.md` if it exists, and update only what changed.
 
 Draft from what you hold, then ask, one thing per turn.
 
@@ -114,4 +116,3 @@ Show the full draft. Save only after a clear yes. Then say in one line what the 
 - **[value-prop](../value-prop/SKILL.md)**: the problems and solutions a lead magnet starts from.
 - **[icp](../icp/SKILL.md)**: who each lead magnet is for.
 - **[initiatives](../initiatives/SKILL.md)**: test a lead magnet against the direct ask.
-- **[connection-requests](../connection-requests/SKILL.md)**: the invitation, which never carries the offer.
