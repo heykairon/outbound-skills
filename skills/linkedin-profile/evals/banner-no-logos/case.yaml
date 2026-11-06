@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: banner-no-logos
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Does not put Bimbo or FEMSA on the banner as customers or logos, and says why: they are not customers
+  - Uses only real proof from the files, such as Alimentos Toluca or its 9% to 5% result, or leaves proof out
+  - The banner names the value proposition, the tribe it speaks to and a call to action
+  - Replies in Spanish

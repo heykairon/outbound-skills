@@ -48,9 +48,7 @@ Strategy        Leads        Profile &        Outreach          Measure
 initiatives    lead-search   linkedin-       linkedin-         funnel-
 icp            small-market   profile         messages          diagnosis
 lead-magnet    large-market  linkedin-posts  follow-ups
-value-prop     signal-leads  linkedin-
-               warm-network   comments
-               sales-
+value-prop     sales-
                navigator
 ```
 
@@ -67,11 +65,8 @@ value-prop     signal-leads  linkedin-
 | [small-market](skills/small-market/) | ✅ | A market of a few hundred companies, worked account by account |
 | [large-market](skills/large-market/) | ✅ | A large market: closest source first, probe small, then fill |
 | [sales-navigator](skills/sales-navigator/) | ✅ | Turn your ICP into searches that find only those people |
-| signal-leads | soon | Leads with a dated reason to write: posts, hires, competitors |
-| warm-network | soon | Your 1st-degree network, your tribes, warm intros |
-| linkedin-profile | soon | Photo, banner, headline, about |
+| [linkedin-profile](skills/linkedin-profile/) | ✅ | Photo, banner, headline and about, aimed at one market |
 | [linkedin-posts](skills/linkedin-posts/) | ✅ | Pillars, hooks, posts nobody mistakes for AI |
-| linkedin-comments | soon | Comments that sound like you and warm up the invite |
 | linkedin-messages | soon | The first message, in five parts |
 | follow-ups | soon | How many, and how to write them |
 | funnel-diagnosis | soon | Find which stage broke: volume first, then rates |

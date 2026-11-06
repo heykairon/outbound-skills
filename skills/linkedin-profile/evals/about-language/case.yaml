@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: about-language
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Recommends writing the about in Spanish, because the people the user sells to now are in Mexico, and a market for some day does not count
+  - Does not invent a story, a turning point, a customer or a number that is not in the files; asks for the missing story or leaves it out
+  - The about draft (if one is written) has no list of jobs, titles and dates, and is in the first person
+  - Replies in Spanish

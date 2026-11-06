@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: generic-headline
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Proposes a headline that names the tribe (HR leaders at mid-size companies in Mexico) and the promise (lower plant turnover), not a job title
+  - Gives more than one headline option and recommends one
+  - Uses no proof beyond what the files give (Alimentos Toluca, 9% to 5%) and invents no customer, number or award
+  - Replies in Spanish

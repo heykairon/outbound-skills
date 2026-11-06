@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: post-from-story
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - The first two lines open on a concrete fact from the story (31 operators, line 2, March, or 9 of 12 interviews) with no warm-up sentence
+  - Uses only facts from the story and the files, and invents no number, quote, name or result
+  - Uses simple everyday words an HR manager would say out loud, with no consultant or industry jargon such as optimizar, talento, engagement, sinergia or estrategia integral
+  - Suggests attaching the whiteboard photo, or another photo or screenshot, as proof
+  - Has no filler line: every line adds a fact, a step or the point
+  - Contains zero em dashes and no 'no es X, es Y' construction
+  - Is written in Spanish, informal (tú)

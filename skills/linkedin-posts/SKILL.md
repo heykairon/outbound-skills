@@ -2,7 +2,7 @@
 name: linkedin-posts
 description: Write LinkedIn posts that bring leads, not just likes, on one subject, rotating four pillars (tactical, aspirational, personal, insight), with a hook that earns the "see more" click and no AI tells. Use when the user mentions "LinkedIn post," "write a post," "content ideas," "what should I post," "hook," "personal branding," "thought leadership," "content calendar," "posting strategy," "my posts get no reach," "ghostwrite," or "post about [topic]." Never invent an anecdote or a statistic, stay on the one subject where the ICP's pain meets what the user sells, no em dashes, and measure leads per post rather than impressions.
 metadata:
-  version: 0.2.0
+  version: 0.3.0
 ---
 
 # LinkedIn Posts
@@ -59,6 +59,8 @@ The personal pillar is the one people skip, and often the one that performs.
 
 LinkedIn cuts the post at about 200 characters, behind "see more". The hook has to stop the scroll and earn the click inside that space.
 
+**Spend 95% of the work on the hook.** If nobody clicks "see more", the rest of the post doesn't exist. Write many hooks, and keep the best one.
+
 **Two lines:**
 1. **A concrete anchor plus proof only the user could give:** a real number, name, date or place, from their own story. No warm-up sentence.
 2. **What the reader gets:** exactly what the post will give them.
@@ -68,6 +70,8 @@ LinkedIn cuts the post at about 200 characters, behind "see more". The hook has 
 - **Aspirational:** "X went from A to B by doing Y. Here's the exact breakdown." A photo of the result or the people.
 - **Personal:** "[A concrete time] ago, [this happened]." Hold back enough that they want the rest. A real photo or video.
 - **Insight:** "X is happening." Your proof. Then the curiosity. A screenshot of the source.
+
+**Add media as much as you can:** a photo, a video, a screenshot. It is proof that the thing really happened, and it says so faster than any sentence.
 
 See [hooks.md](references/hooks.md) for patterns in English and Spanish.
 
@@ -85,13 +89,15 @@ These are what a model writes by default. Remove every one:
 - **Sounding like the company blog.** The value proposition shapes the angle. It never becomes the text, and the post is never a pitch.
 - **A post nobody could disagree with.** The ones that land are slightly scary to publish: a failure, a contrarian take, building in public.
 
-**The voice test:** write it to one real person you know who has the problem, the way you'd write them a WhatsApp message.
+**The voice test:** write it to one real person you know who has the problem, the way you'd write them a WhatsApp message. Then read it out loud. If you would sound weird saying it to them, rewrite it. The post has to read exactly as you speak.
+
+**Use the simplest words there are, in the ICP's language.** The words your buyers use when they talk about the problem, not the words of your industry. If a sentence needs a second read, it is too hard.
 
 ---
 
 ## Length
 
-The hard limit is about 3,000 characters. Shorter almost always wins, but the real rule is that every sentence carries weight.
+The hard limit is about 3,000 characters. Shorter almost always wins, but the real rule is that every line fully deserves its place. Iterate until it does: read each line, ask what the post loses without it, and cut it if the answer is nothing. Then read it again.
 
 ---
 
@@ -104,6 +110,9 @@ Check the draft against each point, and say which pass and which fail:
 - Is every fact real and from the user?
 - Is it on the one subject?
 - Zero em dashes, zero "X, not Y", zero self-answered questions?
+- Read out loud, does it sound like the user talking, in the simplest words the ICP uses?
+- Does every line deserve its place?
+- Is there a photo, a video or a screenshot that proves it happened?
 - Does it sound like the user, not like a blog?
 
 Then fix the failures and say what you changed. "Your hook had no concrete anchor, so I opened with the 14 demos from March" teaches the user what good looks like.
