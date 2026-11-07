@@ -41,15 +41,14 @@ After you install, run `/outbound-context` (or ask your agent to "use the outbou
                          outbound-context
         (voice; points to icp and value-prop — every skill reads it first)
                                  │
-   ┌──────────────┬──────────────┼───────────────┬────────────────┐
-   ▼              ▼              ▼               ▼                ▼
-Strategy        Leads        Profile &        Outreach          Measure
-                              content
-initiatives    lead-search   linkedin-       linkedin-         funnel-
-icp            small-market   profile         messages          diagnosis
-lead-magnet    large-market  linkedin-posts  follow-ups
-value-prop     sales-
-               navigator
+   ┌───────────────┬─────────────┴───────────────┬───────────────┐
+   ▼               ▼                             ▼               ▼
+Strategy         Leads                       Profile &        Outreach
+                                              content
+initiatives      lead-search                 linkedin-        message-
+icp              small-market                 profile          copies
+lead-magnet      large-market                linkedin-posts   funnel-
+value-prop       sales-navigator                               diagnosis
 ```
 
 ## Skills
@@ -67,8 +66,7 @@ value-prop     sales-
 | [sales-navigator](skills/sales-navigator/) | ✅ | Turn your ICP into searches that find only those people |
 | [linkedin-profile](skills/linkedin-profile/) | ✅ | Photo, banner, headline and about, aimed at one market |
 | [linkedin-posts](skills/linkedin-posts/) | ✅ | Pillars, hooks, posts nobody mistakes for AI |
-| linkedin-messages | soon | The first message, in five parts |
-| follow-ups | soon | How many, and how to write them |
+| message-copies | soon | The invitation, the first message and the follow-ups |
 | funnel-diagnosis | soon | Find which stage broke: volume first, then rates |
 
 ## Contributing

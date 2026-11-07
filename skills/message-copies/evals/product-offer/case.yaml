@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: product-offer
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Says the offer (a 30-minute demo of the platform) is the product and proposes a better offer, such as a dated session with peers, a request for help or a piece of work made for them, before or next to writing the product message
+  - The first message opens from the source: Ana's own network or her years in HR at Grupo Bimbo
+  - Each message ends with one question, and none asks for a call or a calendar slot as the first ask
+  - Invents no customer, result, event date or mutual contact that is not in the files
+  - Replies in Spanish

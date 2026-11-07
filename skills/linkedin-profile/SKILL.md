@@ -2,7 +2,7 @@
 name: linkedin-profile
 description: Set up or review the sender's LinkedIn profile so that a stranger who clicks the name after a post, an invitation or a message decides in a few seconds to follow, accept or reply. Use when the user mentions "LinkedIn profile," "headline," "banner," "cover image," "about section," "profile photo," "review my profile," "optimize my LinkedIn," "nobody accepts my invitations," "what should my headline say," or "my profile in English or Spanish." Work the four parts (photo, banner, headline, about), each from the value proposition and the tribe it speaks to, aim all four at one market and its language, judge an existing profile part by part before proposing changes, and never invent proof such as logos, numbers or customers. For the promise the profile makes, see value-prop.
 metadata:
-  version: 0.1.0
+  version: 0.1.2
 ---
 
 # LinkedIn Profile
@@ -24,7 +24,7 @@ If the user has a profile, get it first: the URL, a screenshot, or the text of e
 ## 1. The Photo
 
 - **High definition and real.** Recent, good light, eyes on the camera, dressed the way the sender really dresses.
-- **Status comes from the setting, not from a suit.** On a stage, at an event, in their office, with the tools of their work around them.
+- **Status comes from the setting, not from a suit.** On a stage, at an event, in their office, with the tools of their work around them. A high-definition portrait also gives a sense of authority.
 - **Nothing staged, and no borrowed setting.** A photo in a place the sender never works in is a small lie that the rest of the profile has to carry.
 
 You can't take the photo. Say which of the photos the user has fits best, or describe the one to take.
@@ -46,7 +46,19 @@ Write the banner text as those four lines, each one labelled, so the user sees t
 
 ## 3. The Headline
 
-**The value proposition and the tribe, in one line.** "CEO at Acme" says the sender's title, and nothing about why a stranger should care. "I help HR teams at mid-size Mexican companies cut plant turnover in 90 days" says who it is for and what they get.
+**The value proposition and the tribe, in one line.** "CEO at Acme" says the sender's title, and nothing about why a stranger should care.
+
+Build it from the parts of `.agents/value-prop.md`, the ones that fit:
+
+- **The tribe:** who it is for, in their words.
+- **The dream outcome:** what they get, as a result, not as a product.
+- **The time** to the first result, and **the effort** they no longer have to make.
+- **Proof:** a real customer or a real number, only if the user can back it up.
+- **The role and the company,** last.
+
+Example: "Plant turnover down in 90 days, without hiring | For HR at mid-size companies in Mexico | Founder, Rotar".
+
+**Don't open with "I help" or "Helping".** Everyone writes it, so it reads like a template. Say the result itself.
 
 Write three options, and recommend one.
 

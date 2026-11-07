@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: long-bio
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Cuts the sender's biography to at most one short line about who she is
+  - The rewritten message ends with exactly one question, about the round table (for example whether to save them a seat), and drops the call and the calendar link
+  - Makes the round table concrete with the facts in the files: Friday 4 December, 10:00 CDMX time, one hour, online, with HR leaders
+  - Keeps only real facts from the message and the files, and invents none
+  - Replies in Spanish

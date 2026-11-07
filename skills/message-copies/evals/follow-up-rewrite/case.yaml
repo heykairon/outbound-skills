@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: follow-up-rewrite
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Replaces the follow-up with a short one (one or two lines) that gives a new reason to answer, tied to the round table on Friday 4 December
+  - The new follow-up does not ask whether they saw the previous message and does not say 'just checking in' or similar
+  - Does not write that 2 seats are left as a fact: the files say nothing about seats left, so it uses it only if the user confirms it is true, or uses another true reason
+  - The new follow-up ends with one question, such as whether to save them a seat
+  - Replies in Spanish
