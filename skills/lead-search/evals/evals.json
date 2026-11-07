@@ -4,9 +4,9 @@
     {
       "id": 1,
       "prompt": "Find me heads of payments at fintechs in LATAM on Sales Navigator.",
-      "expected_output": "Should check for outbound-context.md first. Should use the job title filter with seniority plus function words (payments, billing, collections, pagos), not keywords for the title. Should expand LATAM into one location per country. Should put fintech in keywords or use LinkedIn industry names, not 'fintech' as an industry. Should propose a small probe of 20-40 results before filling a list.",
+      "expected_output": "Should check for the outbound context files (.agents/identity.md, .agents/voice.md) first. Should use the job title filter with seniority plus function words (payments, billing, collections, pagos), not keywords for the title. Should expand LATAM into one location per country. Should put fintech in keywords or use LinkedIn industry names, not 'fintech' as an industry. Should propose a small probe of 20-40 results before filling a list.",
       "assertions": [
-        "Checks for outbound-context.md",
+        "Checks for .agents/identity.md or .agents/voice.md",
         "Uses title or seniority filters, not keywords, for the role",
         "Expands LATAM into individual countries",
         "Does not use 'fintech' as an industry name",

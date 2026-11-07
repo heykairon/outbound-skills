@@ -2,7 +2,7 @@
 name: linkedin-profile
 description: Set up or review the sender's LinkedIn profile so that a stranger who clicks the name after a post, an invitation or a message decides in a few seconds to follow, accept or reply. Use when the user mentions "LinkedIn profile," "headline," "banner," "cover image," "about section," "profile photo," "review my profile," "optimize my LinkedIn," "nobody accepts my invitations," "what should my headline say," or "my profile in English or Spanish." Work the four parts (photo, banner, headline, about), each from the value proposition and the tribe it speaks to, aim all four at one market and its language, judge an existing profile part by part before proposing changes, and never invent proof such as logos, numbers or customers. For the promise the profile makes, see value-prop.
 metadata:
-  version: 0.1.2
+  version: 0.1.3
 ---
 
 # LinkedIn Profile
@@ -73,7 +73,7 @@ In this order:
 3. **The short story** of how the sender got here: the turning point, said concretely; who they were serving then; what it taught them; what they are building now, and for whom.
 4. **The mission**, in plain words.
 
-Leave out the list of jobs, titles and dates (the experience section has them), the awards, and anything the user can't back up. Write in the first person, in the voice from `.agents/outbound-context.md`. Keep it under a minute to read.
+Leave out the list of jobs, titles and dates (the experience section has them), the awards, and anything the user can't back up. Write in the first person, in the sender's voice. Keep it under a minute to read.
 
 **Never invent the story.** If you don't know the turning point, ask for it. Don't write a plausible one.
 

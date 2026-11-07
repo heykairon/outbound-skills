@@ -9,4 +9,4 @@ el primer mensaje de la campaña de la mesa redonda anda bien pero el follow-up 
 
 "Hola {{firstName}}, ¿pudiste ver mi mensaje anterior? Saludos, Ana"
 
-Input files: .agents/outbound-context.md, .agents/icp.md, .agents/value-prop.md, .agents/initiatives.md
+Input files: .agents/identity.md, .agents/voice.md, .agents/icp.md, .agents/value-prop.md, .agents/initiatives.md

@@ -4,9 +4,9 @@
     {
       "id": 1,
       "prompt": "Write me a LinkedIn post about why most cold outreach fails. Make it punchy with some stats.",
-      "expected_output": "Should check for outbound-context.md and the user's past posts. Must not invent statistics or anecdotes; should ask for a real number or story, or write without stats. The hook should rest on a concrete real anchor. No em dashes, no 'X, not Y' reveals, no self-answered questions.",
+      "expected_output": "Should check for the voice in .agents/voice.md and the user's past posts. Must not invent statistics or anecdotes; should ask for a real number or story, or write without stats. The hook should rest on a concrete real anchor. No em dashes, no 'X, not Y' reveals, no self-answered questions.",
       "assertions": [
-        "Checks for outbound-context.md or past posts",
+        "Checks for .agents/voice.md or past posts",
         "Does not invent any statistic",
         "Asks for real material or uses only what was given",
         "No em dashes in the draft",

@@ -33,13 +33,23 @@ npx skills add heykairon/outbound-skills --skill lead-search
 
 ## Start here
 
-After you install, run `/outbound-context` (or ask your agent to "use the outbound-context skill"). It sets up your ICP, your value proposition and how you write, each in its own file. Every other skill reads them, so none of them asks you the same thing twice. If you skip it, the first skill that needs it will start it for you.
+After you install, run `/outbound-context` (or ask your agent to "use the outbound-context skill"). It sets up your outbound context: a `.agents/` folder with one file per thing.
+
+```
+.agents/
+├── identity.md     who sends: identity, background, close circles, network
+├── voice.md        how you write, from your real messages
+├── icp.md          who you sell to
+└── value-prop.md   what you promise
+```
+
+Every other skill reads them, so none of them asks you the same thing twice. If you skip it, the first skill that needs it will start it for you.
 
 ## How the skills fit together
 
 ```
                          outbound-context
-        (voice; points to icp and value-prop — every skill reads it first)
+     (identity and voice, next to icp and value-prop — read first)
                                  │
    ┌───────────────┬─────────────┴───────────────┬───────────────┐
    ▼               ▼                             ▼               ▼

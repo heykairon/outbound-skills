@@ -4,7 +4,7 @@
     {
       "id": 1,
       "prompt": "Set up my outbound. We're Acme, we sell payroll software.",
-      "expected_output": "Should look for an existing outbound-context.md first. Should not invent the value proposition from one line. Should ask for material (website, deck, customers) or ask ONE question, not a numbered list. Should not write the file before the user confirms a draft.",
+      "expected_output": "Should look for existing .agents/identity.md and .agents/voice.md first. Should not invent the value proposition from one line. Should ask for material (website, deck, customers) or ask ONE question, not a numbered list. Should not write the file before the user confirms a draft.",
       "assertions": [
         "Looks for an existing context file first",
         "Does not invent customers, proof or numbers",

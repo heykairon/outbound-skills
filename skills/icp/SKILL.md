@@ -1,8 +1,8 @@
 ---
 name: icp
-description: Define, test and update the ideal customer profiles in .agents/icp.md, the one file every outbound skill reads to know who to go after. Built on Alex Hormozi's $100M Offers (pick a starving crowd, then commit to a niche) and his first-avatar method (find what the best customers have in common). Use when the user says "define my ICP," "who should I sell to," "ideal customer," "target market," "which niche," "is this a good market," "our best customers," "update my ICP," "this segment doesn't work," or "drop this ICP." Start from the best customers, not from a wish. Test the market for pain, money, ease of finding and growth, narrow until someone is left out, never invent a customer or a fact, and let the user set each ICP's status. For testing an ICP with outreach, see initiatives.
+description: Define, test and update the ideal customer profiles in .agents/icp.md, the one file every outbound skill reads to know who to go after. Built on Alex Hormozi's $100M Offers (pick a starving crowd, then commit to a niche) and his first-avatar method (find what the best customers have in common). Use when the user says "define my ICP," "who should I sell to," "ideal customer," "target market," "which niche," "is this a good market," "our best customers," "update my ICP," "this segment doesn't work," "where do I find them," or "drop this ICP." Start from the best customers, not from a wish. Test the market for pain, money, ease of finding and growth, narrow until someone is left out, list where to find them (its sources, closest first, from people who already know the user to cold), never invent a customer or a fact, and let the user set each ICP's status. For testing an ICP with outreach, see initiatives.
 metadata:
-  version: 0.2.0
+  version: 0.4.0
 ---
 
 # ICP
@@ -34,7 +34,7 @@ For each best customer, find out:
 
 **Then find the fewest criteria they all share.** Usually 3 to 5. A long list of traits describes customers. A short one filters strangers.
 
-The trigger becomes the signal **[lead-search](../lead-search/SKILL.md)** looks for. Where they first heard of the user becomes the source **[initiatives](../initiatives/SKILL.md)** works.
+The trigger becomes the signal **[lead-search](../lead-search/SKILL.md)** looks for. Where they first heard of the user is a clue to the ICP's best source (see "Sources" below).
 
 **No customers yet?** Start from the offer and 2 to 5 companies the user wants as customers. Say plainly that this ICP is a guess.
 
@@ -61,7 +61,26 @@ If the ICP leaves nobody out, it is not an ICP yet. As a rule of thumb from the 
 
 ---
 
-## 4. Commit, Then Judge
+## 4. Sources, Closest First
+
+A source is where the people on a list come from, and the reason the sender writes to them. The same ICP answers very differently depending on the source, so each ICP lists its own sources, closest first. There are six:
+
+| # | Source | Who |
+|---|--------|-----|
+| 1 | **They already know you** | People the user already talked to, where it stopped halfway: ex-customers, conversations that went quiet, demos that went nowhere, contacts in their CRM. The easiest list, because the context is already there and unused. |
+| 2 | **Network and tribes** | 1st-degree connections who fit the ICP, the sender's close circles, and people who share something with the sender: a university, a school, a past employer, a community, a country. Take them from the sender's identity. |
+| 3 | **They come to you** | People who reacted to the sender's posts, visited the profile, sent an invitation, follow them or subscribe to their newsletter. |
+| 4 | **Warm intros** | Someone the sender knows introduces them: a customer who refers, an investor, a friend. |
+| 5 | **Signals** | Something happened, with a date, or there is a public trace: hiring the role, a funding round, a new job, a post about the problem, going to an event, following or reacting to a competitor, being on a public list (an exhibitor list, a directory, a registry). |
+| 6 | **Cold** | The ICP's filters only, or a lookalike of the best customers. |
+
+In the file, list the ones that apply to this ICP, in this order, with real names: which network, which tribe, which signal, which competitor. A source with no real name behind it is not one yet. Two ICPs usually have different sources: a recruiting buyer leaves different signals than a sales buyer.
+
+Every list starts at source 1: first check whether there is a list the user can work today. Move to the next source only when the closer one runs dry. Never default to cold.
+
+---
+
+## 5. Commit, Then Judge
 
 Pick one ICP and stay with it. Switching between two good markets restarts the learning each time, and makes both look bad.
 
@@ -84,6 +103,7 @@ _Last updated: YYYY-MM-DD_
 - **Best customers:** [real names, and what made each one the best]
 - **Why they buy:** [the trigger, the main reason, where they first heard of us]
 - **Market:** [pain, money, easy to find (with the real count), growing: one line each]
+- **Sources** (closest first): [the ones that apply, each with real names]
 ```
 
 One block per ICP. Most companies have one or two.

@@ -2,7 +2,7 @@
 name: small-market
 description: Work a small market account by account (a few hundred companies, big deals, months to close), the way account-based teams do. Use when the user says "ABM," "account-based," "target accounts," "named accounts," "our market is only a few hundred companies," "every company in the industry," "enterprise accounts," "key accounts," "tier 1 accounts," or "we sell to big companies with long sales cycles." Build and save the whole market first, map 3 to 5 buyers per account, tier accounts by fit and dated signals, stay visible to all of them, write only after a signal, and never burn an account. Measure coverage and account state, not reply rates. For a large market, see lead-search.
 metadata:
-  version: 0.2.0
+  version: 0.2.1
 ---
 
 # Small Market
@@ -81,7 +81,7 @@ Each week, take the accounts that moved to tier A. Not a fixed batch on a fixed 
 
 For each account:
 1. **Research first.** The situation, the signal, and the problem you can see in public sources, each with its source and date.
-2. **Look for a warm path.** Someone the sender knows who knows a buyer beats any cold message.
+2. **Look for a warm intro.** Someone the sender knows who knows a buyer beats any cold message. The ICP's sources name who those people are.
 3. **Start with one person**, the role the signal speaks to: a new CFO is the signer. Bring in the other roles a few days apart, each with their own angle.
 4. **Never two look-alike messages in one company in the same week.** Colleagues compare them. One sender per person. If several people send, split the company's buyers between them.
 5. **Make the first ask small and dated.** A seat at a dinner or a roundtable with peers, a visit to their city, or a piece of work made for that account (see **[lead-magnet](../lead-magnet/SKILL.md)**). Never a calendar link.

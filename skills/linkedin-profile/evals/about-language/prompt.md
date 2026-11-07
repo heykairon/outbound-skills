@@ -7,4 +7,4 @@ allowed_tools: [Read, Glob, Grep, Skill, Write, Edit, Bash]
 
 escribime el acerca de de linkedin. lo quiero en inglés porque queda más profesional, y algún día quiero vender en EE.UU.
 
-Input files: .agents/outbound-context.md, .agents/icp.md, .agents/value-prop.md
+Input files: .agents/identity.md, .agents/voice.md, .agents/icp.md, .agents/value-prop.md

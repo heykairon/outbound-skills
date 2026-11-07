@@ -7,4 +7,4 @@ allowed_tools: [Read, Glob, Grep, Skill, Write, Edit, Bash]
 
 mi último post tuvo 40.000 impresiones y cero leads. ¿fue un éxito?
 
-Input files: .agents/outbound-context.md, .agents/icp.md, .agents/value-prop.md
+Input files: .agents/identity.md, .agents/voice.md, .agents/icp.md, .agents/value-prop.md

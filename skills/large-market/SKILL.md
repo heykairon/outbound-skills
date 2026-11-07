@@ -1,8 +1,8 @@
 ---
 name: large-market
-description: Build lead lists in a large market (more people than you could ever write to, so the ones who don't answer are replaced by new ones). Use when the user says "which source should I use," "start with a cold search," "load all the results," "fill the list," "the search is full of the wrong companies," "should I change the ICP," "how many leads do I need," "split the list," "who do I contact at each company," "job posts as leads," or "exhibitor list." Work the closest source first (warm network, tribes, signals, competitors' audiences, then cold), search from the side a filter can see (people or companies), reach one or two people per company, probe 20 to 40 results before filling, fix the search when the misses are companies nobody wanted, and split a cold list by segment. For counting the market and judging each result, see lead-search.
+description: Build lead lists in a large market (more people than you could ever write to, so the ones who don't answer are replaced by new ones). Use when the user says "which source should I use," "start with a cold search," "load all the results," "fill the list," "the search is full of the wrong companies," "should I change the ICP," "how many leads do I need," "split the list," "who do I contact at each company," "job posts as leads," or "exhibitor list." work the ICP's sources in order, closest first, and never default to cold, search from the side a filter can see (people or companies), reach one or two people per company, probe 20 to 40 results before filling, fix the search when the misses are companies nobody wanted, and split a cold list by segment. For counting the market and judging each result, see lead-search.
 metadata:
-  version: 0.2.0
+  version: 0.3.0
 ---
 
 # Large Market
@@ -17,19 +17,13 @@ This method is for a market lead-search counted as large. A market of a few hund
 
 ---
 
-## 1. Work the Closest Source First
+## 1. Work the ICP's Sources in Order
 
-The same ICP answers very differently depending on where the list comes from. Start with the closest source, and move out only when it runs dry:
+Each ICP in `.agents/icp.md` lists its sources, closest first: the people who already know the user, their network and tribes, the people who come to them, warm intros, signals, and cold last. What each one is, is in **[icp](../icp/SKILL.md)**. If the ICP lists no sources yet, add them there first.
 
-| Source | Who | Why it works |
-|-------|-----|--------------|
-| 1. Warm network | 1st-degree connections, ex-customers, CRM contacts, people who reacted to your posts | They know you. |
-| 2. Tribes | Same school, past employer, country abroad, community, LinkedIn group | The shared thing opens the conversation. |
-| 3. Signals | Hired someone, raised, posted about the problem, going to an event | Something just happened. |
-| 4. Competitors' audience | Followers of a competitor, people who react to their posts | They already know they have the problem. Filter hard: their employees and vendors are mixed in. |
-| 5. Cold | ICP filters only | The hardest source. Use it last. |
+Start at the closest source that still has people in it. **Never default to cold, even when the user asks for a cold search.** If a closer source exists in this market (the sender's network, a tribe, people who reacted to them), name it, and propose it before the cold search. If you don't know, ask that first: the answer changes every rate. Run cold first only if the user still wants it.
 
-Never default to cold, even when the user asks for a cold search. If the sender has a network or a tribe in this market (check `.agents/outbound-context.md`), name it, and propose it before the cold search. If you don't know, ask that first: the answer changes every rate. Run cold first only if the user still wants it. Max out a source before starting the next. No source closes behind you: if you remember a tribe while working signals, work it in parallel.
+Max out a source before starting the next. No source closes behind you: if you remember a tribe while working signals, work it in parallel. A competitor's audience mixes their employees and vendors in with buyers: filter it hard.
 
 ---
 

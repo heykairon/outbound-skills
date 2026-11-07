@@ -4,7 +4,7 @@ context:
   scaffold_script: place-files.sh
 expected_outcome: |
   - Does not go straight to a cold search as the plan: proposes a closer source first (the sender's network, ex-colleagues from Grupo Bimbo, ITAM alumni) or asks whether one exists
-  - Uses the sender facts in outbound-context.md (Grupo Bimbo, ITAM, about 1,400 connections in Mexico) to name the closer sources
+  - Uses the sender facts in identity.md (Grupo Bimbo, ITAM, about 1,400 connections in Mexico) to name the closer sources
   - If it does plan a cold search, proposes splitting it by segment (industry, size or role) or probing a small sample before filling
   - Proposes one or two people per company, not many
   - Asks at most one question in the reply

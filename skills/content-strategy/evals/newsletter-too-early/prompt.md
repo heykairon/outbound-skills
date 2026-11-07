@@ -7,4 +7,4 @@ allowed_tools: [Read, Glob, Grep, Skill, Write, Edit, Bash]
 
 ¿armo un newsletter en linkedin? todavía no publiqué ningún post
 
-Input files: .agents/outbound-context.md, .agents/icp.md, .agents/value-prop.md
+Input files: .agents/identity.md, .agents/voice.md, .agents/icp.md, .agents/value-prop.md

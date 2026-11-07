@@ -7,4 +7,4 @@ allowed_tools: [Read, Glob, Grep, Skill, Write, Edit, Bash]
 
 lo de las clínicas dentales no va. le escribimos a 40, respondieron 3 y ninguna quiso demo, cobran por obra social y no por transferencia. sacalas
 
-Input files: .agents/outbound-context.md, .agents/icp.md, .agents/value-prop.md
+Input files: .agents/voice.md, .agents/icp.md, .agents/value-prop.md
