@@ -47,8 +47,9 @@ Strategy         Leads                       Profile &        Outreach
                                               content
 initiatives      lead-search                 linkedin-        message-
 icp              small-market                 profile          copies
-lead-magnet      large-market                linkedin-posts   funnel-
-value-prop       sales-navigator                               diagnosis
+lead-magnet      large-market                content-         funnel-
+value-prop       sales-navigator              strategy         diagnosis
+                                             linkedin-posts
 ```
 
 ## Skills
@@ -65,8 +66,9 @@ value-prop       sales-navigator                               diagnosis
 | [large-market](skills/large-market/) | ✅ | A large market: closest source first, probe small, then fill |
 | [sales-navigator](skills/sales-navigator/) | ✅ | Turn your ICP into searches that find only those people |
 | [linkedin-profile](skills/linkedin-profile/) | ✅ | Photo, banner, headline and about, aimed at one market |
-| [linkedin-posts](skills/linkedin-posts/) | ✅ | Pillars, hooks, posts nobody mistakes for AI |
-| message-copies | soon | The invitation, the first message and the follow-ups |
+| [content-strategy](skills/content-strategy/) | ✅ | One subject, four pillars, once a week, and leads per post |
+| [linkedin-posts](skills/linkedin-posts/) | ✅ | Hooks, real material, and posts nobody mistakes for AI |
+| [message-copies](skills/message-copies/) | ✅ | The offer first, then the connection note, the first message and the follow-ups |
 | funnel-diagnosis | soon | Find which stage broke: volume first, then rates |
 
 ## Contributing

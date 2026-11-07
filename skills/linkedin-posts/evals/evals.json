@@ -13,30 +13,6 @@
         "No 'it's not X, it's Y' construction"
       ],
       "files": []
-    },
-    {
-      "id": 2,
-      "prompt": "no se que postear en linkedin. vendo software de rutas para empresas de logística",
-      "expected_output": "Should answer in Spanish. Should propose one subject (where logistics companies' pain meets route software) and offer topic ideas across the four pillars (tactical, aspirational, personal, insight) instead of asking the user to pick a topic cold. Should suggest about one post a week.",
-      "assertions": [
-        "Answers in Spanish",
-        "Proposes one subject linking ICP pain and the product",
-        "Offers ideas across all four pillars",
-        "Does not ask the user to choose a topic from scratch"
-      ],
-      "files": []
-    },
-    {
-      "id": 3,
-      "prompt": "My last post got 40,000 impressions but zero leads. Was it a success?",
-      "expected_output": "Should say impressions are not the measure; leads, saves, sends, profile visits and ICP engagement are. Should ask who engaged (ICP or not) and suggest working the people who reacted.",
-      "assertions": [
-        "Says impressions alone do not mean success",
-        "Names leads, saves or ICP engagement as the measures",
-        "Suggests checking whether the ICP engaged",
-        "Suggests reaching out to people who reacted"
-      ],
-      "files": []
     }
   ]
 }

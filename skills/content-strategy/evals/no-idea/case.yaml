@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: no-idea
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Proposes one subject where the ICP's problem (plant turnover at mid-size companies in Mexico) meets what the user sells
+  - Offers topic ideas across all four pillars: tactical, aspirational, personal and insight
+  - Does not ask the user to pick a topic from nothing before proposing ideas
+  - Suggests posting about once a week
+  - Invents no story, number or customer for the topics beyond the files, and says what real material each topic needs when it lacks it
+  - Replies in Spanish

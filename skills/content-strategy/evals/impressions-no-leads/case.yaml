@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: impressions-no-leads
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Says impressions alone do not make the post a success
+  - Names leads, saves, sends or ICP engagement as the measures that matter
+  - Suggests checking whether the people who engaged fit the ICP (HR leaders at mid-size companies in Mexico)
+  - Suggests reaching out to the people who reacted, asking for their view rather than pitching
+  - Replies in Spanish

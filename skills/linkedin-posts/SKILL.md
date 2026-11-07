@@ -1,21 +1,19 @@
 ---
 name: linkedin-posts
-description: Write LinkedIn posts that bring leads, not just likes, on one subject, rotating four pillars (tactical, aspirational, personal, insight), with a hook that earns the "see more" click and no AI tells. Use when the user mentions "LinkedIn post," "write a post," "content ideas," "what should I post," "hook," "personal branding," "thought leadership," "content calendar," "posting strategy," "my posts get no reach," "ghostwrite," or "post about [topic]." Never invent an anecdote or a statistic, stay on the one subject where the ICP's pain meets what the user sells, no em dashes, and measure leads per post rather than impressions.
+description: Write one LinkedIn post that the right people read to the end, save and act on, with a hook that earns the "see more" click and no AI tells. Use when the user says "write a post," "LinkedIn post," "post about [topic]," "rewrite my post," "hook," "ghostwrite," "turn this story into a post," or "is this post good." Never invent an anecdote or a statistic, spend most of the work on the hook, add a photo, video or screenshot as proof, read it out loud, use the simplest words the ICP uses, cut every line that does not earn its place, and no em dashes. For what to post about and how often, see content-strategy.
 metadata:
-  version: 0.3.0
+  version: 0.4.0
 ---
 
 # LinkedIn Posts
 
 You are an expert at founder-led LinkedIn content. Your goal is a post the right people read to the end, save, and act on, written so nobody mistakes it for a machine.
 
-Content is the one lead source with no ceiling. LinkedIn limits invitations and messages per day, lists run out, markets have a size. A post doesn't. And someone who read your post and then wrote to you arrives with intent.
-
 ## Before Writing
 
-**Requires [value-prop](../value-prop/SKILL.md).** Read that skill's Before Starting first, and read the files it names. If the file that skill owns does not exist yet, do that skill first. This skill does not repeat any of it.
+**Requires [content-strategy](../content-strategy/SKILL.md).** Read that skill's Before Starting first, and read the files it names. If the file that skill owns does not exist yet, do that skill first. This skill does not repeat any of it.
 
-The value proposition shapes the angle, its list of problems gives the hooks, the ICP says who it is for, and the voice says how the user writes. A post written without them sounds like nobody.
+The strategy gives the subject and the topic. The value proposition shapes the angle, and the voice says how the user writes. A post written without them sounds like nobody. If the user asks for a post off the subject, say so before you write it.
 
 Then gather material:
 - **The user's last posts**, to match their voice and avoid repeating them.
@@ -29,29 +27,6 @@ Then gather material:
 **Never invent an anecdote or a statistic.** Not a rounded one, not a plausible one, not "something like this happened". A hook must tell a real thing.
 
 When you lack real material, you have two honest moves: **ask the user** for the story, or **work from what they already posted**. Inventing is not a move. A made-up number is the fastest way to destroy the credibility the post exists to build, and it is the user's credibility, not yours.
-
----
-
-## One Subject, Four Pillars
-
-**Pick one subject and stay on it.** LinkedIn reads months of activity to decide who you are and who should see you. AI today, recruiting tomorrow, manufacturing next week: you become hard to place, and the reach goes to someone easier to categorise.
-
-The subject is the overlap of **what the ICP cares about** and **what the user sells**.
-
-Inside that subject, rotate four angles:
-
-| Pillar | Proves | Example |
-|--------|--------|---------|
-| **Tactical** | You know what you're talking about | A framework, a step-by-step, a tip they can use today |
-| **Aspirational** | The approach works | A real client (or own) result, with the breakdown of how |
-| **Personal** | You are a person, not a company | A hard moment and how you got through it, your team's culture. Always a concrete anecdote, with a photo or video. |
-| **Insight** | You're at the front of your field | Your real opinion on news, where the field is going |
-
-The personal pillar is the one people skip, and often the one that performs.
-
-**No idea what to post?** Offer 5 topics per pillar, inside the one subject, instead of asking the user to pick a topic cold.
-
-**Cadence:** once a week is enough to see traction. Each pillar comes around about once a month.
 
 ---
 
@@ -108,7 +83,7 @@ Check the draft against each point, and say which pass and which fail:
 - Is the first line a concrete, real anchor?
 - Does line two say what the reader gets?
 - Is every fact real and from the user?
-- Is it on the one subject?
+- Is it on the subject in the content strategy?
 - Zero em dashes, zero "X, not Y", zero self-answered questions?
 - Read out loud, does it sound like the user talking, in the simplest words the ICP uses?
 - Does every line deserve its place?
@@ -119,23 +94,8 @@ Then fix the failures and say what you changed. "Your hook had no concrete ancho
 
 ---
 
-## Measure Leads, Not Likes
-
-Impressions and likes give you nothing to act on. After each post, count:
-
-- **Saves and sends to a colleague.** The strongest signs the post landed.
-- **Profile visits and new connections** that came from the post.
-- **Whether the ICP engaged.** Ten decision-makers who save it beat a hundred unrelated likes.
-- **Leads.** Conversations that started from the post.
-
-Let leads per post decide what to write more of.
-
-**Then work the people who reacted.** Everyone who commented, reacted or visited came to you. Open a conversation, asking for feedback on the content rather than pitching.
-
----
-
 ## Related Skills
 
-- **[outbound-context](../outbound-context/SKILL.md)**: the voice.
+- **[content-strategy](../content-strategy/SKILL.md)**: the subject, the topics, the cadence, and how to measure each post.
 - **[value-prop](../value-prop/SKILL.md)**: the angle, and the problems that become hooks.
-- **[icp](../icp/SKILL.md)**: who the posts are for.
+- **[outbound-context](../outbound-context/SKILL.md)**: the voice.
