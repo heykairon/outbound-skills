@@ -10,4 +10,3 @@ _Last updated: 2026-09-10_
 - **Time to first result:** open
 - **Effort we remove:** reminders go out on their own by WhatsApp and email.
 - **Why us:** payments reconcile with their system every night.
-- **Weakest driver:** open

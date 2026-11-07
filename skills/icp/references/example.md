@@ -46,11 +46,11 @@ _Last updated: 2026-11-07_
   6. Lookalike: founders of recruiting and staffing firms, and heads of talent acquisition, at companies like the best customers.
 
 ## Founders who sell alone
-- **Status:** validated, since 2026-11-07, because 12 customers like these pay.
-- **Companies:** small agencies or very early startups that sell to a buyer you can find on LinkedIn by title and company, and whose offer already brings traction with little volume. They did outreach before, with a tool or by hand, and got something from it. Nobody else does sales: one person owns the tool and runs it alone.
+- **Status:** validated, since 2026-11-07, because 19 customers like these pay.
+- **Companies:** small agencies or very early startups that sell to a buyer you can find on LinkedIn by title and company, and whose offer already brings traction with little volume. Nobody else does sales: the founder runs the tool alone, whether or not they did outreach before.
 - **People:**
-  - Buys and uses it: the founder. Real titles: Founder · Fundador · Cofundador · CEO & Co-founder · Managing Director · Growth Partner.
-- **Disqualifiers:** buyers you can't find on LinkedIn; never did outreach and nobody owns it; no clear offer yet.
+  - Buys and uses it: the founder. Real titles: Founder · Fundador · Cofundador · CEO & Co-founder · Founder & CEO · Managing Director · Gerente Comercial · Growth Partner.
+- **Disqualifiers:** buyers you can't find on LinkedIn; no clear offer yet.
 - **Best customers:** an AI consultancy (6.8% interested per contact, with a dated stand at a tech week); four more founders working alone at 4–5%.
 - **Why they buy:** to automate prospecting in a very easy way, instead of paying for several complex and more expensive tools.
 - **Business approach:** self-serve. They set it up alone, on one seat at US$49 a month. What keeps them is how easy it is and the price. Later the founder may add a salesperson, slowly: one seat at a time.

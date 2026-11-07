@@ -1,8 +1,8 @@
 ---
 name: value-prop
-description: Write and sharpen the value proposition in .agents/value-prop.md, the one file every outbound skill reads for what the user promises and why a buyer would believe it. Built on Alex Hormozi's value equation from $100M Offers (raise the dream outcome and the likelihood of getting it, cut the time and the effort it takes). Use when the user says "value proposition," "value prop," "what do we promise," "positioning," "why us," "our pitch," "before and after," "nobody gets what we do," "our message sounds generic," or "what problems do our customers have." Write one per ICP, in the customer's words. Work the before and after, list every problem with its solution, push on proof, time and effort rather than on a bigger promise, and never invent proof. For who it is for, see icp.
+description: Write and sharpen the value proposition in .agents/value-prop.md, the one file every outbound skill reads for what the user promises and why a buyer would believe it. Built on Alex Hormozi's value equation from $100M Offers (raise the dream outcome and the likelihood of getting it, cut the time and the effort it takes). Use when the user says "value proposition," "value prop," "what do we promise," "positioning," "why us," "our pitch," "before and after," "nobody gets what we do," "our message sounds generic," "what problems do our customers have," or "how do I answer objections." Write one per ICP, in the customer's words. Work the before and after, list every problem with its solution, push on proof (results with numbers), time and effort rather than on a bigger promise, answer the objections buyers raise with true answers, and never invent proof. For who it is for, see icp.
 metadata:
-  version: 0.2.0
+  version: 0.3.0
 ---
 
 # Value Proposition
@@ -29,7 +29,7 @@ Draft from what the user already has: the website, a deck, case studies, notes f
 
 ## 1. Before and After
 
-- **Before:** the customer's situation today, in their own words, and what it costs them: money, hours, a person's salary, a risk. Take the words from calls, replies and reviews. Never from the website.
+- **Before:** 2 to 4 problems the customer has today, each one said plainly and backed by their own words, then what the problems cost them: money, hours, a person's salary, a risk. Take the words from calls, replies and reviews. Never from the website. A quote in another language is translated, and marked as translated.
 - **After:** the dream outcome. The destination, not the vehicle: "collect 18 days sooner", not "collections software". The strongest version says how others will see them: their boss, their team, their peers. Hormozi's point is that the outcome people value most is the one that raises their status.
 
 **Test:** a customer who reads the before says "that's me". If it reads like a brochure, it is not their words yet.
@@ -41,17 +41,21 @@ Draft from what the user already has: the website, a deck, case studies, notes f
 | Driver | The buyer asks | What to write |
 |--------|----------------|---------------|
 | **Dream outcome** (raise it) | What will I get? | The after, above |
-| **Likelihood** (raise it) | How do I know it will work for me? | Proof: real customers with real numbers, how many, a guarantee if there is one |
+| **Likelihood** (raise it) | How do I know it will work for me? | Proof: what customers like them got, in numbers with their denominators (meetings booked, reply rates), and a guarantee if there is one. How many customers pay is not proof of a result |
 | **Time** (cut it) | How long until I see something? | The first concrete win, and when it arrives. They buy the end result, and stay for the first win |
 | **Effort** (cut it) | What do I have to do? | What they no longer have to do. Done for them beats done by them |
 
 **Work the bottom, not the top.** Anyone can promise a bigger outcome, so a bigger promise sets nobody apart. When two vendors promise the same outcome, it cancels out, and proof, time and effort decide. Make those three concrete, because the buyer judges what they believe, not the real number: "live in two days, we do the setup" beats "fast onboarding".
 
-**Name the weakest driver**, and what would fix it. Usually it is proof, or the time to a first result.
+---
+
+## 3. Objections
+
+List what buyers say before they buy, in their words: from calls, replies and lost deals. "I don't want them to notice it's a bot." "Is the trial long enough?" For each one, write the answer. **Every answer must be true**: a fact about how the product works, or a number from real customers. An objection with no true answer stays on the list, marked open. It shows what to build or to prove next.
 
 ---
 
-## 3. Problems and Solutions
+## 4. Problems and Solutions
 
 **List every step** the customer has to go through to reach the outcome, in order: before, during and after using the product.
 
@@ -69,7 +73,7 @@ The problems become the hooks for posts and first messages. The solutions become
 
 ---
 
-## 4. Why Us
+## 5. Why Us
 
 The mechanism: how the product produces the result in a way others don't. A mechanism, never an adjective. "We reconcile every payment with your ERP every night" is a mechanism. "Powerful and easy" is not.
 
@@ -83,19 +87,27 @@ The mechanism: how the product produces the result in a way others don't. A mech
 _Last updated: YYYY-MM-DD_
 
 ## For [ICP name, as in icp.md]
-- **The line:** We help [who] get [dream outcome] in [time to the first result] without [effort], [proof].
-- **Before:** [their situation, in their words, and what it costs them]
+- **The line:** We help [who] get [dream outcome] [how, in a few words]. [The first result] in [time], without [effort].
+- **Before:**
+  - [problem, said plainly] ("[their words]")
+  - [2 to 4 problems in all]
+  [what it costs them]
 - **After:** [the dream outcome, and how others see them]
-- **Proof:** [real customers and real numbers]
+- **Proof:** [what customers like them got: results in numbers, with denominators]
 - **Time to first result:** [the first concrete win, and when]
 - **Effort we remove:** [what they no longer have to do]
 - **Why us:** [the mechanism]
-- **Weakest driver:** [which one, and what would fix it]
+
+### Objections
+| They say | We answer (true) |
+|----------|------------------|
 
 ### Problems and solutions
 | Step | Problem, in their words | Driver | Solution |
 |------|-------------------------|--------|----------|
 ```
+
+A real one, filled in: [Kairon's value propositions](references/example.md).
 
 Show the full draft. Save only after a clear yes. Then read back the line.
 
