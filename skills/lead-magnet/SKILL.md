@@ -96,6 +96,7 @@ _Last updated: YYYY-MM-DD_
 
 ## [Short name]
 - **For:** [ICP name, as in icp.md]
+- **Status:** [testing since YYYY-MM-DD | validated, with how many were offered it and how many were interested per 100]
 - **Problem it solves:** [one problem from value-prop.md, in their words]
 - **Next problem it shows:** [the one the paid offer solves]
 - **Type and form:** [reveal a problem | a sample | one step of many] + [tool | information | service | physical]
@@ -106,6 +107,8 @@ _Last updated: YYYY-MM-DD_
 ```
 
 One block per lead magnet. Which one each initiative uses lives in **[initiatives](../initiatives/SKILL.md)**.
+
+A real one, filled in: [Kairon's lead magnets](references/example.md).
 
 Show the full draft. Save only after a clear yes. Then say in one line what the user gives away, and what it leads to.
 
