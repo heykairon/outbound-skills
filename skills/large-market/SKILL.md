@@ -19,9 +19,9 @@ This method is for a market lead-search counted as large. A market of a few hund
 
 ## 1. Work the ICP's Sources in Order
 
-Each ICP in `.agents/icp.md` lists its sources, closest first: the people who already know the user, their network and tribes, the people who come to them, warm intros, signals, and cold last. What each one is, is in **[icp](../icp/SKILL.md)**. If the ICP lists no sources yet, add them there first.
+Each ICP in `.agents/icp.md` lists its sources, closest first: the people who already know the user, their network and tribes, the people who come to them, warm intros, signals, and a lookalike search last. What each one is, is in **[icp](../icp/SKILL.md)**. If the ICP lists no sources yet, add them there first.
 
-Start at the closest source that still has people in it. **Never default to cold, even when the user asks for a cold search.** If a closer source exists in this market (the sender's network, a tribe, people who reacted to them), name it, and propose it before the cold search. If you don't know, ask that first: the answer changes every rate. Run cold first only if the user still wants it.
+Start at the closest source that still has people in it. **Never default to the lookalike, even when the user asks for a cold search.** If a closer source exists in this market (the sender's network, a tribe, people who reacted to them), name it, and propose it before the cold search. If you don't know, ask that first: the answer changes every rate. Run the cold search first only if the user still wants it.
 
 Max out a source before starting the next. No source closes behind you: if you remember a tribe while working signals, work it in parallel. A competitor's audience mixes their employees and vendors in with buyers: filter it hard.
 
@@ -62,9 +62,9 @@ Read the misses before changing anything. Ask: would the user have wanted this c
 
 ---
 
-## 4. A Cold List: Split It
+## 4. A Lookalike List: Split It
 
-With no signal at all, build with the ICP filters and nothing cleverer. Then **split the list** by country, industry or role, so you learn which segment responds. And because the list is a guess, the message asks whether they have the pain rather than assume it.
+With no closer source left, search the ICP's roles at companies like the best customers, and nothing cleverer. Then **split the list** by country, industry or role, so you learn which segment responds. And because the list is a guess, the message asks whether they have the pain rather than assume it.
 
 ---
 

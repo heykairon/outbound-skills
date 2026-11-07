@@ -31,7 +31,7 @@ Ask for one thing per turn. Draft from what you hold, then ask.
 
 ### Start with the closest source
 
-The source is one of the sources the ICP lists in `.agents/icp.md`, closest first. Propose the closest one that still has people in it, and never default to cold. If the ICP lists no sources yet, add them first with **[icp](../icp/SKILL.md)**: the source changes every rate in the arithmetic. How to work each one in a large market is in **[large-market](../large-market/SKILL.md)**.
+The source is one of the sources the ICP lists in `.agents/icp.md`, closest first. Propose the closest one that still has people in it, and never start with the lookalike search. If the ICP lists no sources yet, add them first with **[icp](../icp/SKILL.md)**: the source changes every rate in the arithmetic. How to work each one in a large market is in **[large-market](../large-market/SKILL.md)**.
 
 ---
 
