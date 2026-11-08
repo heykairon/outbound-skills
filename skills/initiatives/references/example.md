@@ -1,6 +1,6 @@
 # Example: Kairon's Initiatives
 
-This is the real `.agents/initiatives.md` of [Kairon](https://heykairon.com). All four initiatives go after the same one of [Kairon's ICPs](../../icp/references/example.md), and each changes only the source, closest first. The first offers one of [Kairon's lead magnets](../../lead-magnet/references/example.md); its source was sized on a real sample, 46 of Luciano's 1st-degree connections qualified against the ICP. The second is manual: introductions from customers, built from their work history. The third retries a bet that failed, and says what is different this time. The fourth tests a signal Kairon collected before but never wrote to.
+This is the real `.agents/initiatives.md` of [Kairon](https://heykairon.com). All five initiatives go after the same one of [Kairon's ICPs](../../icp/references/example.md), and each changes only the source, closest first. The first offers one of [Kairon's lead magnets](../../lead-magnet/references/example.md); its source was sized on a real sample, 46 of Luciano's 1st-degree connections qualified against the ICP. The second is manual: introductions from customers, built from their work history. The third retries a bet that failed, and says what is different this time. The fourth tests a signal Kairon collected before but never wrote to. The fifth is small on purpose: inbound adds up even when it is little.
 
 ---
 
@@ -38,4 +38,12 @@ This is the real `.agents/initiatives.md` of [Kairon](https://heykairon.com). Al
 - **Until:** 2026-12-18
 - **What we expect:** about 2,930 people match the search, renewing every month; in a sample of 40 about half fit, so about 500 a month. The limit is the seat, not the audience: about 450 invitations by the date. At 8.8 per 100, about 40 interested. If half book a meeting (an assumption), about 20 meetings. The 1st-degree connections who changed roles (122) stay in the network initiative, where the new role decides who gets written to first.
 - **Campaigns:** one campaign from Luciano's seat, fed every week by the same search. The invitation or first message congratulates them on the new role and asks one question about it.
+
+## Sales teams who engage with Luciano
+- **Status:** active
+- **The bet:** Sales teams + a message about what they engaged with, with no offer + people who reacted to or commented on Luciano's posts, or viewed his profile, and have never talked with him. They showed interest first, so writing to them is the most natural opening there is.
+- **What changes:** the source. Kairon already watches who engages with competitors and other voices, but until now not with Luciano's own profile.
+- **Until:** 2026-12-18
+- **What we expect:** small but steady. Luciano's latest post drew about 95 people and about 1 in 6 looked like the ICP; his profile drew about 25 visits in a recent window, about 5 of them ICP. So about 15 to 20 people per post, depending on how often he posts [open: posts per month]. Messages with no offer drew 8.8 interested per 100, so a few interested a month.
+- **Campaigns:** one campaign from Luciano's seat, fed every day by two signals: engaged with Luciano's profile, and viewed Luciano's profile. The campaign skips anyone he already talked to.
 ```
