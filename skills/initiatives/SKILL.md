@@ -67,6 +67,8 @@ Work back from the goal to invitations. Use the user's own rates if they have se
 [Only once it ends. Worked, didn't work, or can't tell. The numbers, and what we learned in one line.]
 ```
 
+A real one, filled in: [Kairon's initiatives](references/example.md).
+
 Show the full draft. Save only after a clear yes. Ended initiatives stay in the file: they are the record.
 
 ---
