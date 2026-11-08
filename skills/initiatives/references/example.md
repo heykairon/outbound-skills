@@ -1,6 +1,6 @@
 # Example: Kairon's Initiatives
 
-This is the real `.agents/initiatives.md` of [Kairon](https://heykairon.com). All five initiatives go after the same one of [Kairon's ICPs](../../icp/references/example.md), and each changes only the source, closest first. The first offers one of [Kairon's lead magnets](../../lead-magnet/references/example.md); its source was sized on a real sample, 46 of Luciano's 1st-degree connections qualified against the ICP. The second is manual: introductions from customers, built from their work history. The third retries a bet that failed, and says what is different this time. The fourth tests a signal Kairon collected before but never wrote to. The fifth is small on purpose: inbound adds up even when it is little.
+This is the real `.agents/initiatives.md` of [Kairon](https://heykairon.com). All six initiatives go after the same one of [Kairon's ICPs](../../icp/references/example.md), and each changes only the source, closest first. The first offers one of [Kairon's lead magnets](../../lead-magnet/references/example.md); its source was sized on a real sample, 46 of Luciano's 1st-degree connections qualified against the ICP. The second is manual: introductions from customers, built from their work history. The third retries a bet that failed, and says what is different this time. The fourth tests a signal Kairon collected before but never wrote to. The fifth is small on purpose: inbound adds up even when it is little. The sixth is the backfill: a lookalike with the lowest priority, so the others take the seat first.
 
 ---
 
@@ -46,4 +46,12 @@ This is the real `.agents/initiatives.md` of [Kairon](https://heykairon.com). Al
 - **Until:** 2026-12-18
 - **What we expect:** small but steady. Luciano's latest post drew about 95 people and about 1 in 6 looked like the ICP; his profile drew about 25 visits in a recent window, about 5 of them ICP. So about 15 to 20 people per post, depending on how often he posts [open: posts per month]. Messages with no offer drew 8.8 interested per 100, so a few interested a month.
 - **Campaigns:** one campaign from Luciano's seat, fed every day by two signals: engaged with Luciano's profile, and viewed Luciano's profile. The campaign skips anyone he already talked to.
+
+## Sales teams in Argentina and Colombia, researched one by one
+- **Status:** active, low priority
+- **The bet:** Sales teams + a message researched for each person, as custom as it can be, that offers the report of 100+ leads + a lookalike search of Argentina and Colombia: founders, CEOs and sales leaders at companies of 11 to 500 people, without the industries that never fit (about 63,000 people). It covers the rest of the market, and lets the research do the work a signal would do.
+- **What changes:** the source and the message. The lookalike is the farthest source, so it comes last and runs as backfill: when the other initiatives run out of people on a given day, this one uses the seat's spare capacity. The message is researched per person before it goes out.
+- **Until:** 2026-12-18
+- **What we expect:** in a sample of 40, 21 passed the ICP (53%), about 14 of them a clear fit, so the audience never runs out. Its volume is whatever the seat has left after the other initiatives [open: measured at the first review]. At 11 interested per 100 and 2 customers per 172 contacted, both measured with founders by invitation, so an assumption until the first review.
+- **Campaigns:** one campaign from Luciano's seat, with the lowest priority. A lookalike source walks the search every day and fills the list; the ICP drops the ones that do not fit and anyone outside Argentina and Colombia. A research step reads each person and company (what they sell and to whom, the sales team and its growth, whether the founder posts, traction) and writes the first message from it, offering a report of 100+ leads built for their buyers.
 ```
