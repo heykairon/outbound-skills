@@ -1,6 +1,6 @@
 # Example: Kairon's Initiatives
 
-This is the real `.agents/initiatives.md` of [Kairon](https://heykairon.com). All three initiatives go after the same one of [Kairon's ICPs](../../icp/references/example.md), and each changes only the source, closest first. The first offers one of [Kairon's lead magnets](../../lead-magnet/references/example.md); its source was sized on a real sample, 46 of Luciano's 1st-degree connections qualified against the ICP. The second is manual: introductions from customers, built from their work history. The third retries a bet that failed, and says what is different this time.
+This is the real `.agents/initiatives.md` of [Kairon](https://heykairon.com). All four initiatives go after the same one of [Kairon's ICPs](../../icp/references/example.md), and each changes only the source, closest first. The first offers one of [Kairon's lead magnets](../../lead-magnet/references/example.md); its source was sized on a real sample, 46 of Luciano's 1st-degree connections qualified against the ICP. The second is manual: introductions from customers, built from their work history. The third retries a bet that failed, and says what is different this time. The fourth tests a signal Kairon collected before but never wrote to.
 
 ---
 
@@ -30,4 +30,12 @@ This is the real `.agents/initiatives.md` of [Kairon](https://heykairon.com). Al
 - **Until:** 2026-12-18
 - **What we expect:** about 100 to 150 new companies a month, so about 150 to 225 by the date, from a sample of Argentina's postings (about 1 in 4 qualifies). One or two buyers each, about 300 people. At 11 interested per 100, about 33 interested and 33 reports to make. At 2 customers per 172 contacted, about 3 new paying teams. The rates come from founders reached by invitation, so they are an assumption until the first review.
 - **Campaigns:** one campaign from Luciano's seat, fed every week by a sweep of new postings. The first message offers the report.
+
+## Sales leaders in a new role
+- **Status:** active
+- **The bet:** Sales teams + a congratulation on the new role, with no offer + people who moved into a sales leadership role (head, director, VP or manager of sales, growth, business development or revenue, CRO, country manager) in the last 90 days, 2nd degree, in Argentina, Mexico, Spain, Chile and Colombia. A leader in a new role is building a plan and is open to new tools. That is how Luciano met the buyer of one of Kairon's Tier A customers: he congratulated him on his new job.
+- **What changes:** the source and the offer. Kairon ran a job-change signal before (June and July, another ICP) but never wrote to the people it found, so this is the first real test. Messages with no offer drew 8.8 interested per 100 (398 contacted).
+- **Until:** 2026-12-18
+- **What we expect:** about 2,930 people match the search, renewing every month; in a sample of 40 about half fit, so about 500 a month. The limit is the seat, not the audience: about 450 invitations by the date. At 8.8 per 100, about 40 interested. If half book a meeting (an assumption), about 20 meetings. The 1st-degree connections who changed roles (122) stay in the network initiative, where the new role decides who gets written to first.
+- **Campaigns:** one campaign from Luciano's seat, fed every week by the same search. The invitation or first message congratulates them on the new role and asks one question about it.
 ```
