@@ -15,7 +15,7 @@ _Last updated: 2026-11-07_
 - **People:**
   - Buys: the founder or CEO, or whoever leads sales or business development. Real titles of the buyers: Founder & CEO · CEO · Co-Founder · Senior Sales & New Business Manager · BDR Director · Founding Head of Sales · Head of Commercial.
   - Uses it: the sales team. Real titles: Account Executive · Sales & Business Development Representative · Sr BDR · Country Manager · Jefe de ventas · Representante comercial · Chief Revenue Officer.
-- **Disqualifiers:** buyers you can't find on LinkedIn (shops, restaurants, mass consumer); nobody in sales (the founder alone is the third ICP); no traction yet; a market of a few hundred accounts.
+- **Disqualifiers:** buyers you can't find on LinkedIn (shops, restaurants, mass consumer); nobody in sales (the founder alone is the third ICP); no traction yet; a market of a few hundred accounts; staffing agencies that hire sellers to place with their clients; companies over 5,000 people.
 - **Best customers:** a fintech infrastructure company (4 seats: account executives and a BDR); a global payroll platform (a BDR director and BDRs; its event invitations got 6–11% interested replies); a career-coaching firm for senior executives (9.5% interested per contact); a marketing consultancy (CEO, CRO and a sales rep; 7.5%); a company with country managers in Chile, Venezuela and Peru (4.5%); 4 more.
 - **Why they buy:** they have concrete growth objectives, and they need a system that reaches them in a predictable way. They need a steady flow of leads, and outreach by hand doesn't scale across several seats.
 - **Business approach:** start with a small account, show the value, then grow into more seats and more volume. Teams added seats 2 to 8 weeks after they started.
