@@ -2,7 +2,7 @@
 name: small-market
 description: Work a small market account by account (a few hundred companies, big deals, months to close), the way account-based teams do. Use when the user says "ABM," "account-based," "target accounts," "named accounts," "our market is only a few hundred companies," "every company in the industry," "enterprise accounts," "key accounts," "tier 1 accounts," or "we sell to big companies with long sales cycles." Build and save the whole market first, map 3 to 5 buyers per account, tier accounts by fit and dated signals, stay visible to all of them, write only after a signal, and never burn an account. Measure coverage and account state, not reply rates. For a large market, see lead-search.
 metadata:
-  version: 0.2.1
+  version: 0.2.2
 ---
 
 # Small Market
@@ -102,6 +102,8 @@ With a few hundred accounts, reply rates are noise. Track:
 - **The state of each account:** not reached, visible, talking, meeting, deal, lost, or waiting until a date.
 
 At each review, say which accounts moved and why.
+
+Real ones, measured by account: [three of our clients' markets](references/example.md).
 
 ---
 
