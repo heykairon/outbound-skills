@@ -115,6 +115,8 @@ _Last updated: YYYY-MM-DD_
 [none yet | name, cadence, subscribers]
 ```
 
+A real one, filled in: [Kairon's content strategy](references/example.md).
+
 Show the full draft. Save only after a clear yes. Then say in one line the subject, and the first topic to post.
 
 ---
