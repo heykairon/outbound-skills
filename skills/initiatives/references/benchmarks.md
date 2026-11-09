@@ -71,7 +71,7 @@ Things made for the person worked when they were already made and needed only a 
 
 | The rest of the message | Change in interest | Against |
 |-------------------------|--------------------|---------|
-| A reason for writing that is true only of this person | +3.6 points | a generic reason, or one about the sender (20 accounts) |
+| A reason specific to this person | +3.6 points | a reason not specific to them (20 accounts); against no reason, +2.5 to +3.1, not significant |
 | A generic reason, or the sender's own plans | no difference | no reason |
 | A link or a form in the first message | −3.9 points | none |
 | Ends with a question about their problem or how they work | −7.2 points | does not |

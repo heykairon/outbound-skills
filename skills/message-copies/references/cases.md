@@ -1,6 +1,6 @@
 # What Worked in Our Clients' Campaigns
 
-These cases come from campaigns run through [Kairon](https://heykairon.com), measured on 2026-11-06, with the reason-for-writing and follow-up patterns added on 2026-11-09. The clients are anonymous. The messages are described, not quoted.
+These cases come from campaigns run through [Kairon](https://heykairon.com), measured on 2026-11-06, with the follow-up patterns added on 2026-11-09. The clients are anonymous. The messages are described, not quoted.
 
 **Interested per contact** is the number of interested replies divided by the number of people contacted (invitations, or messages when there was no invitation). The median client gets about 2%. Many campaigns below reached fewer than 100 people, so read them as signals, not proof.
 
@@ -32,17 +32,6 @@ A job or a career step is something the reader wants for themselves. Those messa
 | People who reacted to a competitor's posts | Our own: founder, free trial with onboarding | 12.5% (80 people) |
 | A shared university or employer | Our own: tribes in the US | 13.2% (91 people) |
 | Asking for help | Our own: design partners, "something new I'm starting" | 17–22% (40–47 people) |
-
-## The reason for writing: only what is true of this person
-
-Same sender, same offer, only the reason changes:
-
-| Client | Reason true only of this person | Generic reason, or the sender's plans |
-|--------|----------------------------------|---------------------------------------|
-| Marketing consultancy, same event | "Given your track record in credit and collections, I thought the meeting could interest you": 20.5% (39 people) | "This Tuesday I'll be at the Marketing Shake Up": 4.0% (126) |
-| Corporate wellbeing firm, same session | "You lead HR in a company with teams in eight countries, and that puts a real mental load on people": 9.7% (175) | "I thought it could interest you given your role in HR": 0% (37, and it carried a link) |
-
-A true fact that has nothing to do with the offer did not help. A uniform supplier opening with "I saw you lead culture and change management" got 1.7%, against 9.1% for its generic message.
 
 ## Patterns in the words
 

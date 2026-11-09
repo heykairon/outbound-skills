@@ -1,13 +1,13 @@
 ---
 name: message-copies
-description: Write the LinkedIn connection note, the first message and the follow-ups for one initiative, starting from the offer, because the offer decides the result more than the wording. Use when the user says "write the message," "first message," "connection note," "invitation note," "DM," "cold message," "follow-up," "nobody answers my message," "rewrite this message," "message sequence," "what do I say after they accept," or "did you see my message." Check the offer first and propose a better one when it is the product itself, give a reason to write that is true only of that person, keep one question at the end and never one about their problem, no link in the first message, 40 to 59 words, follow up with the offer again in fewer words, never ask for a no, leave at most two blanks for a model to fill, and never invent work, facts or mutual contacts. For the offer and the source each initiative tests, see initiatives.
+description: Write the LinkedIn connection note, the first message and the follow-ups for one initiative, starting from the offer, because the offer decides the result more than the wording. Use when the user says "write the message," "first message," "connection note," "invitation note," "DM," "cold message," "follow-up," "nobody answers my message," "rewrite this message," "message sequence," "what do I say after they accept," or "did you see my message." Check the offer first and propose a better one when it is the product itself, give a reason to write that is specific to that person or none, keep one question at the end and never one about their problem, no link in the first message, 40 to 59 words, follow up with the offer again in fewer words, never ask for a no, leave at most two blanks for a model to fill, and never invent work, facts or mutual contacts. For the offer and the source each initiative tests, see initiatives.
 metadata:
-  version: 0.2.0
+  version: 0.2.2
 ---
 
 # Message Copies
 
-Three things decide if a stranger answers with interest: the offer, the reason you wrote to them, and how you ask. In that order. Most people work on the words first. In our clients' campaigns, what the message offered moved interest by up to 20 points, a reason true only of the reader by about 4, and the form of the message (bubbles, case, tone) by nothing measurable ([benchmarks](../initiatives/references/benchmarks.md)). So this skill starts with the offer, and gets to the words last.
+Three things decide if a stranger answers with interest: the offer, the reason you wrote to them, and how you ask. In that order. Most people work on the words first. In our clients' campaigns, what the message offered moved interest by up to 20 points, a specific reason for writing by a few points at most, and the form of the message (bubbles, case, tone) by nothing measurable ([benchmarks](../initiatives/references/benchmarks.md)). So this skill starts with the offer, and gets to the words last.
 
 ## Before Starting
 
@@ -33,7 +33,7 @@ Below the product: a resource that is the same for everyone (a guide, a newslett
 
 **A trip only works with an event behind it.** "We'll have a stand at the tech week in Lima, from the 12th to the 18th" drew 12%. "I'll be in São Paulo from the 5th to the 9th" drew 0–4%.
 
-**If the offer is the product, say so before you write,** and propose a better offer from the list. Write the product message only if the user still wants it.
+**If the offer is the product, say so before you write,** propose a better offer from the list, and write the messages with that offer in the same answer. Don't stop to ask first: the user can still pick the product, and then you rewrite. Leave in a blank, or flag, any fact you need from them.
 
 **Make the offer concrete.** The reader has to picture it: what it is, when, at what time, where, and with whom. "A meetup with finance leaders" is vague. "Wednesday the 21st, 4 pm, one hour, online, about what paying people abroad really costs" is an offer.
 
@@ -41,15 +41,14 @@ Below the product: a resource that is the same for everyone (a guide, a newslett
 
 ---
 
-## 2. A Reason That Only This Person Has
+## 2. A Reason Specific to This Person
 
-A reason to write helps only when it is true of this person alone and says why the offer fits them. A generic reason ("we help companies like yours"), or the sender's own plans ("I'll be in your city"), did the same as no reason at all. A reason only that person has drew about 4 points more interest.
+The reason to write matters much less than the offer. A generic reason ("we help companies like yours") or the sender's own plans ("I'll be in your city") did no better than no reason at all. A reason about this person's career, company or recent activity did a few points better than a generic one, with less certainty than anything about the offer. So spend one line on it, not the effort that belongs in the offer.
 
-- **Works:** "Given your track record in credit and collections, I thought the meeting could interest you." 20% against 4% for the same event with "This Tuesday I'll be at the Marketing Shake Up."
-- **Works:** "I saw you lead HR in a company with teams in eight countries, and that puts a real mental load on people." 10%.
-- **Does not work:** a true fact that has nothing to do with the offer. "I saw on your profile that you lead culture and change management" before a pitch for uniforms drew 2%, against 9% for the same sender's generic message. Congratulations on a new role drew 2–5%.
+- **Specific:** "I saw you lead HR in a company with teams in eight countries, and that puts a real mental load on people."
+- **Generic:** "As an HR leader, I thought this could interest you."
 
-The source of the list tells you where to look for the fact: the event they go to, the post they reacted to, the school they share, the role they just took. Then say in one line why that fact makes the offer fit them.
+The source of the list tells you where to look for the fact: the event they go to, the post they reacted to, the school they share, the role they just took. If you can't find one, skip the reason and go to the offer.
 
 ---
 
@@ -66,15 +65,15 @@ No pitch in the note. The note opens the door, and the message after the accept 
 In this order:
 
 1. **A greeting.** "Hi [name], how are you?" did a little better than any other opening.
-2. **The reason you wrote,** true only of them (section 2).
+2. **The reason you wrote,** specific to them, in one line (section 2).
 3. **The offer, tied to their case.** One person, one problem. Not three things you do. Proof only if it is real: a named customer like them is the strongest line you can add.
 4. **One question they can answer with a yes, at the end.** "Shall I save you a seat?", "Do you want me to send it?", or a call: asking for a call did as well as asking if they want the thing. Two questions turn a message into a form.
 
 Leave out:
 
-- **A question about their problem or how they work.** "Can you see how the business is doing, or do you depend on someone building the report?" drew 1.5%; the same sender's question about who they are drew 20%. Across accounts, ending on their problem cost about 7 points.
+- **A question about their problem or how they work.** "Can you see how the business is doing, or do you depend on someone building the report?" drew 1.5%; the same sender's question about who they are drew 20%, to a different audience. Across accounts, ending on their problem cost about 7 points.
 - **"If it's not a good time, no problem."** It hands them the easy no, and it cost about 3 points.
-- **A link or a form.** "Shall I send you the guide?" drew 13%; the same guide behind a link to a form drew 0%. Send the link after they say yes.
+- **A link or a form.** Across accounts, a link or form in the first message cost about 4 points. Offer to send it, and send the link after they say yes.
 - **A teaser that gives nothing.** "We launched something few people know about yet" drew 3%.
 - **The sender's biography.** One line on who they are is enough.
 
@@ -92,7 +91,7 @@ Silence is rarely a no. They missed it, or it came at a bad time. The first foll
 
 - **First follow-up: the offer again, in fewer words.** "I'm closing the list for Tuesday's session at 6:30. Shall I save you a seat?" It drew about 5 points more than "did you see my message?". A reminder is still better than a new angle, a case or a link, which added nothing. Say the list is closing, or how many seats are left, only if it is true: "8 HR leaders" is not "8 seats".
 - **Never ask for a no.** "Is this on your agenda, or is it not the moment?" brought 10 points more refusals and no more interest.
-- **Second follow-up: a new angle, under 60 words.** It did better than "this is my last message".
+- **Second follow-up: a new angle, under 60 words.** It did better than "this is my last message". Build the angle only from facts you have: a detail of the offer, a named customer, a date. Never fill in how a result was achieved.
 
 The words of a follow-up are usually the same for everyone. Write them once.
 
@@ -117,7 +116,7 @@ Not a customer, a result, a mutual contact, a referral, a meeting, or work you d
 ## Before You Hand It Over
 
 - Is the offer something for the reader, and concrete enough to picture?
-- Is the reason true only of this person, and does it say why the offer fits them?
+- Is the reason specific to this person, in one line, or left out?
 - One question at the end, that they can answer with a yes, and not about their problem?
 - No link, no "if it's not a good time", 40 to 59 words?
 - Is every fact real?
