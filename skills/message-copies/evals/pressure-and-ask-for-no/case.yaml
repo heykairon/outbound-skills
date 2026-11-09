@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: pressure-and-ask-for-no
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - The polished first message removes the line 'Y si no es buen momento, no hay problema' and adds no other line that releases the reader from the request
+  - The polished first message does not include the form link; it ends with one question the reader can answer with a yes, such as whether to save them a seat, and the link is kept for after they say yes
+  - The new follow-up does not ask whether it is not the moment or otherwise invite a no; it restates the round table offer in fewer words (for example the date and a question about saving a seat)
+  - Invents no fact that is not in the message or the files: no seats left, no guest names, no customers or results. Facts that are in the files, such as the 8 HR leaders, the date and the time, are allowed
+  - Replies in Spanish
