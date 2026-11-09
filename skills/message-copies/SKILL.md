@@ -2,7 +2,7 @@
 name: message-copies
 description: Write the LinkedIn connection note, the first message and the follow-ups for one initiative, starting from the offer, because the offer decides the result more than the wording. Use when the user says "write the message," "first message," "connection note," "invitation note," "DM," "cold message," "follow-up," "nobody answers my message," "rewrite this message," "message sequence," "what do I say after they accept," or "did you see my message." Check the offer first and propose a better one when it is the product itself, give a reason to write that is specific to that person or none, keep one question at the end and never one about their problem, no link in the first message, 40 to 59 words, follow up with the offer again in fewer words, never ask for a no, leave at most two blanks for a model to fill, and never invent work, facts or mutual contacts. For the offer and the source each initiative tests, see initiatives.
 metadata:
-  version: 0.2.2
+  version: 0.2.3
 ---
 
 # Message Copies
@@ -123,6 +123,8 @@ Not a customer, a result, a mutual contact, a referral, a meeting, or work you d
 - Does the first follow-up restate the offer in fewer words, and does nothing ask for a no?
 
 Show the note, the first message and the follow-ups together, with the wait between them. Say which offer you chose, and why.
+
+A real one, reviewed and rewritten: [one of Kairon's campaigns](references/example.md).
 
 ---
 
