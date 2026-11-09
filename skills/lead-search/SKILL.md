@@ -2,7 +2,7 @@
 name: lead-search
 description: Find and build a B2B lead list worth sending to, on LinkedIn and the open web, then check it against the ICP before filling it. Starts from an active initiative, then measures the market, because a small market needs a different strategy. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Count the market in the unit that matters, let the count pick the strategy, judge every result against the ICP (in or out, with the criterion that decided it), and give every fact its source. For a large market, see large-market. For a market of a few hundred companies, see small-market. For how to write a Sales Navigator search, see sales-navigator.
 metadata:
-  version: 0.6.0
+  version: 0.7.0
 ---
 
 # Lead Search
@@ -39,6 +39,18 @@ The size of the market decides the strategy, so count it before you search for a
 Whatever the source, read each result yourself before it goes on a list. Check it against the ICP in `.agents/icp.md`: title, company, location. Each one is **in or out**, and say which criterion or disqualifier decided it. Open the doubtful ones. Never let a result in because the search returned it.
 
 Every column holds a fact a stranger could check, with its source: "Hiring 3 backend engineers in Madrid, per their careers page, March 2026". Not "yes" or "hot". A fact you could not verify stays empty.
+
+---
+
+## Send First to Who Will Accept
+
+Who receives the invitation moves acceptance more than what the note says. Among the people who pass the ICP, invite these first:
+
+- **2nd degree, with the most mutual connections.** A 3rd-degree contact accepted 6% of the time. With 3 to 10 mutual connections, about 26 points more.
+- **People who posted in the last 30 days.** About 12 points more than people who did not post.
+- **People who started their role in the last 3 months.** About 10 points more, and it is often a reason to write too.
+
+C-level, founders and long careers accept 6 to 12 points less. When they are the buyer, plan more invitations, not a different list. The numbers and how they were measured: [benchmarks](../initiatives/references/benchmarks.md).
 
 ---
 

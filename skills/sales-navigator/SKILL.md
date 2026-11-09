@@ -2,7 +2,7 @@
 name: sales-navigator
 description: Turn an ICP into LinkedIn Sales Navigator searches that find those people and nobody else, and read the results before trusting them. Use when the user mentions "Sales Navigator," "Sales Nav," "Sales Nav filters," "LinkedIn search," "boolean search," "my search returns the wrong people," "too many results," "zero results," "recruiters keep showing up," "search by postal code," "search my connections," or "find people who follow a profile." Test the search on the user's own customers first, put each filter on the side where the fit lives (the person or the company), search titles as people write them, combine seniority with function words for leaders, exclude before you add, check what every filter resolved to, and treat a suspiciously large count as nobody matching. Run one search at a time. For which source to search and how to judge the results, see lead-search.
 metadata:
-  version: 0.2.0
+  version: 0.3.0
 ---
 
 # Sales Navigator
@@ -98,10 +98,12 @@ Use keywords only for tools, skills or tech the user named ("Workday", "Kubernet
 
 Some filters depend on whose account runs the search. They find the warm people, so use them before cold filters:
 
-- **Connection degree:** 1st, 2nd or 3rd degree, from the account that searches.
+- **Connection degree:** 1st, 2nd or 3rd degree, from the account that searches. Prefer 2nd degree: a 3rd-degree contact accepted 6% of invitations, and each mutual connection adds more ([benchmarks](../initiatives/references/benchmarks.md)).
 - **Connections of:** the connections of one person, for example a customer or an investor who can introduce you.
 - **Past colleague**, and the same school or past company as the sender.
 - **Shared experiences:** groups and experiences in common.
+
+Two more filters raise acceptance: **posted on LinkedIn in the past 30 days** (about 12 points more) and **changed jobs in the past 90 days** (about 10 points more).
 
 These answer for the account that runs the search. Run them from the sender's own account, or they find the network of someone else.
 

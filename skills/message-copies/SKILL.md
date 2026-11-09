@@ -2,7 +2,7 @@
 name: message-copies
 description: Write the LinkedIn connection note, the first message and the follow-ups for one initiative, starting from the offer, because the offer decides the result more than the wording. Use when the user says "write the message," "first message," "connection note," "invitation note," "DM," "cold message," "follow-up," "nobody answers my message," "rewrite this message," "message sequence," "what do I say after they accept," or "did you see my message." Check the offer first and propose a better one when it is the product itself, take the reason to write from the source of the list, keep one question at the end, make it concrete (date, time, place), write follow-ups as one line with a new and true reason, leave at most two blanks for a model to fill, and never invent work, facts or mutual contacts. For the offer and the source each initiative tests, see initiatives.
 metadata:
-  version: 0.1.0
+  version: 0.1.1
 ---
 
 # Message Copies
@@ -53,9 +53,9 @@ A real, dated fact about their situation beats any fact about their biography. "
 
 ## 3. The Connection Note
 
-Optional. When there is one, it carries only the reason to write, and at most the offer in one sentence: "With my partner we'll have a stand at [the event] in Lima, from the 12th to the 18th. I'd like to connect." LinkedIn caps it at 300 characters.
+Optional. When there is one, it carries only the reason to write: "With my partner we'll have a stand at [the event] in Lima, from the 12th to the 18th. I'd like to connect." LinkedIn caps it at 300 characters.
 
-No pitch in the note. The note opens the door, and the message after the accept carries the rest.
+No pitch in the note. The note opens the door, and the message after the accept carries the rest. In our data, a note that pitches or asks for a meeting cut acceptance by about 6 points against no note. A note with a real reason about the person did not cut it ([benchmarks](../initiatives/references/benchmarks.md)). So the choice is no note, or a note with the reason.
 
 ---
 
