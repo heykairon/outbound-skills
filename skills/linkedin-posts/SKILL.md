@@ -2,7 +2,7 @@
 name: linkedin-posts
 description: Write one LinkedIn post that the right people read to the end, save and act on, with a hook that earns the "see more" click and no AI tells. Use when the user says "write a post," "LinkedIn post," "post about [topic]," "rewrite my post," "hook," "ghostwrite," "turn this story into a post," or "is this post good." Never invent an anecdote or a statistic, spend most of the work on the hook, add a photo, video or screenshot as proof, read it out loud, use the simplest words the ICP uses, cut every line that does not earn its place, and no em dashes. For what to post about and how often, see content-strategy.
 metadata:
-  version: 0.4.0
+  version: 0.5.0
 ---
 
 # LinkedIn Posts
@@ -41,14 +41,16 @@ LinkedIn cuts the post at about 200 characters, behind "see more". The hook has 
 2. **What the reader gets:** exactly what the post will give them.
 
 **By pillar:**
-- **Tactical:** your proof, then "here's how to do X: the 4 steps / the framework / the checklist". Show the thing itself: a screenshot, a diagram.
-- **Aspirational:** "X went from A to B by doing Y. Here's the exact breakdown." A photo of the result or the people.
+- **Tactical:** your own experience, or a real person's, then how they did it. Open with the moment: what happened, the number it got, who was there. "Two founders cold-messaged 507 supply chain people with nothing to sell, and got ~35 calls." The steps come inside the story, not as the promise. Show the thing itself: a photo of the people, a screenshot of the message.
+- **Aspirational:** "X went from A to B." Then what changed for them, and how it feels now. A photo of the result or the people.
 - **Personal:** "[A concrete time] ago, [this happened]." Hold back enough that they want the rest. A real photo or video.
 - **Insight:** "X is happening." Your proof. Then the curiosity. A screenshot of the source.
 
+Tactical and aspirational can both open with a real story. The test: take the story out. If a method the reader can use is left, it is tactical. Take the how out. If a before and after that makes the reader want it is left, it is aspirational.
+
 **Add media as much as you can:** a photo, a video, a screenshot. It is proof that the thing really happened, and it says so faster than any sentence.
 
-See [hooks.md](references/hooks.md) for patterns in English and Spanish.
+See [hooks.md](references/hooks.md) for patterns in English and Spanish. A real one, from data to final draft: [one of Luciano's posts](references/example.md).
 
 ---
 
@@ -61,6 +63,7 @@ These are what a model writes by default. Remove every one:
 - **Em dashes.** Not one. Use a period, comma, colon or parentheses.
 - **Saying the same thing three times** in different words.
 - **Self-answered questions.** "The result? 40% more meetings."
+- **A tactical promise with no story.** "My 3 steps to 3x your pipeline." It reads like every other how-to, and nobody knows why to believe you. Tell what happened to you or to someone real, and let the steps come out of it.
 - **Sounding like the company blog.** The value proposition shapes the angle. It never becomes the text, and the post is never a pitch.
 - **A post nobody could disagree with.** The ones that land are slightly scary to publish: a failure, a contrarian take, building in public.
 

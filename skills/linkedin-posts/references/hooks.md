@@ -6,19 +6,21 @@ The hook is the first two lines, inside about 200 characters.
 
 ## Tactical
 
-> [Real proof: "We booked 41 demos in March"] with [one specific approach].
-> Here are the [4 steps / exact template / checklist] we used:
+> [Who: you, or a real person] [did what, concretely: "cold-messaged 507 supply chain people with nothing to sell"]. [The result, in a number: "They got ~35 calls"]:
+> [The concept or method they applied, in one line.]
 
-> [Prueba real: "En marzo cerramos 41 demos"] con [un enfoque concreto].
-> Estos son los [4 pasos / el template exacto] que usamos:
+> [Quién: vos, o una persona real] [hizo qué, concreto: "le escribieron en frío a 507 personas de supply chain sin nada para vender"]. [El resultado, en un número: "Sacaron ~35 calls"]:
+> [El concepto o el método que aplicaron, en una línea.]
+
+Not "Here are the 4 steps". The steps come inside the story.
 
 ## Aspirational
 
-> [Client] went from [A] to [B] in [time] by [doing Y].
-> Here's the exact breakdown:
+> [Client] went from [A] to [B] in [time].
+> [What changed for them, said plainly.]
 
-> [Cliente] pasó de [A] a [B] en [tiempo] haciendo [Y].
-> Te cuento exactamente cómo:
+> [Cliente] pasó de [A] a [B] en [tiempo].
+> [Qué cambió para ellos, dicho simple.]
 
 ## Personal
 
