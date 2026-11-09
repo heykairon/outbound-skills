@@ -1,8 +1,8 @@
 ---
 name: content-strategy
-description: Decide what the user posts on LinkedIn, how often, and how to tell if it works, and keep it in .agents/content-strategy.md, the one file the post skill reads for what to write about. Use when the user says "content strategy," "what should I post," "content ideas," "I don't know what to post," "content calendar," "posting strategy," "how often should I post," "personal branding," "thought leadership," "my posts get no reach," "lots of impressions but no leads," "should I start a newsletter," or "how do I get leads from content." Pick one subject where the ICP's pain meets what the user sells, rotate four pillars (tactical, aspirational, personal, insight) with five topics each, post once a week, measure leads per post rather than impressions, work the people who react, and add a newsletter once posting is steady. For writing each post, see linkedin-posts.
+description: Decide what the user posts on LinkedIn, how often, and how to tell if it works, and keep it in .agents/content-strategy.md, the one file the post skill reads for what to write about. Use when the user says "content strategy," "what should I post," "content ideas," "I don't know what to post," "content calendar," "posting strategy," "how often should I post," "personal branding," "thought leadership," "my posts get no reach," "lots of impressions but no leads," "should I start a newsletter," or "how do I get leads from content." Pick one subject where the ICP's pain meets what the user sells, rotate four pillars (tactical, aspirational, personal, insight), each with its own map of what to post, post once a week, measure leads per post rather than impressions, work the people who react, and add a newsletter once posting is steady. For writing each post, see linkedin-posts.
 metadata:
-  version: 0.1.0
+  version: 0.2.0
 ---
 
 # Content Strategy
@@ -15,7 +15,7 @@ This skill owns `.agents/content-strategy.md`: the subject, the pillars and thei
 
 **Requires [value-prop](../value-prop/SKILL.md).** Read that skill's Before Starting first, and read the files it names. If the file that skill owns does not exist yet, do that skill first. This skill does not repeat any of it.
 
-Read `.agents/content-strategy.md` if it exists, and update only what changed. Read the user's last posts too, if they have any: what they already wrote about, and what brought leads.
+Read `.agents/content-strategy.md` if it exists, and update only what changed. Read the user's last posts too, if they have any: what they already wrote about, and what brought leads. Check the author of each one. A repost, or a post by someone else that shows up in the feed, is not the user's.
 
 Draft from what you hold, then ask, one thing per turn.
 
@@ -31,7 +31,7 @@ The subject is the overlap of **what the ICP cares about** and **what the user s
 
 ---
 
-## 2. Four Pillars, Five Topics Each
+## 2. Four Pillars
 
 Inside the one subject, rotate four angles:
 
@@ -44,9 +44,16 @@ Inside the one subject, rotate four angles:
 
 The personal pillar is the one people skip, and often the one that does best.
 
-**Write five topics per pillar,** inside the one subject: twenty topics. Each one is a real thing the user can tell: a customer, a number, an event, an opinion they hold. When the user says "I don't know what to post", propose the twenty. Don't ask them to pick a topic from nothing.
+Each pillar gets its own map, built a different way:
 
-Never invent the material behind a topic. If a pillar has no real story yet, say what to collect: "Your next customer result goes here."
+- **Tactical: a map of concepts.** Split the user's work into its parts, in order (for outbound: decide the strategy, find the leads, reach them until there is a call, post). Under each part, list the concepts the user can teach: "How to define your ICP", "How to write good follow-ups". A concept can be told in many ways. A post is one angle on one concept, so never list post titles here.
+- **Aspirational: one story per concept.** For each tactical concept, write the story that proves it: someone (the user, a customer, or a well-known company) who had that problem, and how they got past it. "Someone who wrote to anyone, and how they started to filter." Fill in the real case when there is one.
+- **Personal: the themes the user already posts about.** Personal posts come spontaneously, so don't plan the stories. Read the user's own posts, name the two or three themes they come back to, and keep the ones that drew the most. Under each theme, cite the posts already published, with their reactions.
+- **Insight: the user's opinion themes.** The same way: two or three themes from their own posts, with a stance. Posts that go against the current draw the most comments.
+
+When the user says "I don't know what to post", propose from the maps. Don't ask them to pick a topic from nothing.
+
+Never invent the material behind a story. If a concept has no real case yet, say what to collect: "Your next customer result goes here."
 
 ---
 
@@ -99,13 +106,16 @@ _Last updated: YYYY-MM-DD_
 
 ## Pillars
 ### Tactical
-1. [topic: the real thing the user can tell]
+1. [part of the work]
+   - [a concept the user can teach]
 ### Aspirational
-1. [...]
+A story (the user's own, a customer's, or a well-known company's) of someone who...
+1. [part of the work]
+   - [had the problem a tactical concept solves, and how they got past it]
 ### Personal
-1. [...]
+1. [a theme the user already posts about]. Already posted: [post (reactions)]
 ### Insight
-1. [...]
+1. [an opinion theme, with a stance]. Already posted: [post (reactions)]
 
 ## What worked
 | Date | Topic | Pillar | Saves | ICP who engaged | Leads |
