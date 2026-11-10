@@ -69,7 +69,7 @@ Follow-up 1, three days later, the offer again in fewer words:
 Follow-up 2, a week later, a new angle built on a fact we have:
 
 ```
-{{nombre}}, el contexto: heykairon.com encuentra a quién escribirle y le escribe desde la cuenta de cada vendedor. Lo usan 71 empresas, y quiero entender cómo lo usaría un equipo que está contratando. ¿Te lo muestro?
+{{nombre}}, el contexto: heykairon.com encuentra a quién escribirle y le escribe desde la cuenta de cada vendedor. Lo usan más de 60 empresas, y quiero entender cómo lo usaría un equipo que está contratando. ¿Te lo muestro?
 ```
 
 What changed: the free trial is out, the question about their search is out of the note, the message is in the market's language and under 60 words, and no follow-up asks for a no.
@@ -86,5 +86,5 @@ What changed: the free trial is out, the question about their search is out of t
 The requests for help did best. The free trial worked once: with people who had just reacted to a competitor's posts, so they were already looking for a tool. The source matters as much as the offer. The audiences differ across these campaigns, so this table is a reason to test the request for help, not proof.
 
 ## Still open
-- [open: "Lo usan 71 empresas" comes from Luciano's invitation to his talk of 26 November. Check the number before sending.]
+- "Más de 60 empresas" was checked on 2026-11-09: 65 companies pay for Kairon. Check it again before sending.
 - [open: the rewrite has not been sent yet. Add its results after the first 50 people.]

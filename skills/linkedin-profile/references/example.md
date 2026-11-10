@@ -57,4 +57,4 @@ What was left out: numbers from his previous company, and a closing about what h
 
 ## Still open
 - A recent, high-definition photo, at an event or at work.
-- [open: "60+ clients getting weekly sales calls" is his own line from the video, not yet checked against Kairon's data]
+- "60+ clients getting weekly sales calls", checked against Kairon's data on 2026-11-09: 65 companies pay for Kairon, so "60+ clients" holds. Meetings are not measured. What is measured is interested replies: in the last 4 weeks, 47 of the 65 got at least one, and 27 got one in 3 or more of the 4 weeks. "Weekly sales calls" is not proven yet; "60+ paying clients" is.
