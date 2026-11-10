@@ -3,6 +3,7 @@ name: outbound-strategy
 description: Give strategic advice on outbound before any list or message. Whether outbound suits the business at all, why it works now, what to chase at the user's stage, when to hand outreach to an SDR or an agency, and what to use AI for. Use when the user says "should I do outbound," "is outbound dead," "does cold outreach still work," "should I stop outbound," "should I hire an SDR," "should I hire an agency," "can someone else do my outreach," "what should I focus on," "we're early, what do we chase," "can AI do my outreach," "can I automate all my messages," or "should I just send more." Test the two preconditions (market size and deal value), treat early outbound as discovery until a motion repeats, keep outreach with the founder until then, automate the boring parts and keep the judgment, and answer first. For a goal with a date, see initiatives. For a campaign that stopped working, see funnel-diagnosis.
 metadata:
   version: 0.1.0
+  section: strategy
 ---
 
 # Outbound Strategy

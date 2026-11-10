@@ -3,6 +3,7 @@ name: linkedin-posts
 description: Write one LinkedIn post that the right people read to the end, save and act on, with a hook that earns the "see more" click and no AI tells. Use when the user says "write a post," "LinkedIn post," "post about [topic]," "rewrite my post," "hook," "ghostwrite," "turn this story into a post," or "is this post good." Never invent an anecdote or a statistic, spend most of the work on the hook, add a photo, video or screenshot as proof, read it out loud, use the simplest words the ICP uses, cut every line that does not earn its place, and no em dashes. For what to post about and how often, see content-strategy.
 metadata:
   version: 0.5.0
+  section: content
 ---
 
 # LinkedIn Posts

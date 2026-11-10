@@ -3,6 +3,7 @@ name: outbound-context
 description: Set up the outbound context, the .agents folder every other outbound skill reads first, and write its two sender files. .agents/identity.md says who sends (identity, background, close circles, network). .agents/voice.md says how they write, from real messages. The ICPs and the value proposition sit next to them, each in its own file. Use when the user says "set up my outbound," "onboard me," "outbound context," "here's my company," "who I am," "how I write," or starts any outbound task with no context yet. Draft from what you already know, ask only what you cannot look up, one question at a time, and never invent a fact. Who the user sells to belongs in icp, and what they promise belongs in value-prop. What the user is testing (an offer, a region, a new buyer, a goal with a date) belongs in initiatives.
 metadata:
   version: 0.7.0
+  section: business-context
 ---
 
 # Outbound Context

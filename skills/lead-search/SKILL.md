@@ -3,6 +3,7 @@ name: lead-search
 description: Find and build a B2B lead list worth sending to, on LinkedIn and the open web, then check it against the ICP before filling it. Starts from an active initiative, then measures the market, because a small market needs a different strategy. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Count the market in the unit that matters, let the count pick the strategy, judge every result against the ICP (in or out, with the criterion that decided it), and give every fact its source. For a large market, see large-market. For a market of a few hundred companies, see small-market. For how to write a Sales Navigator search, see sales-navigator.
 metadata:
   version: 0.8.0
+  section: lists
 ---
 
 # Lead Search

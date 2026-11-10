@@ -3,6 +3,7 @@ name: value-prop
 description: Write and sharpen the value proposition in .agents/value-prop.md, the one file every outbound skill reads for what the user promises and why a buyer would believe it. Built on Alex Hormozi's value equation from $100M Offers (raise the dream outcome and the likelihood of getting it, cut the time and the effort it takes). Use when the user says "value proposition," "value prop," "what do we promise," "positioning," "why us," "our pitch," "before and after," "nobody gets what we do," "our message sounds generic," "what problems do our customers have," or "how do I answer objections." Write one per ICP, in the customer's words. Work the before and after, list every problem with its solution, push on proof (results with numbers), time and effort rather than on a bigger promise, answer the objections buyers raise with true answers, and never invent proof. For who it is for, see icp.
 metadata:
   version: 0.4.0
+  section: business-context
 ---
 
 # Value Proposition

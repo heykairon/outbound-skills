@@ -3,6 +3,7 @@ name: content-strategy
 description: Decide what the user posts on LinkedIn, how often, and how to tell if it works, and keep it in .agents/content-strategy.md, the one file the post skill reads for what to write about. Use when the user says "content strategy," "what should I post," "content ideas," "I don't know what to post," "content calendar," "posting strategy," "how often should I post," "personal branding," "thought leadership," "my posts get no reach," "lots of impressions but no leads," "should I start a newsletter," or "how do I get leads from content." Pick one subject where the ICP's pain meets what the user sells, rotate four pillars (tactical, aspirational, personal, insight), each with its own map of what to post, post once a week, measure leads per post rather than impressions, work the people who react, and add a newsletter once posting is steady. For writing each post, see linkedin-posts.
 metadata:
   version: 0.3.0
+  section: content
 ---
 
 # Content Strategy

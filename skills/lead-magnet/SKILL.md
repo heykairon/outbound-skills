@@ -3,6 +3,7 @@ name: lead-magnet
 description: Design lead magnets and keep them in .agents/lead-magnets.md, the one file other skills read for what the user gives away to start a conversation. Built on Alex Hormozi's $100M Leads (a complete solution to a narrow problem that reveals the next problem, the one the paid offer solves). Use when the user says "lead magnet," "what can I give away," "free offer," "something to offer in the first message," "freebie," "free audit," "free report," "nobody wants a call," "give value first," or "what do I offer strangers." Try the paid offer first. Pick one narrow problem from the value proposition, make it done for the person from public facts, worth paying for and free of effort, with a clear next step and a true reason to take it now. Never invent a fact about the person. For the problems it starts from, see value-prop.
 metadata:
   version: 0.3.0
+  section: strategy
 ---
 
 # Lead Magnet

@@ -3,6 +3,7 @@ name: sales-navigator
 description: Turn an ICP into LinkedIn Sales Navigator searches that find those people and nobody else, and read the results before trusting them. Use when the user mentions "Sales Navigator," "Sales Nav," "Sales Nav filters," "LinkedIn search," "boolean search," "my search returns the wrong people," "too many results," "zero results," "recruiters keep showing up," "search by postal code," "search my connections," or "find people who follow a profile." Test the search on the user's own customers first, put each filter on the side where the fit lives (the person or the company), search titles as people write them, combine seniority with function words for leaders, exclude before you add, check what every filter resolved to, and treat a suspiciously large count as nobody matching. Run one search at a time. For which source to search and how to judge the results, see lead-search.
 metadata:
   version: 0.3.1
+  section: lists
 ---
 
 # Sales Navigator

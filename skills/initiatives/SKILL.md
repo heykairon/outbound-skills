@@ -3,6 +3,7 @@ name: initiatives
 description: Create, track and review the user's go-to-market initiatives in .agents/initiatives.md. An initiative is a bet with an end date (one ICP, one offer and one source of leads, changing one thing such as region, industry, size, buyer, offer or source) and what it should bring by then, worked back from real rates. Use when the user says "I want to test," "let's try selling to," "new initiative," "what should we try next," "set a goal," "weekly review," "checkpoint," "how is the push going," "did it work," "what have we tried," "reactivate old leads," "leads that never answered," "nurturing," or starts outreach toward a goal with a date. Propose the goal with its arithmetic, judge volume before rates, compare against the user's own numbers, end every review with a next move that has an owner, and never propose again what already failed without saying what is different. For who the user is (value proposition, ICPs, voice), see outbound-context.
 metadata:
   version: 0.8.0
+  section: strategy
 ---
 
 # Initiatives
