@@ -2,7 +2,7 @@
 name: sales-navigator
 description: Turn an ICP into LinkedIn Sales Navigator searches that find those people and nobody else, and read the results before trusting them. Use when the user mentions "Sales Navigator," "Sales Nav," "Sales Nav filters," "LinkedIn search," "boolean search," "my search returns the wrong people," "too many results," "zero results," "recruiters keep showing up," "search by postal code," "search my connections," or "find people who follow a profile." Test the search on the user's own customers first, put each filter on the side where the fit lives (the person or the company), search titles as people write them, combine seniority with function words for leaders, exclude before you add, check what every filter resolved to, and treat a suspiciously large count as nobody matching. Run one search at a time. For which source to search and how to judge the results, see lead-search.
 metadata:
-  version: 0.3.1
+  version: 0.3.2
   section: lists
 ---
 
@@ -108,7 +108,7 @@ Two more filters raise acceptance: **posted on LinkedIn in the past 30 days** (a
 
 These answer for the account that runs the search. Run them from the sender's own account, or they find the network of someone else.
 
-**Classic LinkedIn search, not Sales Navigator,** is the tool for three jobs: searching your 1st degree when you don't have Sales Navigator, listing the followers of a profile, and finding people who are hiring for a role.
+**Classic LinkedIn search, not Sales Navigator,** is the tool for two jobs: searching your 1st degree when you don't have Sales Navigator, and listing the followers of a profile. To find companies hiring for a role, search job posts, not people.
 
 ---
 

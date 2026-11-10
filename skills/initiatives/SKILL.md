@@ -2,7 +2,7 @@
 name: initiatives
 description: Create, track and review the user's go-to-market initiatives in .agents/initiatives.md. An initiative is a bet with an end date (one ICP, one offer and one source of leads, changing one thing such as region, industry, size, buyer, offer or source) and what it should bring by then, worked back from real rates. Use when the user says "I want to test," "let's try selling to," "new initiative," "what should we try next," "set a goal," "weekly review," "checkpoint," "how is the push going," "did it work," "what have we tried," "reactivate old leads," "leads that never answered," "nurturing," or starts outreach toward a goal with a date. Propose the goal with its arithmetic, judge volume before rates, compare against the user's own numbers, end every review with a next move that has an owner, and never propose again what already failed without saying what is different. For who the user is (value proposition, ICPs, voice), see outbound-context.
 metadata:
-  version: 0.8.0
+  version: 0.8.1
   section: strategy
 ---
 
@@ -80,7 +80,7 @@ Show the full draft. Save only after a clear yes. Ended initiatives stay in the 
 
 Ask for the numbers since the last review, per campaign: invitations, accepted, messages, replies, interested, and the goal unit. Read them from a tool if one has them. Never judge before you have the numbers.
 
-1. **Volume before rates.** Below about 20 invitations, 10 messages or 5 replies, that rate means nothing yet. Say "not enough to judge", and don't colour it. A real case: 43 invitations, 30% accepted against an average of 35%. That gap is two people. The initiative has a volume problem, not a performance problem, and the next move is to send more, not to rewrite the copy.
+1. **Volume before rates.** Below about 40 invitations, 30 messages or 25 replies, that rate means nothing yet. Say "not enough to judge", and don't colour it. A real case: 43 invitations, 30% accepted against an average of 35%. That gap is two people. The initiative has a volume problem, not a performance problem, and the next move is to send more, not to rewrite the copy.
 2. **Compare against the user's own numbers,** then against "What we expect". Never against an industry average nobody measured.
 3. **Say whether the last move was done.** Read the last review's next move. "Last time we said to narrow the list to Córdoba; the campaign still runs the old list." If the same move is undone three reviews running, that is the finding.
 4. **Name the next move, with an owner.** Lead with the change that matters most, specific enough to start without a follow-up question. More moves are fine, each with a name on it. Never end on a menu with nobody's name.

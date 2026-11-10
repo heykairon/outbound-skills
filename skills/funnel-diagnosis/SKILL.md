@@ -2,7 +2,7 @@
 name: funnel-diagnosis
 description: Find which stage of an outbound funnel broke (volume, acceptance, replies, interest or meetings), say why from the evidence, and propose one fix. Use when the user says "why isn't this working," "nobody accepts," "nobody answers," "they reply but nobody is interested," "we get interest but no meetings," "what's wrong with my campaign," "diagnose my funnel," "where are we losing people," "my numbers dropped," or "should I change the message or the list." Judge volume before any rate, compare each stage against the user's own numbers and then against measured benchmarks, stop at the first stage that broke because every stage below inherits it, read the replies before blaming the message, check that the interest labels are right, and end with one fix, the number it should move and when to measure again. For tracking an initiative and its weekly review, see initiatives.
 metadata:
-  version: 0.2.0
+  version: 0.2.1
   section: strategy
 ---
 
@@ -26,7 +26,7 @@ Read them from a tool if one has them. Never diagnose before you have the number
 
 ## 1. Volume First
 
-A rate on a small sample is noise. Before any rate means something, the stage needs about **20 invitations, 10 messages or 5 replies**. Below that, say "not enough to judge" for that stage, and stop there.
+A rate on a small sample is noise. Before any rate means something, the stage needs about **40 invitations, 30 messages or 25 replies**. Below that, a rate swings far from the real one: at 5 replies, the interest rate moves by about 26 points. Below the minimum, say "not enough to judge" for that stage, and stop there.
 
 Then check whether volume itself is the problem. One LinkedIn seat sends about 150 invitations a week. A campaign that sent 40 in a month has a volume problem, whatever its rates say, and the fix is to send, not to rewrite.
 

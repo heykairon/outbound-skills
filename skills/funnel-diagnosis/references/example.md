@@ -8,7 +8,7 @@ This is a real Kairon initiative, diagnosed with this skill on 2026-11-04. The p
 
 | Stage | Rate (n) | Kairon's other initiatives | Median | Verdict |
 |-------|----------|----------------------------|--------|---------|
-| Volume | 91 invitations, 43 messaged, 23 replies | | | enough to judge every stage |
+| Volume | 91 invitations, 43 messaged, 23 replies | | | enough for acceptance and replies; interest is 2 replies short, but far above the median |
 | Acceptance | 36% (33 of 91) | | 33% | fine |
 | Reply | 53% (23 of 43 messaged) | | 26% | well above |
 | Interest | 61% (14 of 23 replies) | the highest of all Kairon's initiatives | 26% | well above |
