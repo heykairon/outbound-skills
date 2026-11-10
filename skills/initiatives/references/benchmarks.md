@@ -104,3 +104,12 @@ A reading of 135 replies classified as not interested or as an objection, from s
 | Not relevant to their business | 12 |
 | Distrust or spam | 4 |
 | Other | 20 |
+
+## Reactivation
+
+Two campaigns that wrote again to people already contacted, measured on 2026-11-09. Small samples: read them as signals.
+
+| Campaign | People messaged | Interested |
+|----------|-----------------|------------|
+| Opened on news about the person's company, with an offer new to them | 229 | 25 (11%) |
+| Opened on the sender's earlier message, with a new free guide | 190 | 5 (2.6%) |
