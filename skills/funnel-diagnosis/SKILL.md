@@ -2,7 +2,7 @@
 name: funnel-diagnosis
 description: Find which stage of an outbound funnel broke (volume, acceptance, replies, interest or meetings), say why from the evidence, and propose one fix. Use when the user says "why isn't this working," "nobody accepts," "nobody answers," "they reply but nobody is interested," "we get interest but no meetings," "what's wrong with my campaign," "diagnose my funnel," "where are we losing people," "my numbers dropped," or "should I change the message or the list." Judge volume before any rate, compare each stage against the user's own numbers and then against measured benchmarks, stop at the first stage that broke because every stage below inherits it, read the replies before blaming the message, check that the interest labels are right, and end with one fix, the number it should move and when to measure again. For tracking an initiative and its weekly review, see initiatives.
 metadata:
-  version: 0.1.1
+  version: 0.2.0
 ---
 
 # Funnel Diagnosis
@@ -77,6 +77,7 @@ The replies say where the problem is. Sort the no's and the objections:
 | "I'm not the right person", "that's another area" | the list: the wrong role or company |
 | "Not relevant to us", "we don't do that" | the list: the wrong kind of company |
 | "We already have a provider", "we do it in-house" | the offer, against what they already have |
+| "I don't get what you sell", "how is this different from the others?" | the framing: the value proposition does not come across (see **[value-prop](../value-prop/SKILL.md)**) |
 | "Not right now", "write me next quarter" | urgency |
 | "Is this spam?", "how did you get my profile?" | the message |
 | No reason | count it, and don't read much into it |
@@ -96,6 +97,8 @@ End with one change, the stage it fixes, the number it should move, and when to 
 - **When to measure again:** when the stage has the volume of section 1 again, with the change in place.
 
 If the first broken stage is volume, the fix is to send more, and the rates wait.
+
+If no stage broke (every rate holds against the user's past and the median) and the totals are still too small, the fix is more volume or a higher price.
 
 **Give the fix an owner, and record it.** When the campaign belongs to an initiative in `.agents/initiatives.md`, add the diagnosis there as a new review, under the last one, the way **[initiatives](../initiatives/SKILL.md)** writes reviews: the numbers, what they mean, whether the last move was done, and the next move with a named owner. Never rewrite an earlier review.
 

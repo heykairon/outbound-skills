@@ -2,7 +2,7 @@
 name: lead-search
 description: Find and build a B2B lead list worth sending to, on LinkedIn and the open web, then check it against the ICP before filling it. Starts from an active initiative, then measures the market, because a small market needs a different strategy. Use when the user mentions "find leads," "build a list," "lead list," "prospect list," "who should I target," "find decision makers at," "find companies that," "my search returns the wrong people," "too many results," "zero results," or "target accounts." Count the market in the unit that matters, let the count pick the strategy, judge every result against the ICP (in or out, with the criterion that decided it), and give every fact its source. For a large market, see large-market. For a market of a few hundred companies, see small-market. For how to write a Sales Navigator search, see sales-navigator.
 metadata:
-  version: 0.7.0
+  version: 0.8.0
 ---
 
 # Lead Search
@@ -37,6 +37,8 @@ The size of the market decides the strategy, so count it before you search for a
 ## Judge Every Result Against the ICP
 
 Whatever the source, read each result yourself before it goes on a list. Check it against the ICP in `.agents/icp.md`: title, company, location. Each one is **in or out**, and say which criterion or disqualifier decided it. Open the doubtful ones. Never let a result in because the search returned it.
+
+**For a new ICP, build the first accounts by hand,** about 50 as a rule of thumb: their site, their job posts, their founder's posts, their reviews, their recent news, one company at a time. This teaches which traits predict a fit and which signal turns out to be noise. Automate the search only after that. A tool scales a list you understand. It never finds the fit for you.
 
 Every column holds a fact a stranger could check, with its source: "Hiring 3 backend engineers in Madrid, per their careers page, March 2026". Not "yes" or "hot". A fact you could not verify stays empty.
 

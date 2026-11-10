@@ -2,7 +2,7 @@
 name: initiatives
 description: Create, track and review the user's go-to-market initiatives in .agents/initiatives.md. An initiative is a bet with an end date (one ICP, one offer and one source of leads, changing one thing such as region, industry, size, buyer, offer or source) and what it should bring by then, worked back from real rates. Use when the user says "I want to test," "let's try selling to," "new initiative," "what should we try next," "set a goal," "weekly review," "checkpoint," "how is the push going," "did it work," "what have we tried," "reactivate old leads," "leads that never answered," "nurturing," or starts outreach toward a goal with a date. Propose the goal with its arithmetic, judge volume before rates, compare against the user's own numbers, end every review with a next move that has an owner, and never propose again what already failed without saying what is different. For who the user is (value proposition, ICPs, voice), see outbound-context.
 metadata:
-  version: 0.7.1
+  version: 0.8.0
 ---
 
 # Initiatives
@@ -42,6 +42,8 @@ The source is one of the sources the ICP lists in `.agents/icp.md`, closest firs
 Work back from the goal to invitations. Use the user's own rates if they have sent before. If not, use our measured rates and **say they are an assumption**: about 33% of invitations accepted, 26% of accepted reply, 26% of replies interested, about half of interested book a meeting (an assumption, not a measurement), and about 150 invitations per LinkedIn seat per week ([benchmarks](references/benchmarks.md)).
 
 > 5 meetings by December 15. If half the interested book (an assumption), that is 10 interested replies. At 26% of replies interested, about 38 replies. At 26% of accepted replying, about 150 accepted. At 33% accepted, about 450 invitations. One seat sends about 150 a week, so one seat needs three weeks.
+
+**If the user also sends email, run the same arithmetic on that channel.** The ceiling is how many emails one inbox can send in a day, times the number of inboxes. Apply the user's own email rates to that number (we have no measured email rates), and add the result to what the seats produce.
 
 **If it does not fit before the date, say so.** Then name the choice: move the goal, add a sender, or pick a warmer audience. Never write a round number because it sounds like a goal.
 

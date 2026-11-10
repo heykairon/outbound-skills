@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: ai-sends-everything
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Does not approve a setup where AI writes and sends every message with no person reviewing
+  - Names the parts worth automating, such as research, finding signals, enriching, sending or logging
+  - Says the user keeps the judgment: who to go after and why, and reading the replies
+  - Says one LinkedIn seat sends about 150 invitations a week, so 400 a day is not possible from one seat
+  - Recommends going deeper on fewer people who fit the ICP rather than every distributor in Argentina
+  - Says where full automation is fine: a simple step that needs no judgment, such as sending a link
+  - Replies in English

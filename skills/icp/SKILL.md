@@ -2,7 +2,7 @@
 name: icp
 description: Define, test and update the ideal customer profiles in .agents/icp.md, the one file every outbound skill reads to know who to go after. Built on Alex Hormozi's $100M Offers (pick a starving crowd, then commit to a niche) and his first-avatar method (find what the best customers have in common). Use when the user says "define my ICP," "who should I sell to," "ideal customer," "target market," "which niche," "is this a good market," "our best customers," "update my ICP," "this segment doesn't work," "where do I find them," or "drop this ICP." Start from the best customers, not from a wish. Test the market for pain, money, ease of finding and growth, narrow until someone is left out, list where to find them (its sources, closest first, from people who already know the user to a lookalike search), never invent a customer or a fact, and let the user set each ICP's status. For testing an ICP with outreach, see initiatives.
 metadata:
-  version: 0.4.0
+  version: 0.5.0
 ---
 
 # ICP
@@ -31,6 +31,9 @@ For each best customer, find out:
 - **The company:** industry, size, where it sells, and the state it was in when it bought (for example: a signed lease, at least one employee, already selling online).
 - **The person who bought:** their role, and what they are measured on.
 - **Why they bought:** the main reason, the goal behind it: what they want to reach, and why they need help to reach it. Then, apart, what happened just before (the trigger): an event with a date, never the pain itself. They switched systems, opened a branch, hired, raised a round. "Slow collections" is the pain. "They moved to a new ERP in March" is the trigger.
+- **The rest of the story:** where they came from (a referral, a post, a search), the fears and the motivations they had, and how the team that uses the product is built.
+
+**Customers who arrived warm still count.** A customer who came by referral is the same person you are about to reach cold. Only the approach changes.
 
 **Then find the fewest criteria they all share.** Usually 3 to 5. A long list of traits describes customers. A short one filters strangers.
 
@@ -38,7 +41,9 @@ For each best customer, find out:
 
 The trigger is not why they buy. It is a signal: it goes in the ICP's sources (see "Sources" below), and **[lead-search](../lead-search/SKILL.md)** looks for it.
 
-**No customers yet?** Start from the offer and 2 to 5 companies the user wants as customers. Say plainly that this ICP is a guess.
+**No customers yet?** Start from the offer and 2 to 5 companies the user wants as customers. Say plainly that this ICP is a guess. Then send the user to talk to strangers who could be those customers:
+- **Ask about their past, never about the idea.** How they handle the problem today, what they tried, what it cost. Past behaviour is a fact. A future intention is not. Founders steer toward their product and hear enthusiasm that was never there.
+- **Judge each conversation by one test.** Did it produce a fact about how they work today, a commitment (their time, their reputation or their money), or a clear next step? "Sounds great, keep me posted" produced none of the three.
 
 ---
 
@@ -59,6 +64,8 @@ If one test clearly fails, narrow the ICP or move to another market before you g
 
 A narrow ICP lets every message speak to exactly one kind of person, and the same product is worth far more to them. Write **disqualifiers**: who is a clear no, even when the user could help them.
 
+**Second test: the message.** Narrow until a message to one of them could only have been written to that person. If the same message makes sense to somebody else, the ICP is still too wide. Broad also puts the user against the biggest names in the category, and their generic message beats the user's generic message.
+
 If the ICP leaves nobody out, it is not an ICP yet. As a rule of thumb from the book, a business under about USD 10 million a year almost always does better narrower. Widen later, from proof.
 
 ---
@@ -78,11 +85,27 @@ A source is where the people on a list come from, and the reason the sender writ
 
 In the file, list the ones that apply to this ICP, in this order, with real names: which network, which tribe, which signal, which competitor. A source with no real name behind it is not one yet. Two ICPs usually have different sources: a recruiting buyer leaves different signals than a sales buyer.
 
-Every list starts at source 1: first check whether there is a list the user can work today. Move to the next source only when the closer one runs dry. Never start with the lookalike.
+Every list starts at source 1: first check whether there is a list the user can work today. Move to the next source only when the closer one runs dry. Never start with the lookalike. One exception: **source 3 runs from day one, next to whatever else runs.** Take everyone who comes to the user as they appear. They run out, so they never replace the other sources.
+
+### What makes each source real
+
+- **Warm intros (4): arrive with names.** Before the user meets the person who could introduce them, search that person's connections for people who fit the ICP. Write the names down, and ask for those people by name. Asking someone to remember who they know never works.
+- **Tribes (2): a tribe is a group people choose to join,** with a cost to get in, its own rituals and its own language. A job title is not a tribe: nobody joins "CEOs". There are three kinds. **Chosen:** a sport, a game, a membership group. **Place:** a city, a country, a university, a school, a past employer, an event. **Circumstantial:** something that happened to the sender, such as being a parent. List only the tribes the sender belongs to, and keep only the ones whose members could buy.
+- **Signals (5): a signal earns its place** when it gives the sender an authentic reason to write, or a reason to tell them the value proposition. One of the two is enough. **Commodity signals** are the ones every data vendor sells (a funding round, a new VP), so every competitor gets the same alert. **Edge signals** only the user would think to look for: a line in a job description, a change in their product, a complaint in a forum. Find them in what was true about the best customers in the weeks before they bought.
+- **A signal picks who to write to this week, among people who already fit the ICP.** It never adds someone the ICP would leave out.
+- **Competitors (5):** two kinds count. The ones that sell what the user sells, and the ones that sell something next to it to the same buyer.
 
 ---
 
-## 5. Commit, Then Judge
+## 5. Test It on the Customers You Have
+
+Before the ICP goes after strangers, run it on the best customers: every criterion and every disqualifier, not only the search. They are the one group you know fits, so each of them must pass. **A customer the ICP rejects means the ICP is broken.** Find the criterion that turned them away, and fix it before anyone searches. Otherwise the same mistake drops every stranger who looks like that customer, and nobody sees who was lost.
+
+The customers prove the ICP lets the right people in. A first sample of strangers shows whether it keeps the wrong ones out: see **[large-market](../large-market/SKILL.md)**.
+
+---
+
+## 6. Commit, Then Judge
 
 Pick one ICP and stay with it. Switching between two good markets restarts the learning each time, and makes both look bad.
 

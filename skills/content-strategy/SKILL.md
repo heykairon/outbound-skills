@@ -2,7 +2,7 @@
 name: content-strategy
 description: Decide what the user posts on LinkedIn, how often, and how to tell if it works, and keep it in .agents/content-strategy.md, the one file the post skill reads for what to write about. Use when the user says "content strategy," "what should I post," "content ideas," "I don't know what to post," "content calendar," "posting strategy," "how often should I post," "personal branding," "thought leadership," "my posts get no reach," "lots of impressions but no leads," "should I start a newsletter," or "how do I get leads from content." Pick one subject where the ICP's pain meets what the user sells, rotate four pillars (tactical, aspirational, personal, insight), each with its own map of what to post, post once a week, measure leads per post rather than impressions, work the people who react, and add a newsletter once posting is steady. For writing each post, see linkedin-posts.
 metadata:
-  version: 0.2.0
+  version: 0.3.0
 ---
 
 # Content Strategy
@@ -71,6 +71,8 @@ Impressions and likes give you nothing to act on. After each post, count:
 - **Profile visits and new connections** that came from the post.
 - **Whether the ICP engaged.** Ten decision-makers who save it beat a hundred unrelated likes.
 - **Leads.** Conversations that started from the post.
+
+**What moves reach**, as LinkedIn is widely understood to work (nobody outside it has measured this): attention. How long people stop to read the post, and whether they save it. Reach follows each reader's interests, not only the user's network, so a post can reach the ICP with no connection to the user. And a post earns its reach over days, not in the first hour, so don't judge it the same day.
 
 A post with many impressions and no leads reached the wrong people, or said nothing the ICP needed. Check who engaged before you call it a success.
 

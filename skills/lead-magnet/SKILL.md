@@ -2,7 +2,7 @@
 name: lead-magnet
 description: Design lead magnets and keep them in .agents/lead-magnets.md, the one file other skills read for what the user gives away to start a conversation. Built on Alex Hormozi's $100M Leads (a complete solution to a narrow problem that reveals the next problem, the one the paid offer solves). Use when the user says "lead magnet," "what can I give away," "free offer," "something to offer in the first message," "freebie," "free audit," "free report," "nobody wants a call," "give value first," or "what do I offer strangers." Try the paid offer first. Pick one narrow problem from the value proposition, make it done for the person from public facts, worth paying for and free of effort, with a clear next step and a true reason to take it now. Never invent a fact about the person. For the problems it starts from, see value-prop.
 metadata:
-  version: 0.2.0
+  version: 0.3.0
 ---
 
 # Lead Magnet
@@ -38,6 +38,8 @@ Take the problems and solutions list in `.agents/value-prop.md`. Pick **one** pr
 
 **Test:** after the lead magnet, does the buyer want more? If it solves everything, nobody needs the paid offer. If it solves nothing, nobody trusts the paid offer.
 
+**It must lead to what the user sells.** A lead magnet unrelated to the paid offer is worse than none: it brings people who wanted something free, and nothing else.
+
 ---
 
 ## 3. Choose the Type and the Form
@@ -47,7 +49,18 @@ Three types:
 - **A sample.** A small piece of the paid product, for free.
 - **One step of many.** Do the first step of a process. The paid offer does the rest.
 
-Four forms: a **tool** (a calculator, a template, software), **information** (a report, a list, a video), a **service** (you do the work for them), or something **physical**. Three types by four forms gives twelve options for the same problem. Draft at least three, and recommend one.
+Five forms: a **tool** (a calculator, a template, software), **information** (a report, a list, a video), a **service** (you do the work for them), something **physical**, or **status** (access that makes them feel chosen: a seat at a closed event, a dinner with peers, a place in a small community). Status carries a date, so it gives a reason to answer now. In our campaigns, an online event with a date drew 8.8% interested, against 4.8% for a resource that is the same for everyone ([benchmarks](../initiatives/references/benchmarks.md)). Three types by five forms gives fifteen options for the same problem. Draft at least three.
+
+**Score each draft from 1 to 5 on seven things,** and recommend the highest total:
+1. It is narrow, and solves its problem completely.
+2. It reveals the next problem.
+3. It gives a fast win.
+4. Someone would pay for it.
+5. It attracts the ICP.
+6. It is cheap to deliver, per person.
+7. It ends with a clear next step.
+
+Drop any draft that fails on 2 or on 5, whatever its total.
 
 ---
 
@@ -70,12 +83,15 @@ Two rules:
 - **As good as paid.** Give away the secrets, sell the implementation. If the user would be embarrassed to charge for it, it is not good enough to give away.
 - **Nothing to do to get it.** No form, no call, no login. A short message, a one-page file or a short video they can read on the phone.
 - **Easy to use.** They see the result in the first few seconds. Put the finding first, then the detail.
+- **In every form you can make.** A review as a written page and as a short recorded video. Each form reaches people the other one misses.
 
 ---
 
 ## 6. Name It
 
 Hormozi tests the name first: the name decides more than the content whether they take it. In a LinkedIn message, the name is how the offer is said. Write three ways to say it, concrete and in the buyer's words. "Your 5 oldest unpaid invoices, and who to call first" beats "a collections diagnosis".
+
+Test the names before you launch. Run a poll, or ask a few people from the ICP which one they would want. A handful of answers is enough to point the way.
 
 ---
 
@@ -99,7 +115,7 @@ _Last updated: YYYY-MM-DD_
 - **Status:** [testing since YYYY-MM-DD | validated, with how many were offered it and how many were interested per 100]
 - **Problem it solves:** [one problem from value-prop.md, in their words]
 - **Next problem it shows:** [the one the paid offer solves]
-- **Type and form:** [reveal a problem | a sample | one step of many] + [tool | information | service | physical]
+- **Type and form:** [reveal a problem | a sample | one step of many] + [tool | information | service | physical | status]
 - **What they get:** [the concrete thing, and how long it takes them to use it]
 - **How we make it per person:** [where each fact comes from, the steps, the time it takes]
 - **How we say it:** [the three ways to name it]

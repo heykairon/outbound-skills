@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: outbound-is-dead
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Does not tell the user to stop outbound on this evidence
+  - Compares the result against measured rates (about 26% of accepted people reply) rather than an opinion
+  - Says the messages pitched the product, and proposes a different offer to test (a partnership, a request for help or a dated event)
+  - Says whether the user's market is large enough for outbound, from the files or by asking
+  - Before deciding, asks for the numbers by stage (how many accepted and replied) or offers to diagnose the funnel
+  - Replies in Spanish

@@ -2,7 +2,7 @@
 name: message-copies
 description: Write the LinkedIn connection note, the first message and the follow-ups for one initiative, starting from the offer, because the offer decides the result more than the wording. Use when the user says "write the message," "first message," "connection note," "invitation note," "DM," "cold message," "follow-up," "nobody answers my message," "rewrite this message," "message sequence," "what do I say after they accept," or "did you see my message." Check the offer first and propose a better one when it is the product itself, give a reason to write that is specific to that person or none, keep one question at the end and never one about their problem, no link in the first message, 40 to 59 words, follow up with the offer again in fewer words, never ask for a no, leave at most two blanks for a model to fill, and never invent work, facts or mutual contacts. For the offer and the source each initiative tests, see initiatives.
 metadata:
-  version: 0.2.3
+  version: 0.3.0
 ---
 
 # Message Copies
@@ -24,7 +24,7 @@ If the user already sent messages, read what went out and what came back before 
 Offer the reader something for themselves, not a product for their company. From what drew the most interest in our clients' campaigns (see [cases.md](references/cases.md)):
 
 1. **A partnership or a commission.** They earn something: a share of what they bring, referrals in both directions.
-2. **A request for their help or their opinion.** "I'm building something new, and I think you could help me." It works with people who really can.
+2. **A request for their help or their opinion.** "I'm building something new, and I think you could help me." It works with people who really can. When the user is looking for product-market fit, for the company or for one feature, build it in five parts: [asking for help](references/asking-for-help.md).
 3. **A seat at an event with peers, with a date.** A small online session, a dinner, a meetup, a talk.
 4. **Something already made for them, that needs only a yes.** A video, a script or a short review of their own company, ready to send. Not a free diagnosis that needs a 45-minute call: that reads as a sales call, and drew 4–6%, against 16–23% for a video or script already made.
 5. **The product.** "Let me tell you what we do." 6% of people answered it with interest.
@@ -48,7 +48,7 @@ The reason to write matters much less than the offer. A generic reason ("we help
 - **Specific:** "I saw you lead HR in a company with teams in eight countries, and that puts a real mental load on people."
 - **Generic:** "As an HR leader, I thought this could interest you."
 
-The source of the list tells you where to look for the fact: the event they go to, the post they reacted to, the school they share, the role they just took. If you can't find one, skip the reason and go to the offer.
+The source of the list tells you where to look for the fact: the event they go to, the post they reacted to, the school they share, the role they just took. A 1st-degree connection the sender never used counts too: "I was going through my contacts and saw we've been connected since 2019." If you can't find one, skip the reason and go to the offer.
 
 ---
 
@@ -77,7 +77,7 @@ Leave out:
 - **A teaser that gives nothing.** "We launched something few people know about yet" drew 3%.
 - **The sender's biography.** One line on who they are is enough.
 
-**40 to 59 words.** Messages of 100 words or more did worse. Cut every line the message doesn't need.
+**40 to 59 words.** Messages of 100 words or more did worse. Cut every line the message doesn't need. Then compress: say the same thing in fewer words, until taking out one more word would make the message unclear. Stop there.
 
 **Send it the way the sender types.** One message or several short ones, lowercase or not, casual or formal: none of it changed interest.
 

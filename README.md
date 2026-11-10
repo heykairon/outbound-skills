@@ -55,11 +55,12 @@ Every other skill reads them, so none of them asks you the same thing twice. If 
    ▼               ▼                             ▼               ▼
 Strategy         Leads                       Profile &        Outreach
                                               content
-initiatives      lead-search                 linkedin-        message-
-icp              small-market                 profile          copies
-lead-magnet      large-market                content-         funnel-
-value-prop       sales-navigator              strategy         diagnosis
-                                             linkedin-posts
+outbound-        lead-search                 linkedin-        message-
+ strategy                                     profile          copies
+initiatives      small-market                content-         funnel-
+icp              large-market                 strategy         diagnosis
+lead-magnet      sales-navigator             linkedin-posts
+value-prop
 ```
 
 ## Skills
@@ -67,6 +68,7 @@ value-prop       sales-navigator              strategy         diagnosis
 | Skill | Status | What it does |
 |-------|--------|--------------|
 | [outbound-context](skills/outbound-context/) | ✅ | Your voice, and the start of every setup: every skill reads it |
+| [outbound-strategy](skills/outbound-strategy/) | ✅ | Whether outbound suits you, what to chase at your stage, when to delegate, and what to use AI for |
 | [value-prop](skills/value-prop/) | ✅ | Your value proposition, built on the value equation: before and after, proof, time, effort, problems and solutions |
 | [initiatives](skills/initiatives/) | ✅ | What you are testing: an ICP plus an offer, an end date, what you expect, and what already failed |
 | [icp](skills/icp/) | ✅ | Find your ICP in your best customers and test the market it sits in |

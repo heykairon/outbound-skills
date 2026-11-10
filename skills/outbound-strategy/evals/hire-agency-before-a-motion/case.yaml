@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: hire-agency-before-a-motion
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Advises against handing outreach to an agency or an SDR now
+  - Says that customers who arrived by referral do not prove an outbound motion
+  - Uses the files to show how little outbound has run so far (the Córdoba initiative sent 12 invitations, 0 replies)
+  - Says the founder should build the list, write the messages and read the replies until targeting and messaging repeat
+  - Says when delegating makes sense: once a motion is proved and scale is the only job left
+  - Says an agency paid per meeting has no reason to check that the people fit
+  - Replies in Spanish

@@ -2,7 +2,7 @@
 name: small-market
 description: Work a small market account by account (a few hundred companies, big deals, months to close), the way account-based teams do. Use when the user says "ABM," "account-based," "target accounts," "named accounts," "our market is only a few hundred companies," "every company in the industry," "enterprise accounts," "key accounts," "tier 1 accounts," or "we sell to big companies with long sales cycles." Build and save the whole market first, map 3 to 5 buyers per account, tier accounts by fit and dated signals, stay visible to all of them, write only after a signal, and never burn an account. Measure coverage and account state, not reply rates. For a large market, see lead-search.
 metadata:
-  version: 0.2.2
+  version: 0.3.0
 ---
 
 # Small Market
@@ -62,6 +62,8 @@ Then three tiers:
 
 Review the tiers every 90 days. A signal moves an account up the same week.
 
+**Tag each account with its situation:** a growth phase that broke the old process, an acquisition, a new leader. Find the situations in the won deals: what was happening inside each one when it bought. The role tells you the angle. The situation tells you which problem to lead with. Stop using a situation when it gets no replies.
+
 ---
 
 ## 4. Stay Visible to the Whole Market
@@ -69,7 +71,9 @@ Review the tiers every 90 days. A signal moves an account up the same week.
 From the sender's own profile, to every buyer on the list, A to C:
 - Follow them, and react to their posts.
 - Comment only when there is something useful to say.
-- Post. Once a week, one post about the situation of one target account, from what it said in public. Tag the company, not its people.
+- Post. Once a week, one post about the situation of one target account, from what it said in public. Tag the company, not its people. Once the person most likely to decide has accepted the invitation, send them the link: "I did some research on your company. Let me know if I got it right."
+
+**Count how long one pass takes.** Divide the number of buyers by the warm-up touches (visits and follows) the seats can do in a week. The result is the weeks one pass over the whole market takes. If that is too long, add seats.
 
 This is how they come to know the sender before any ask. Nobody has measured what it does to meetings. In our own campaigns on large lists, likes and visits before the invitation did not raise acceptance. So do it to be known over months, not to lift a rate.
 
@@ -86,11 +90,17 @@ For each account:
 4. **Never two look-alike messages in one company in the same week.** Colleagues compare them. One sender per person. If several people send, split the company's buyers between them.
 5. **Make the first ask small and dated.** A seat at a dinner or a roundtable with peers, a visit to their city, or a piece of work made for that account (see **[lead-magnet](../lead-magnet/SKILL.md)**). Never a calendar link.
 
+**The kind of signal decides the flow:**
+- **They engaged with the sender** (a reaction, a comment, a follow, an invitation): write a brief with the signal, why they fit, the problem you found in public sources, and a drafted first message. A person reviews it, edits it and sends it. If they don't reply, the same person writes the next message from the same brief.
+- **Something changed at their company, but they have not engaged:** a new job, an opening for the role, a post about the problem. Send a fixed sequence, and approve each message before it goes out. The sequence: the warm-up from section 4, then an invitation without a note, then, after they accept, the dated ask from step 5.
+
 ---
 
 ## 6. Never Burn an Account
 
-Silence is not a no. An account that does not answer goes back to tier B with a date to try again, in 3 to 6 months, and a new reason: a new signal, a new post about them, an event. After a lost deal, wait one full sales cycle. Never send the same sequence to the same person twice.
+Silence is not a no. An account that does not answer goes back to tier B with a date to try again, in 3 to 6 months, and a new reason: a new signal, a new post about them, an event. After a lost deal, wait one full sales cycle. After a trial or an inbound lead that went nowhere, wait three months. Never send the same sequence to the same person twice.
+
+**Events are the reason to write to old leads.** Before each event (the user's own, or an industry event they attend), find two groups: everyone who accepted the invitation but never replied, and the leads parked after earlier tries. Invite them to the event.
 
 ---
 

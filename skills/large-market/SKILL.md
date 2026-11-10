@@ -2,7 +2,7 @@
 name: large-market
 description: Build lead lists in a large market (more people than you could ever write to, so the ones who don't answer are replaced by new ones). Use when the user says "which source should I use," "start with a cold search," "load all the results," "fill the list," "the search is full of the wrong companies," "should I change the ICP," "how many leads do I need," "split the list," "who do I contact at each company," "job posts as leads," or "exhibitor list." work the ICP's sources in order, closest first, and never default to cold, search from the side a filter can see (people or companies), reach one or two people per company, probe 20 to 40 results before filling, fix the search when the misses are companies nobody wanted, and split a cold list by segment. For counting the market and judging each result, see lead-search.
 metadata:
-  version: 0.3.1
+  version: 0.3.2
 ---
 
 # Large Market
@@ -64,7 +64,7 @@ Read the misses before changing anything. Ask: would the user have wanted this c
 
 ## 4. A Lookalike List: Split It
 
-With no closer source left, search the ICP's roles at companies like the best customers, and nothing cleverer. Then **split the list** by country, industry or role, so you learn which segment responds. And because the list is a guess, the message asks whether they have the pain rather than assume it.
+With no closer source left, search the ICP's roles at companies like the best customers, and nothing cleverer. Then **split the list** by country, industry or role, so you learn which segment responds. Because the list is a guess, the message carries an offer worth a yes to anyone in the segment, not a question about their pain: a question about their problem costs interest. See **[message-copies](../message-copies/SKILL.md)** for the offers that drew the most.
 
 Real ones that work: [three of our clients' lookalike lists](references/example.md).
 

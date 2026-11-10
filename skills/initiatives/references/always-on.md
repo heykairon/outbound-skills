@@ -10,6 +10,7 @@ Every campaign leaves people behind: those who didn't answer, said "not now", or
 
 **How it runs.**
 - **Park every lead that did not move forward,** with the date and the reason: no answer, "not now", an objection, a lost deal.
+- **Order them by warmth,** and work the warmest first. At the top, the people who replied with interest and never booked a meeting. Then the ones who replied and went quiet. At the bottom, the ones who never accepted the invitation.
 - **Watch them for news.** A new role, a company announcement, a post, a funding round.
 - **When there is news, write once,** from the person who owns the lead, with the news as the first line and an offer that is new to them. Never send the same sequence again.
 - **Wait after a no.** At least 3 months after "not now", and one full sales cycle after a lost deal.

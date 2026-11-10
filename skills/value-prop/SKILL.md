@@ -2,7 +2,7 @@
 name: value-prop
 description: Write and sharpen the value proposition in .agents/value-prop.md, the one file every outbound skill reads for what the user promises and why a buyer would believe it. Built on Alex Hormozi's value equation from $100M Offers (raise the dream outcome and the likelihood of getting it, cut the time and the effort it takes). Use when the user says "value proposition," "value prop," "what do we promise," "positioning," "why us," "our pitch," "before and after," "nobody gets what we do," "our message sounds generic," "what problems do our customers have," or "how do I answer objections." Write one per ICP, in the customer's words. Work the before and after, list every problem with its solution, push on proof (results with numbers), time and effort rather than on a bigger promise, answer the objections buyers raise with true answers, and never invent proof. For who it is for, see icp.
 metadata:
-  version: 0.3.0
+  version: 0.4.0
 ---
 
 # Value Proposition
@@ -31,6 +31,8 @@ Draft from what the user already has: the website, a deck, case studies, notes f
 
 - **Before:** 2 to 4 problems the customer has today, each one said plainly and backed by their own words, then what the problems cost them: money, hours, a person's salary, a risk. Take the words from calls, replies and reviews. Never from the website. A quote in another language is translated, and marked as translated.
 - **After:** the dream outcome. The destination, not the vehicle: "collect 18 days sooner", not "collections software". The strongest version says how others will see them: their boss, their team, their peers. Hormozi's point is that the outcome people value most is the one that raises their status.
+
+**From a feature to the after, ask "so what?"** List the features. For each one, ask why a customer would care, and keep asking until the answer is something they cannot shrug at. "We use AI." So what? "It sorts incoming support tickets by itself." So what? "Your team stops spending two hours a day on it." So what? "You handle today's volume without the hire you were about to make." Write the last answer. The translation is the user's job: the reader will not connect a feature to its business value for them.
 
 **Test:** a customer who reads the before says "that's me". If it reads like a brochure, it is not their words yet.
 
