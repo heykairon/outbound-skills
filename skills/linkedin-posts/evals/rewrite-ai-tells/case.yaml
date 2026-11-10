@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: rewrite-ai-tells
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - The rewritten post contains no em dash
+  - The rewritten post has no 'no es X, es Y' construction
+  - The rewritten post has no self-answered question such as '¿El resultado?'
+  - The rewritten post opens with a concrete fact (31 departures in March, Logística del Bajío) instead of 'En el mundo de hoy'
+  - Keeps the user's facts and adds no new number, quote or result
+  - Replies in Spanish

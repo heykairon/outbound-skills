@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: no-reply-retry
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Advises against sending the same sequence to the same 4 people again
+  - Says silence is not a no
+  - Proposes setting the account aside with a date to try again, in months rather than days, with a new reason such as a fresh signal
+  - Proposes staying visible to the account in the meantime, for example by engaging with their posts
+  - Replies in Spanish

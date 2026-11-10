@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: no-material
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Does not invent a statistic, a percentage or an anecdote that is not in the prompt or the files
+  - Asks the user for a real story, number or event, or builds only on facts that are in the files, and says where each fact comes from
+  - If it writes a draft, any number in it comes from the files
+  - Replies in Spanish

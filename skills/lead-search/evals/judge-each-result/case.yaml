@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: judge-each-result
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Judges each of the 5 results as in or out before adding any, instead of loading all 5
+  - Keeps the fraud prevention manager at Banco Atlántico (1) as in
+  - Leaves out the cooperative (2) and the fintech (3), naming the ICP disqualifier that decides each
+  - Leaves out the fraud analyst (4) because the role is not one of the ICP's people, and the CISO in Buenos Aires (5) because the location is not Uruguay
+  - Replies in Spanish

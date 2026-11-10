@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: order-who-accepts
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Puts Bruno first (most mutual connections and a post 5 days ago)
+  - Includes Carla or Fernando among the three, citing her new role 6 weeks ago or his 6 mutual connections
+  - Leaves Ana (3rd degree, no mutual connections, no posts) out of today's three
+  - Explains the order with the reasons that raise acceptance (mutual connections, a recent post, a new role), not with seniority or company size alone
+  - Replies in Spanish
