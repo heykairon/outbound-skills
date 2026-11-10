@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: small-sample
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Says 15 invitations and 1 reply are too few to judge the acceptance or the reply rate
+  - Does not recommend rewriting the message or the offer
+  - Names volume as the problem: the fix is to send more invitations before judging any rate
+  - Replies in Spanish

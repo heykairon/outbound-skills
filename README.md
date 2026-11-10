@@ -79,7 +79,7 @@ value-prop       sales-navigator              strategy         diagnosis
 | [content-strategy](skills/content-strategy/) | ✅ | One subject, four pillars, once a week, and leads per post |
 | [linkedin-posts](skills/linkedin-posts/) | ✅ | Hooks, real material, and posts nobody mistakes for AI |
 | [message-copies](skills/message-copies/) | ✅ | The offer first, then the connection note, the first message and the follow-ups |
-| funnel-diagnosis | soon | Find which stage broke: volume first, then rates |
+| [funnel-diagnosis](skills/funnel-diagnosis/) | ✅ | Find which stage broke: volume first, then rates |
 
 ## Contributing
 

@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: low-acceptance
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Identifies acceptance (61 of 320, about 19%) as the first stage that broke, below the roughly 33% median
+  - Says the reply and interest rates (17 of 61, 5 of 17) are not the problem
+  - Points the fix at the list (for example mutual connections, recent activity, the exact role or the companies), not at rewriting the note's wording
+  - Proposes one fix with the number it should move and when to measure again
+  - Invents no numbers about the user's campaign that are not in the prompt or the files
+  - Replies in Spanish

@@ -91,3 +91,16 @@ Things made for the person worked when they were already made and needed only a 
 | Second follow-up of 60 words or more | −2.4 points | 15–29 words |
 
 The first follow-up brings 23% of all interested replies, the second 6%.
+
+## Why people said no
+
+A reading of 135 replies classified as not interested or as an objection, from six clients' campaigns, sorted by hand into reasons. A reading, not a measurement: the reasons are our judgment of each reply.
+
+| Reason | Replies |
+|--------|---------|
+| Not right now, or no reason given | 53 |
+| Already have a provider, or do it in-house | 25 |
+| Wrong person | 21 |
+| Not relevant to their business | 12 |
+| Distrust or spam | 4 |
+| Other | 20 |

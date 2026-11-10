@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: interest-low-provider
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  - Identifies interest (2 of 34 replies) as the first stage that broke, with acceptance and replies fine
+  - Reads the replies and says most no's point to the offer against what they already have (a collections system, or the accountant), and the 'not me' replies to the list
+  - Proposes one fix on the offer or how it is positioned against what they already use, not only a rewording of the message
+  - Proposes one fix with the number it should move and when to measure again
+  - Replies in Spanish
