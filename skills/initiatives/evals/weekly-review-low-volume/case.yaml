@@ -8,5 +8,5 @@ expected_outcome: |
   - Says the last review's move (narrow the list to Córdoba city, send at least 100) was not done
   - Gives the next move a named owner
   - Compares against the initiative's own expectation, not an industry average
-  - Keeps the 2026-10-29 review as it was, and adds the new review below it
+  - Keeps the 2026-10-29 review exactly as it was, and adds the new review below it, either by writing it into .agents/initiatives.md or by showing it to be added there
   - Replies in Spanish

@@ -2,7 +2,7 @@
 name: initiatives
 description: Create, track and review the user's go-to-market initiatives in .agents/initiatives.md. An initiative is a bet with an end date (one ICP, one offer and one source of leads, changing one thing such as region, industry, size, buyer, offer or source) and what it should bring by then, worked back from real rates. Use when the user says "I want to test," "let's try selling to," "new initiative," "what should we try next," "set a goal," "weekly review," "checkpoint," "how is the push going," "did it work," "what have we tried," "reactivate old leads," "leads that never answered," "nurturing," or starts outreach toward a goal with a date. Propose the goal with its arithmetic, judge volume before rates, compare against the user's own numbers, end every review with a next move that has an owner, and never propose again what already failed without saying what is different. For who the user is (value proposition, ICPs, voice), see outbound-context.
 metadata:
-  version: 0.7.0
+  version: 0.7.1
 ---
 
 # Initiatives
@@ -83,7 +83,7 @@ Ask for the numbers since the last review, per campaign: invitations, accepted, 
 4. **Name the next move, with an owner.** Lead with the change that matters most, specific enough to start without a follow-up question. More moves are fine, each with a name on it. Never end on a menu with nobody's name.
 5. **Give it a health.** On track: the numbers support it, at enough volume to believe them. At risk: something has to change, including "we have not sent enough to know". Off track: it is not working as stated. Say what would have to be true to recover, or say it should end.
 
-Add each review under the last one. Never rewrite an old review: a change of mind is a new review, and the record is only worth reading because it shows what was believed at the time.
+Save each review right away, without asking: it only adds to the record. Add it under the last one. Never rewrite an old review: a change of mind is a new review, and the record is only worth reading because it shows what was believed at the time.
 
 ---
 
