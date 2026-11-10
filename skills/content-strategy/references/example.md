@@ -104,5 +104,5 @@ Luciano's own opinion, with a stance. The posts that drew the most comments went
 | [open] | | | | | |
 
 ## Newsletter
-The Loop, on LinkedIn: 623 subscribers. The last issue went out in May 2026. It comes back with the Friday posts. [open: cadence]
+The Loop, on LinkedIn: 623 subscribers. The last issue went out in May 2026. It comes back with the Friday posts, once a week.
 ```

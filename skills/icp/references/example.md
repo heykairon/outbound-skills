@@ -42,7 +42,7 @@ _Last updated: 2026-11-07_
   2. Network and tribes: founders of recruiting firms and recruiters in Luciano's 6,100 connections.
   3. They come to you: recruiters who react to Luciano's posts about sourcing.
   4. Warm intros: the firm's founder refers other firms and recruiters she knows; her clients' talent teams refer peers.
-  5. Signals: firms with many open roles at once; firms hiring recruiters; engaging with posts from sourcing tools [open: which ones].
+  5. Signals: firms with many open roles at once; firms hiring recruiters.
   6. Lookalike: founders of recruiting and staffing firms, and heads of talent acquisition, at companies like the best customers.
 
 ## Founders who sell alone

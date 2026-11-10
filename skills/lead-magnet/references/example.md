@@ -16,7 +16,7 @@ _Last updated: 2026-11-07_
 - **Next problem it shows:** writing to all of them, every day, and following up without losing anyone. Kairon does that.
 - **Type and form:** a sample + information (a PDF report)
 - **What they get:** 100+ people who fit their ICP and just showed a signal, each with the signal, its date, and a first message ready to send, in a PDF.
-- **How we make it per person:** read their site and posts for who they sell to; run Kairon's signal search on that ICP; keep the people who pass it; write one first line each from the signal. [open: how long each one takes]
+- **How we make it per person:** read their site and posts for who they sell to; run Kairon's signal search on that ICP; keep the people who pass it; write one first line each from the signal. About 10 minutes each.
 - **How we say it:**
   - "I made a report for [company] with 100+ qualified leads from signals, each with a message ready to send. Want it?"
   - "Teams that showed a signal, the person who owns it, a first line each. Send it?"

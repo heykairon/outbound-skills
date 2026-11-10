@@ -12,7 +12,7 @@ This is the real `.agents/initiatives.md` of [Kairon](https://heykairon.com). Al
 - **The bet:** Sales teams + a report of 100+ qualified leads, each with a personalized message ready to send + Luciano's 1st-degree connections who never heard from Kairon. Made for the person, the leads report drew 11 interested per 100 and became Kairon's only lead magnet that brought paying customers. Sales teams need many more leads than a founder, so the report gives 100+ instead of 10.
 - **What changes:** who gets it and how big it is. The report was tested with 10 leads, mostly on founders who sell alone, through invitations to strangers. Now: sales teams, 100+ leads, people who already know Luciano. Three things change at once, so the result will say whether the bet works, not which change made it work.
 - **Until:** 2026-12-18
-- **What we expect:** about 570 people. A sample of 46 says 63% pass the ICP and 45% of those were never contacted: 2,016 × 63% × 45%. At 11 interested per 100, about 63 interested, so 63 reports to make. At 2 customers per 172 contacted, about 6 new paying teams. One seat writes about 150 a week, so four weeks. All rates come from founders and invitations, so they are an assumption until the first review. [open: how long one report takes]
+- **What we expect:** about 570 people. A sample of 46 says 63% pass the ICP and 45% of those were never contacted: 2,016 × 63% × 45%. At 11 interested per 100, about 63 interested, so 63 reports to make. At 2 customers per 172 contacted, about 6 new paying teams. One seat writes about 150 a week, so four weeks. All rates come from founders and invitations, so they are an assumption until the first review. One report takes about 10 minutes, so 63 reports are about 10 hours of work.
 - **Campaigns:** one campaign, from Luciano's seat. The first message offers the report. The report is made only after a yes.
 
 ## Sales teams, intros from customers
@@ -44,7 +44,7 @@ This is the real `.agents/initiatives.md` of [Kairon](https://heykairon.com). Al
 - **The bet:** Sales teams + a message about what they engaged with, with no offer + people who reacted to or commented on Luciano's posts, or viewed his profile, and have never talked with him. They showed interest first, so writing to them is the most natural opening there is.
 - **What changes:** the source. Kairon already watches who engages with competitors and other voices, but until now not with Luciano's own profile.
 - **Until:** 2026-12-18
-- **What we expect:** small but steady. Luciano's latest post drew about 95 people and about 1 in 6 looked like the ICP; his profile drew about 25 visits in a recent window, about 5 of them ICP. So about 15 to 20 people per post, depending on how often he posts [open: posts per month]. Messages with no offer drew 8.8 interested per 100, so a few interested a month.
+- **What we expect:** small but steady. Luciano's latest post drew about 95 people and about 1 in 6 looked like the ICP; his profile drew about 25 visits in a recent window, about 5 of them ICP. So about 15 to 20 people per post, and at 4 posts a month, about 60 to 80 people a month. Messages with no offer drew 8.8 interested per 100, so a few interested a month.
 - **Campaigns:** one campaign from Luciano's seat, fed every day by two signals: engaged with Luciano's profile, and viewed Luciano's profile. The campaign skips anyone he already talked to.
 
 ## Sales teams in Argentina and Colombia, researched one by one
