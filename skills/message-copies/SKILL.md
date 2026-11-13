@@ -1,8 +1,8 @@
 ---
 name: message-copies
-description: Write the LinkedIn connection note, the first message and the follow-ups for one initiative, starting from the offer, because the offer decides the result more than the wording. Use when the user says "write the message," "first message," "connection note," "invitation note," "DM," "cold message," "follow-up," "nobody answers my message," "rewrite this message," "message sequence," "what do I say after they accept," or "did you see my message." Check the offer first and propose a better one when it is the product itself, give a reason to write that is specific to that person or none, keep one question at the end and never one about their problem, no link in the first message, 40 to 59 words, follow up with the offer again in fewer words, never ask for a no, leave at most two blanks for a model to fill, and never invent work, facts or mutual contacts. For the offer and the source each initiative tests, see initiatives.
+description: Write the LinkedIn connection note, the first message and the follow-ups for one initiative, starting from the offer, because the offer decides the result more than the wording. Use when the user says "write the message," "first message," "connection note," "invitation note," "DM," "cold message," "follow-up," "nobody answers my message," "rewrite this message," "message sequence," "what do I say after they accept," or "did you see my message." Check the offer first and propose a better one when it is the product itself, give a reason to write that is specific to that person or none, keep one question at the end and never one about their problem, no link in the first message, 40 to 59 words, follow up with the offer again in fewer words, ask for a no only in the last message, leave at most two blanks for a model to fill, and never invent work, facts or mutual contacts. For the offer and the source each initiative tests, see initiatives.
 metadata:
-  version: 0.3.0
+  version: 0.4.0
   section: copies
 ---
 
@@ -22,15 +22,19 @@ If the user already sent messages, read what went out and what came back before 
 
 ## 1. The Offer First
 
-Offer the reader something for themselves, not a product for their company. From what drew the most interest in our clients' campaigns (see [cases.md](references/cases.md)):
+Offer the reader something for themselves, not a product for their company. From what drew the most interest across 213 of our clients' campaigns ([benchmarks](../initiatives/references/benchmarks.md), and single cases in [cases.md](references/cases.md)):
 
-1. **A partnership or a commission.** They earn something: a share of what they bring, referrals in both directions.
-2. **A request for their help or their opinion.** "I'm building something new, and I think you could help me." It works with people who really can. When the user is looking for product-market fit, for the company or for one feature, build it in five parts: [asking for help](references/asking-for-help.md).
-3. **A seat at an event with peers, with a date.** A small online session, a dinner, a meetup, a talk.
-4. **Something already made for them, that needs only a yes.** A video, a script or a short review of their own company, ready to send. Not a free diagnosis that needs a 45-minute call: that reads as a sales call, and drew 4–6%, against 16–23% for a video or script already made.
-5. **The product.** "Let me tell you what we do." 6% of people answered it with interest.
+1. **Something for their own career.** A step up, a program, a way to start their own thing. 19.2% interested, mostly from one client.
+2. **A partnership or a commission.** They earn something: a share of what they bring, referrals in both directions. 16.1%, on little data.
+3. **A request for their help or their opinion.** "I'm building something new, and I think you could help me." It works with people who really can. 12.1%. When the user is looking for product-market fit, for the company or for one feature, build it in five parts: [asking for help](references/asking-for-help.md).
+4. **Something already made for them, that needs only a yes.** A video, a script or a short review of their own company, ready to send. 10.6%: 15.5% to an ICP list, 1.7% on a trigger signal. Not a free diagnosis that needs a call: that reads as a sales call, and drew 7.9%.
+5. **A seat at an online event with peers, with a date.** A small session, a talk. 10.4%.
+6. **A seat at an in-person event.** A dinner, a meetup. 6.2%: about 9–11% when the event or a trip is the reason to write, about 4–5% to a cold list.
+7. **The product.** "Let me tell you what we do." 5.7%.
 
-Below the product: a resource that is the same for everyone (a guide, a newsletter), and a question with no offer.
+At the product's level or below: a resource that is the same for everyone (a guide, a newsletter), a coffee because the sender is in town, and a question with no offer. A job drew 28.5%, but that is recruiting, not a sale.
+
+A template for each offer, in English and Spanish, with real examples: [templates](references/templates.md).
 
 **A trip only works with an event behind it.** "We'll have a stand at the tech week in Lima, from the 12th to the 18th" drew 12%. "I'll be in São Paulo from the 5th to the 9th" drew 0–4%.
 
@@ -44,7 +48,7 @@ Below the product: a resource that is the same for everyone (a guide, a newslett
 
 ## 2. A Reason Specific to This Person
 
-The reason to write matters much less than the offer. A generic reason ("we help companies like yours") or the sender's own plans ("I'll be in your city") did no better than no reason at all. A reason about this person's career, company or recent activity did a few points better than a generic one, with less certainty than anything about the offer. So spend one line on it, not the effort that belongs in the offer.
+The reason to write matters much less than the offer. A generic reason ("we help companies like yours") or the sender's own plans ("I'll be in your city") did no better than no reason at all. A reason about this person's career, company or recent activity did a few points better than a generic one, with less certainty than anything about the offer. So spend one line on it, not the effort that belongs in the offer. Across 213 campaigns, the motive behind the list (an ICP list, a trigger signal, a trip, the sender's network) moved interest little. The offer moved it more.
 
 - **Specific:** "I saw you lead HR in a company with teams in eight countries, and that puts a real mental load on people."
 - **Generic:** "As an HR leader, I thought this could interest you."
@@ -80,7 +84,9 @@ Leave out:
 
 **40 to 59 words.** Messages of 100 words or more did worse. Cut every line the message doesn't need. Then compress: say the same thing in fewer words, until taking out one more word would make the message unclear. Stop there.
 
-**Send it the way the sender types.** One message or several short ones, lowercase or not, casual or formal: none of it changed interest.
+**Sentences under 15 words.** Within the same account, they drew about 2 points more interest than sentences of 15 to 19 words.
+
+**Send it the way the sender types.** One message or several short ones, lowercase or not, casual or formal: none of it changed interest. (One later reading found several bubbles about 2 points lower, mixed with a template change. It is an open question.)
 
 **Simple words, in the buyer's language.** If the market speaks Spanish, the message is in Spanish.
 
@@ -91,7 +97,7 @@ Leave out:
 Silence is rarely a no. They missed it, or it came at a bad time. The first follow-up brings about a quarter of all interested replies.
 
 - **First follow-up: the offer again, in fewer words.** "I'm closing the list for Tuesday's session at 6:30. Shall I save you a seat?" It drew about 5 points more than "did you see my message?". A reminder is still better than a new angle, a case or a link, which added nothing. Say the list is closing, or how many seats are left, only if it is true: "8 HR leaders" is not "8 seats".
-- **Never ask for a no.** "Is this on your agenda, or is it not the moment?" brought 10 points more refusals and no more interest.
+- **Ask for a no only in the last message.** "Is this not for you, or is it not the moment?" did not lower interest within the same client, but it doubled refusals. In the first follow-up, the offer again does better. As the last message, it closes cleanly at little cost.
 - **Second follow-up: a new angle, under 60 words.** It did better than "this is my last message". Build the angle only from facts you have: a detail of the offer, a named customer, a date. Never fill in how a result was achieved.
 
 The words of a follow-up are usually the same for everyone. Write them once.
@@ -121,7 +127,7 @@ Not a customer, a result, a mutual contact, a referral, a meeting, or work you d
 - One question at the end, that they can answer with a yes, and not about their problem?
 - No link, no "if it's not a good time", 40 to 59 words?
 - Is every fact real?
-- Does the first follow-up restate the offer in fewer words, and does nothing ask for a no?
+- Does the first follow-up restate the offer in fewer words, and does only the last message, if any, ask for a no?
 
 Show the note, the first message and the follow-ups together, with the wait between them. Say which offer you chose, and why.
 
