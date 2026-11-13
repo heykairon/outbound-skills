@@ -34,7 +34,7 @@ Offer the reader something for themselves, not a product for their company. From
 
 At the product's level or below: a resource that is the same for everyone (a guide, a newsletter), a coffee because the sender is in town, and a question with no offer. A job drew 28.5%, but that is recruiting, not a sale.
 
-A template for each offer, in English and Spanish, with real examples: [templates](references/templates.md).
+A template for each offer, in English and Spanish, with real examples: [templates](references/templates.md). That file is ordered by how often each offer is used, not by interest. Most people reach for the product first, so it comes first there. This list tells them to prefer a stronger offer.
 
 **A trip only works with an event behind it.** "We'll have a stand at the tech week in Lima, from the 12th to the 18th" drew 12%. "I'll be in São Paulo from the 5th to the 9th" drew 0–4%.
 

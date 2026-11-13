@@ -139,7 +139,7 @@ Measured in November 2026 on 22,415 first messages, comparing messages sent by t
 | The first message | Change in interest | Against |
 |-------------------|--------------------|---------|
 | Sentences under 15 words | +1.8 to +2.1 points | sentences of 15–19 words |
-| 80–99 words | −2.4 to −3.6 points | shorter messages |
+| 80–99 words | −2.4 to −3.6 points | 60–79 words |
 | Several bubbles | −2.3 to −2.4 points | one bubble |
 
 The bubbles row is an open question, not a rule. In those accounts, the change to several bubbles came with a change of template, so the two cannot be told apart. It disagrees with the earlier row "several short messages: no difference".
