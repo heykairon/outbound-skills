@@ -1,6 +1,6 @@
 # Templates
 
-One template for each offer, in English and Spanish, ordered by how often each offer is used across 213 of our clients' campaigns, most common first. Most people reach for the product first, so it opens the list. The offers that drew more interest come after it: prefer one of them ([benchmarks](../../initiatives/references/benchmarks.md)). Each one has the copy, the wait between steps, and a short real example. The clients are described, not named.
+One template for each offer, in English and Spanish, ordered roughly by how often each offer is used across 213 of our clients' campaigns. Two changes: something already made for them comes first, and the product comes after the online event. The product is the offer people use most, but it drew the least interest, so it is not the first one you see ([benchmarks](../../initiatives/references/benchmarks.md)). Each one has the copy, the wait between steps, and a short real example. The clients are described, not named.
 
 The rules in [message-copies](../SKILL.md) still decide. Where a template breaks one, its note says so: keep the template as it is, or fix that line, but know which one you are choosing.
 
@@ -15,9 +15,9 @@ The rules in [message-copies](../SKILL.md) still decide. Where a template breaks
 
 ---
 
-## The Product, Offered Directly
+## Something Already Made for Them
 
-**5.7% interested (74 campaigns, 33 organizations).** When the offer has to be the product. The best of these did the same four things in the same order: a concrete fact about the person as the reason, who you are in one line, what they get in one sentence, and a free first step with "Interested?".
+**10.6% interested (17 campaigns, 9 organizations): 15.5% to an ICP list, 1.7% on a trigger signal.** Something already made for that person or their company that needs only a yes: a report, a list of leads, a video, a script. The invitation goes without a note, and the offer arrives in message 1.
 
 **Flow:** Invitation without a note → wait up to 7 days for the accept → 1 hour → message 1 → 3 days → follow-up 1 → 7 days → follow-up 2.
 
@@ -28,23 +28,22 @@ Message 1:
 ```
 Hi {{their first name}}, how are you?
 ---
-I saw {{the reason: the signal or interaction that brought them, or if none, a concrete and recent fact about this person or their company that ties to what you offer, like a post, a project or an open role}}, and that's why I'm writing.
+[one sentence on the signal that found them, or nothing]
+I took the liberty of putting together [[what, made for their company]] for {{their company}}: [[what it has, in one sentence]].
 ---
-I'm [[your role]] at [[your company]]. [[what they get, in one sentence, addressed to them, e.g. With our tool you upload your Revit model and get the render in seconds]].
----
-[[the first step, free and concrete, e.g. We have a 7-day free trial and I'll walk you through setup myself]]. Interested?
+Want me to send it here?
 ```
 
 Follow-up 1 · 3 days:
 
 ```
-{{first name}} stopping by in case my message got lost among so many. [[the first step, e.g. The free trial]] for {{their company}} is still there whenever you want it. Best
+{{first name}} writing again in case this got lost among so many messages. [[what]] for {{their company}} is still ready; if you want it, I'll send it here. Best
 ```
 
 Follow-up 2 · 7 days:
 
 ```
-{{first name}} I imagine you're swamped. I just thought it could help because of {{the same reason as message 1, in a few words}}, just let me know whenever :) Cheers, and I won't bother you again.
+{{first name}} I imagine you're swamped, just let me know whenever and I'll send it :) Cheers, and I won't bother you again.
 ```
 
 ### Spanish
@@ -54,43 +53,52 @@ Mensaje 1:
 ```
 Hola {{su nombre de pila}}, ¿cómo estás?
 ---
-Vi que {{el motivo: la señal o la interacción que lo trajo, o si no hay, un hecho concreto y reciente de esta persona o su empresa que conecte con lo que ofrecés, como un post, un proyecto o una búsqueda abierta}}, y por eso te escribo.
+[una oración sobre la señal que lo trajo, o nada]
+Me tomé el atrevimiento de armar [[qué, hecho para su empresa, ej: un reporte con 10 leads calificados]] para {{su empresa}}: [[qué trae, en una oración, ej: 10 empresas con una señal de compra y un mensaje listo para cada una]].
 ---
-Soy [[tu rol]] de [[tu empresa]]. [[qué gana, en una oración y en segunda persona, ej: Con nuestra herramienta subís tu modelo de Revit y tenés el render en segundos]].
----
-[[el primer paso, sin costo y concreto, ej: Tenemos 7 días gratis y yo mismo te acompaño en el arranque]]. ¿Te interesa?
+¿Te lo mando por acá?
 ```
 
 Seguimiento 1 · 3 días:
 
 ```
-{{nombre}} paso por acá por si se te pasó mi mensaje entre tantos. [[el primer paso, ej: La prueba gratis]] para {{su empresa}} sigue en pie cuando quieras. Saludos
+{{nombre}} te escribo de vuelta por si se te pasó entre tantos mensajes. [[qué]] para {{su empresa}} sigue listo, si lo querés te lo paso por acá. Saludos
 ```
 
 Seguimiento 2 · 7 días:
 
 ```
-{{nombre}} imagino que debés estar a mil. Solo pensé que te podía servir por {{el mismo motivo del mensaje 1, en pocas palabras}}, cuando quieras me avisás :) Abrazo y no molesto más.
+{{nombre}} imagino que debés estar a mil, cuando quieras me avisás y te lo mando :) Abrazo y no molesto más.
 ```
 
-### Real example
+### Real examples
 
-**A startup making a LinkedIn prospecting tool, to people who engaged with a competitor's post (Spanish).** 53 people messaged, 62% replied, 23% interested. Flow: invitation → accept (up to 7 days) → message → no reply (up to 3 days) → message → no reply (up to 4 days) → message → AI reply.
+**A signal-based prospecting startup giving away a leads report (Spanish).** 73 people messaged, 44% replied, 26% interested. Flow: invitation → accept (up to 7 days) → like → 2 days → profile visit.
 
 Invitation note:
 
 ```
-hola {{su nombre de pila, escrito natural}}! vi que interactuaste con un post de [[una empresa de tu rubro]]. estoy construyendo una herramienta de prospección, y me sirve mucho conectar con gente que sigue estos temas.
+buenas {{nombre}}!!  {{a specific reason for reaching out to them}}.  Me tomé el atrevimiento de hacer un reporte personalizado para {{empresa}} con +10 leads calificados a partir de señales, con un mensaje listo para enviar. Te interesa?
+```
+
+**A signal-based prospecting startup offering a ready report (Spanish).** 62 people messaged, 48% replied, 18% interested. Flow: like → 1 day → invitation → accept (up to 7 days) → 1 day → message → 4 days → message.
+
+Invitation note:
+
+```
+{{diminutive first name}}, armé un reporte con señales para abrir puertas con tu icp. creo que te sirve. te lo mando si conectamos.
 ```
 
 Message 1:
 
 ```
-{{su nombre de pila, escrito natural}}, soy founder de [[tu producto]]. lo armamos para encontrar a la gente que interactúa con tu competencia, entre otras señales.
----
-así le escribís a gente que ya está buscando una solución, no a una lista fría. de hecho, así te encontré a vos.
----
-si querés probarlo, tenemos 7 días gratis y yo mismo o mi socio te acompañamos en el onboarding. te interesa?
+{{diminutive first name}}, gracias por conectar. como te mencioné, armé un reporte con las señales que usaría para que {{their company name}} abra puertas con su icp, role changes, funding rounds, hiring signals. te lo mando si me pasás tu mail, o lo vemos en una llamada corta si preferís. te parece?
+```
+
+Follow-up 1:
+
+```
+{{diminutive first name}}, sigo con el reporte listo si te interesa. sin apuro, avisame y te lo mando.
 ```
 
 ---
@@ -213,94 +221,6 @@ Message 1:
 Es el lunes 19 de oct, de 7:00 a 9:00 pm, en [[lugar]], en Laureles ([[dirección]]). Es networking entre pares: cada uno comparte su propia experiencia liderando en Medellín, sin presentaciones ni pitch. La pizza y las bebidas corren por cuenta de [[tu empresa]].
 ---
 Aquí confirmas tu cupo: [[link]] Si no te cuadra esta vez, cero problema. ¿Te veo allá?
-```
-
----
-
-## Something Already Made for Them
-
-**10.6% interested (17 campaigns, 9 organizations): 15.5% to an ICP list, 1.7% on a trigger signal.** Something already made for that person or their company that needs only a yes: a report, a list of leads, a video, a script. The invitation goes without a note, and the offer arrives in message 1.
-
-**Flow:** Invitation without a note → wait up to 7 days for the accept → 1 hour → message 1 → 3 days → follow-up 1 → 7 days → follow-up 2.
-
-### English
-
-Message 1:
-
-```
-Hi {{their first name}}, how are you?
----
-[one sentence on the signal that found them, or nothing]
-I took the liberty of putting together [[what, made for their company]] for {{their company}}: [[what it has, in one sentence]].
----
-Want me to send it here?
-```
-
-Follow-up 1 · 3 days:
-
-```
-{{first name}} writing again in case this got lost among so many messages. [[what]] for {{their company}} is still ready; if you want it, I'll send it here. Best
-```
-
-Follow-up 2 · 7 days:
-
-```
-{{first name}} I imagine you're swamped, just let me know whenever and I'll send it :) Cheers, and I won't bother you again.
-```
-
-### Spanish
-
-Mensaje 1:
-
-```
-Hola {{su nombre de pila}}, ¿cómo estás?
----
-[una oración sobre la señal que lo trajo, o nada]
-Me tomé el atrevimiento de armar [[qué, hecho para su empresa, ej: un reporte con 10 leads calificados]] para {{su empresa}}: [[qué trae, en una oración, ej: 10 empresas con una señal de compra y un mensaje listo para cada una]].
----
-¿Te lo mando por acá?
-```
-
-Seguimiento 1 · 3 días:
-
-```
-{{nombre}} te escribo de vuelta por si se te pasó entre tantos mensajes. [[qué]] para {{su empresa}} sigue listo, si lo querés te lo paso por acá. Saludos
-```
-
-Seguimiento 2 · 7 días:
-
-```
-{{nombre}} imagino que debés estar a mil, cuando quieras me avisás y te lo mando :) Abrazo y no molesto más.
-```
-
-### Real examples
-
-**A signal-based prospecting startup giving away a leads report (Spanish).** 73 people messaged, 44% replied, 26% interested. Flow: invitation → accept (up to 7 days) → like → 2 days → profile visit.
-
-Invitation note:
-
-```
-buenas {{nombre}}!!  {{a specific reason for reaching out to them}}.  Me tomé el atrevimiento de hacer un reporte personalizado para {{empresa}} con +10 leads calificados a partir de señales, con un mensaje listo para enviar. Te interesa?
-```
-
-**A signal-based prospecting startup offering a ready report (Spanish).** 62 people messaged, 48% replied, 18% interested. Flow: like → 1 day → invitation → accept (up to 7 days) → 1 day → message → 4 days → message.
-
-Invitation note:
-
-```
-{{diminutive first name}}, armé un reporte con señales para abrir puertas con tu icp. creo que te sirve. te lo mando si conectamos.
-```
-
-Message 1:
-
-```
-{{diminutive first name}}, gracias por conectar. como te mencioné, armé un reporte con las señales que usaría para que {{their company name}} abra puertas con su icp, role changes, funding rounds, hiring signals. te lo mando si me pasás tu mail, o lo vemos en una llamada corta si preferís. te parece?
-```
-
-Follow-up 1:
-
-```
-{{diminutive first name}}, sigo con el reporte listo si te interesa. sin apuro, avisame y te lo mando.
 ```
 
 ---
@@ -501,6 +421,86 @@ Follow-up 1:
 
 ```
 Hola {{su nombre de pila}}, estoy por cerrar la lista de [[nombre del evento]]. Me encantaría reservarte un lugar antes de que se cierre. ¿Te anoto?
+```
+
+---
+
+## The Product, Offered Directly
+
+**5.7% interested (74 campaigns, 33 organizations).** When the offer has to be the product. The best of these did the same four things in the same order: a concrete fact about the person as the reason, who you are in one line, what they get in one sentence, and a free first step with "Interested?".
+
+**Flow:** Invitation without a note → wait up to 7 days for the accept → 1 hour → message 1 → 3 days → follow-up 1 → 7 days → follow-up 2.
+
+### English
+
+Message 1:
+
+```
+Hi {{their first name}}, how are you?
+---
+I saw {{the reason: the signal or interaction that brought them, or if none, a concrete and recent fact about this person or their company that ties to what you offer, like a post, a project or an open role}}, and that's why I'm writing.
+---
+I'm [[your role]] at [[your company]]. [[what they get, in one sentence, addressed to them, e.g. With our tool you upload your Revit model and get the render in seconds]].
+---
+[[the first step, free and concrete, e.g. We have a 7-day free trial and I'll walk you through setup myself]]. Interested?
+```
+
+Follow-up 1 · 3 days:
+
+```
+{{first name}} stopping by in case my message got lost among so many. [[the first step, e.g. The free trial]] for {{their company}} is still there whenever you want it. Best
+```
+
+Follow-up 2 · 7 days:
+
+```
+{{first name}} I imagine you're swamped. I just thought it could help because of {{the same reason as message 1, in a few words}}, just let me know whenever :) Cheers, and I won't bother you again.
+```
+
+### Spanish
+
+Mensaje 1:
+
+```
+Hola {{su nombre de pila}}, ¿cómo estás?
+---
+Vi que {{el motivo: la señal o la interacción que lo trajo, o si no hay, un hecho concreto y reciente de esta persona o su empresa que conecte con lo que ofrecés, como un post, un proyecto o una búsqueda abierta}}, y por eso te escribo.
+---
+Soy [[tu rol]] de [[tu empresa]]. [[qué gana, en una oración y en segunda persona, ej: Con nuestra herramienta subís tu modelo de Revit y tenés el render en segundos]].
+---
+[[el primer paso, sin costo y concreto, ej: Tenemos 7 días gratis y yo mismo te acompaño en el arranque]]. ¿Te interesa?
+```
+
+Seguimiento 1 · 3 días:
+
+```
+{{nombre}} paso por acá por si se te pasó mi mensaje entre tantos. [[el primer paso, ej: La prueba gratis]] para {{su empresa}} sigue en pie cuando quieras. Saludos
+```
+
+Seguimiento 2 · 7 días:
+
+```
+{{nombre}} imagino que debés estar a mil. Solo pensé que te podía servir por {{el mismo motivo del mensaje 1, en pocas palabras}}, cuando quieras me avisás :) Abrazo y no molesto más.
+```
+
+### Real example
+
+**A startup making a LinkedIn prospecting tool, to people who engaged with a competitor's post (Spanish).** 53 people messaged, 62% replied, 23% interested. Flow: invitation → accept (up to 7 days) → message → no reply (up to 3 days) → message → no reply (up to 4 days) → message → AI reply.
+
+Invitation note:
+
+```
+hola {{su nombre de pila, escrito natural}}! vi que interactuaste con un post de [[una empresa de tu rubro]]. estoy construyendo una herramienta de prospección, y me sirve mucho conectar con gente que sigue estos temas.
+```
+
+Message 1:
+
+```
+{{su nombre de pila, escrito natural}}, soy founder de [[tu producto]]. lo armamos para encontrar a la gente que interactúa con tu competencia, entre otras señales.
+---
+así le escribís a gente que ya está buscando una solución, no a una lista fría. de hecho, así te encontré a vos.
+---
+si querés probarlo, tenemos 7 días gratis y yo mismo o mi socio te acompañamos en el onboarding. te interesa?
 ```
 
 ---
