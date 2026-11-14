@@ -2,7 +2,7 @@
 name: initiatives
 description: Create, track and review the user's go-to-market initiatives in .agents/initiatives.md. An initiative is a bet with an end date (one ICP, one offer and one source of leads, changing one thing such as region, industry, size, buyer, offer or source) and what it should bring by then, worked back from real rates. Use when the user says "I want to test," "let's try selling to," "new initiative," "what should we try next," "set a goal," "weekly review," "checkpoint," "how is the push going," "did it work," "what have we tried," "reactivate old leads," "leads that never answered," "nurturing," or starts outreach toward a goal with a date. Propose the goal with its arithmetic, judge volume before rates, compare against the user's own numbers, end every review with a next move that has an owner, and never propose again what already failed without saying what is different. For who the user is (value proposition, ICPs, voice), see outbound-context.
 metadata:
-  version: 0.8.1
+  version: 0.8.2
   section: strategy
 ---
 
@@ -28,7 +28,7 @@ Ask for one thing per turn. Draft from what you hold, then ask.
 
 **One ICP, one offer, one source.** The ICP is who you sell to. The offer is the reason to say yes. The source is where the people on the list come from, and what gives you a reason to write to them. Change one thing from what already works: the region, the industry, the company size, the buyer, the offer or the source. Change two at once and the result cannot tell you which one mattered.
 
-**The offer is the reason to say yes.** A partnership or a commission. A request for their help. A seat at an event with a date. Something already made for them. What makes sense to test depends on the business, so propose, and let the user pick. Something free that solves one problem is a lead magnet: design it with **[lead-magnet](../lead-magnet/SKILL.md)**, and name it here. In our campaigns, a partnership drew 23.6% interested replies, a request for help 11.4% and an online event with a date 8.8%, against 6.2% for a product pitch. A trip to their city drew more only when tied to an event they could attend ([benchmarks](references/benchmarks.md)).
+**The offer is the reason to say yes.** A partnership or a commission. A request for their help. A seat at an event with a date. Something already made for them. What makes sense to test depends on the business, so propose, and let the user pick. Something free that solves one problem is a lead magnet: design it with **[lead-magnet](../lead-magnet/SKILL.md)**, and name it here. Across 213 of our campaigns (November 2026), something for their own career drew 19.2% interested replies, a partnership 16.1%, a request for help 12.1%, something already made for them 10.6%, an online event with a date 10.4% and an in-person event 6.2%, against 5.7% for the product. A trip to their city drew more only when tied to an event they could attend ([benchmarks](references/benchmarks.md)).
 
 ### Start with the closest source
 

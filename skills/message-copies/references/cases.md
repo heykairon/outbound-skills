@@ -33,6 +33,8 @@ A job or a career step is something the reader wants for themselves. Those messa
 | A shared university or employer | Our own: tribes in the US | 13.2% (91 people) |
 | Asking for help | Our own: design partners, "something new I'm starting" | 17–22% (40–47 people) |
 
+Refined in November 2026: across 213 campaigns, the motive behind the list moved interest little, and the sender's own network drew 5.4% over 37 campaigns ([benchmarks](../../initiatives/references/benchmarks.md)). Read this table as single cases, not as a rule.
+
 ## Patterns in the words
 
 - **The event, concrete.** What it is, the day, the hour, where, and one question at the end: "Shall I save you a seat?"
